@@ -1,0 +1,8 @@
+rootProject.name = 'spring-boot'
+include 'spring-boot-web'
+include 'spring-boot-actuator'
+include 'spring-boot-data-redis'
+include 'spring-boot-log4j2'
+include 'spring-boot-mybatis-plus'
+include 'spring-boot-kafka'
+

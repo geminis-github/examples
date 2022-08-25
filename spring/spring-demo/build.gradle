@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'com.examples'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    springVersion = '5.3.22'
+}
+
+dependencies {
+    implementation "org.springframework:spring-test:${springVersion}"
+    implementation "org.springframework:spring-aop:${springVersion}"
+    implementation "org.springframework:spring-core:${springVersion}"
+    implementation "org.springframework:spring-context:${springVersion}"
+    implementation "org.springframework:spring-beans:${springVersion}"
+    implementation "org.springframework:spring-expression:${springVersion}"
+    implementation "org.aspectj:aspectjweaver:1.9.7"
+    testImplementation "junit:junit:4.13.2"
+    testImplementation "org.junit.jupiter:junit-jupiter-api:5.8.1"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.8.1"
+}
+
+test {
+    useJUnitPlatform()
+}

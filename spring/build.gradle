@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'com.examples'
+version '1.0-SNAPSHOT'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+allprojects {
+    apply plugin: 'java'
+    dependencies {
+        compileOnly 'org.projectlombok:lombok:1.18.24'
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

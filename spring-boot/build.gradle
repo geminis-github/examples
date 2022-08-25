@@ -1,0 +1,29 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.3'
+    id 'io.spring.dependency-management' version '1.0.13.RELEASE'
+    id 'java'
+}
+
+group 'com.examples'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+subprojects {
+    apply plugin: 'java'
+    dependencies {
+        testImplementation 'org.springframework.boot:spring-boot-starter-test'
+        compileOnly 'org.springframework.boot:spring-boot-devtools'
+        compileOnly 'org.projectlombok:lombok'
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,24 @@
+spring:
+  main:
+    allow-circular-references: true # 允许循环依赖
+  application:
+    name: nacos-discovery-consumer
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.106.78.167:8848
+        namespace: 60a91744-3ed2-40e3-ac6c-fdf6f892b8e8 # 需要与nacosServer的命名空间ID一致
+      username: nacos
+      password: nacos
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      eager: true
+# server
+server:
+  port: 9200
+feign:
+  sentinel:
+    enabled: true # 开启服务降级

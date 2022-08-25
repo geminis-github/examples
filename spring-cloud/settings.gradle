@@ -1,0 +1,4 @@
+rootProject.name = 'spring-cloud'
+include 'spring-cloud-nasoc-discovery-consumer'
+include 'spring-cloud-nasoc-discovery-provider'
+

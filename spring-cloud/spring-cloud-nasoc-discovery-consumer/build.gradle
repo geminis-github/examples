@@ -1,0 +1,24 @@
+plugins {
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
+    id 'java'
+}
+
+group 'com.examples'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.github.openfeign:feign-hystrix:11.9.1' // 解决NoClassDefFoundError
+    implementation 'org.springframework.cloud:spring-cloud-starter-loadbalancer:3.1.3'
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:3.1.3'
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-sentinel:2.2.8.RELEASE'
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.8.RELEASE'
+}
+
+test {
+    useJUnitPlatform()
+}

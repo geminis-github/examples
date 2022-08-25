@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.examples'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'mysql:mysql-connector-java:8.0.27'
+    implementation 'org.openjdk.jol:jol-core:0.9'
+}
+
+test {
+    useJUnitPlatform()
+}
