@@ -1,5 +1,6 @@
 rootProject.name = 'spring-boot'
 include 'spring-boot-web'
+include 'spring-boot-aop'
 include 'spring-boot-actuator'
 include 'spring-boot-data-redis'
 include 'spring-boot-log4j2'
