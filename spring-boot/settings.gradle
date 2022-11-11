@@ -6,4 +6,5 @@ include 'spring-boot-data-redis'
 include 'spring-boot-log4j2'
 include 'spring-boot-mybatis-plus'
 include 'spring-boot-kafka'
+include 'spring-boot-data-redis'
 

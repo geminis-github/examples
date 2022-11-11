@@ -2,6 +2,7 @@ package com.examples.spring.demo;
 
 import com.examples.spring.demo.config.AppConfig;
 import com.examples.spring.demo.service.UserService;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.context.ApplicationContext;
