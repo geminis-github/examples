@@ -1,15 +1,11 @@
 package com.examples.java;
 
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicIntegerArray;
-import java.util.concurrent.atomic.LongAccumulator;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.stream.IntStream;
-
-
+/**
+ * 测试示例
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
+ */
 public class Example {
 
     public static void main(String[] args) throws Exception {

@@ -9,8 +9,8 @@ import java.util.List;
 /**
  * 用户-Dao
  *
- * @author: ljl
- * @since: 2021/4/23 0023 1:41
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 @Repository
 public interface UserDao extends BaseMapper<User> {

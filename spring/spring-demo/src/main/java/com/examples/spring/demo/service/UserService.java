@@ -2,6 +2,9 @@ package com.examples.spring.demo.service;
 
 /**
  * 用户服务
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class UserService {
 

@@ -7,6 +7,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * 消费者
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 @SpringBootApplication
 @EnableDiscoveryClient

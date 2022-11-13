@@ -8,6 +8,9 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Semaphore信号量演示使用
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class SemaphoreExample {
 

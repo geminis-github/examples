@@ -4,7 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * 增加注释
+ * spring-boot-web使用示例
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 @SpringBootApplication
 public class WebApplication {

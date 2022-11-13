@@ -10,7 +10,10 @@ import javax.annotation.Resource;
 import java.util.Map;
 
 /**
- * 提供者
+ * 提供者控制器接口
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 @RestController
 public class EchoController {

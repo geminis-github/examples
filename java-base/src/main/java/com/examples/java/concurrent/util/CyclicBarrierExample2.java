@@ -6,6 +6,9 @@ import java.util.concurrent.Executors;
 
 /**
  * CountDownLatch使用示例2
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class CyclicBarrierExample2 {
 

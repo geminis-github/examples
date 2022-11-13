@@ -4,6 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+/**
+ * 生产者
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
+ */
 @SpringBootApplication
 @EnableDiscoveryClient
 public class NacosDiscoveryProviderApplication {

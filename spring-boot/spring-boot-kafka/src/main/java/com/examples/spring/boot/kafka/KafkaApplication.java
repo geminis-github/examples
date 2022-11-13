@@ -6,8 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * kafka使用
  *
- * blob:
- *      https://www.cnblogs.com/riches/p/11720068.html
+ * @see <a href="https://www.cnblogs.com/riches/p/11720068.html">kafka学习（五）Spring Boot 整合 kafka</a>
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 @SpringBootApplication
 public class KafkaApplication {

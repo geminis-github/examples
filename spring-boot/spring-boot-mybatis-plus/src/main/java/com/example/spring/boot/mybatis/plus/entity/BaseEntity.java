@@ -9,8 +9,8 @@ import java.time.LocalDateTime;
 /**
  * 基础实体
  *
- * @author: ljl
- * @since: 2021/4/27 0027 23:29
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 @Data
 @NoArgsConstructor

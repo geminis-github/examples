@@ -4,6 +4,9 @@ import java.util.concurrent.Exchanger;
 
 /**
  * Exchanger示例使用
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class ExchangerExample {
 

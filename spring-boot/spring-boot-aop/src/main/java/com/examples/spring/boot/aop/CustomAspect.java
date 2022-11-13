@@ -5,6 +5,12 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
+/**
+ * 切点类
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
+ */
 @Aspect
 @Component
 public class CustomAspect {

@@ -12,7 +12,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {AppConfig.class}) // 加载spring核心配置类
+@ContextConfiguration(classes = {AppConfig.class})
 public class SpringApplicationTest {
 
     @Test

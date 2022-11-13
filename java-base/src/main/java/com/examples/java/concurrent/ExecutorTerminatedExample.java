@@ -7,6 +7,9 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 判断线程池是否完成了所有任务
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class ExecutorTerminatedExample {
 

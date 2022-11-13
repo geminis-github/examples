@@ -4,13 +4,15 @@ import java.sql.*;
 
 /**
  * 使用远程JDBC连接数据库
- *
  * 1、加载驱动
  * 2、创建数据库连接
  * 3、创建执行sql的语句
  * 4、执行语句
  * 5、处理执行结果
  * 6、释放资源
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class JdbcUtils {
 

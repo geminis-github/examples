@@ -4,6 +4,9 @@ import org.openjdk.jol.info.ClassLayout;
 
 /**
  * JOL打印对象内存布局
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class JolExample {
 

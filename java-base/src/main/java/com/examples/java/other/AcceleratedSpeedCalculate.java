@@ -1,5 +1,11 @@
 package com.examples.java.other;
 
+/**
+ * 计算加速度距离
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
+ */
 public class AcceleratedSpeedCalculate {
 
     public static void main(String[] args) {

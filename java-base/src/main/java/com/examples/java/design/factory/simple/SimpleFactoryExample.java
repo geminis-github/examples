@@ -4,9 +4,11 @@ import com.examples.java.design.factory.Phone;
 
 /**
  * 1、简单工厂类-示例
- *
  * 说明：最简单的工厂模式，就单纯的抽象了产品而已，通过一个工厂构造出不同的Phone
  * 缺点：不灵活，增加了新的Phone之后，需要改动工厂类的代码，没有对工厂进行抽象，一个工厂生产了所有类型的手机
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class SimpleFactoryExample {
 

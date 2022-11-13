@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * redis测试
+ * redis使用示例
  *
- * @author: ljl
- * @since: 2021/4/13 21:12
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 @SpringBootApplication
 public class RedisApplication {

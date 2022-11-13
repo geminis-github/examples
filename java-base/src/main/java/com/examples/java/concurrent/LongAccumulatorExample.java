@@ -7,6 +7,9 @@ import java.util.stream.IntStream;
 
 /**
  * LongAccumulator使用示例
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class LongAccumulatorExample {
     public static void main(String[] args) throws Exception {

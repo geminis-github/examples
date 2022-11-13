@@ -3,8 +3,12 @@ package com.examples.java.concurrent.collection;
 import java.util.Random;
 import java.util.concurrent.*;
 
+
 /**
  * 阻塞容器模拟生产者消费者
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class BlockingQueueExample {
 

@@ -9,8 +9,8 @@ import org.springframework.context.annotation.PropertySource;
 /**
  * Druid配置类
  *
- * @author: ljl
- * @since: 2021/4/23 0023 1:37
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 @Configuration
 @PropertySource(value = "classpath:application.yml")

@@ -2,10 +2,12 @@ package com.examples.java.design.singleton;
 
 /**
  * 双重锁懒汉模式（DCL）
- *
  * 优点：1、线程安全，2、延迟加载
  * 缺点：1、由于JVM底层模型原因，偶尔会出问题，不建议使用
  * 说明：由于jvm存在乱序执行功能，DCL也会出现线程不安全的情况
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class Singleton03DoubleCheckLock {
 

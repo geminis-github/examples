@@ -8,6 +8,9 @@ import org.springframework.stereotype.Component;
 
 /**
  * 消息消费者
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 @Slf4j
 @Component

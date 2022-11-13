@@ -2,6 +2,9 @@ package com.examples.java.type;
 
 /**
  * String常量池测试以及intern方法演示使用
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class StringIntern {
 

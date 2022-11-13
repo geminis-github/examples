@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * EchoFeignClient服务
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 @FeignClient(name = "nacos-discovery-provider", fallback = EchoServiceFallback.class, configuration = FeignConfiguration.class)
 public interface EchoService {

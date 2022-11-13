@@ -8,8 +8,10 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * ThreadLocal使用
- *
  * 说明：大概相当于一个Map一样使用，只不过没有key（因为当前线程就是key），并且每个线程的ThreadLocal都是不一样的
+ *
+ * @author liangjinlong9527
+ * @date 2022-11-13 12:57
  */
 public class ThreadLocalExample {
 
