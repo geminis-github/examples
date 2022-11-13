@@ -4,163 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/spring-boot/spring-boot-aop/examples.spring-boot.spring-boot-aop.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/java-base/examples.java-base.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-cloud/examples.spring-cloud.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring/examples.spring.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/7.2/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/7.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/7.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/Example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/BlockingQueueExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/ExecutorServiceExample$SearchTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/ExecutorServiceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/ExecutorTerminatedExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/LockConditionExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/ThreadFactoryAndExecutorExample$SimpleRejectedExecutionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/ThreadFactoryAndExecutorExample$SimpleThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/ThreadFactoryAndExecutorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/ThreadInterruptExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/ThreadLocalExample$HelloTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/ThreadLocalExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/collection/BlockingQueueExample$Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/collection/BlockingQueueExample$Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/collection/BlockingQueueExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/util/CountDownLatchExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/util/CyclicBarrierExample$SoldierReportTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/util/CyclicBarrierExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/util/CyclicBarrierExample2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/util/ExchangerExample$LiuBeiTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/util/ExchangerExample$SunQuanTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/util/ExchangerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/util/SemaphoreExample$PartTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/concurrent/util/SemaphoreExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/factory/HuaweiPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/factory/Phone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/factory/XiaomiPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/factory/abstracted/AbstractedFactoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/factory/abstracted/HuaweiPhoneFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/factory/abstracted/PhoneFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/factory/abstracted/XiaomiPhoneFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/factory/simple/PhoneFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/factory/simple/SimpleFactoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/factory/staticed/StaticFactoryExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/factory/staticed/StaticPhoneFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/prototype/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/singleton/Singleton01Hungry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/singleton/Singleton02Lazy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/singleton/Singleton03DoubleCheckLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/singleton/Singleton04StaticInnerClasses$Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/singleton/Singleton04StaticInnerClasses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/design/singleton/Singleton05Enum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/jdbc/JdbcUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/jvm/JolExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/other/AcceleratedSpeedCalculate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/structure/SingleLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/structure/SingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/structure/TwowayLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/out/production/classes/com/examples/java/type/StringIntern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/7.2/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/7.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/7.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/7.2/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/7.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/7.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/src/main/java/com/example/spring/cloud/SpringCloudExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/7.2/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/7.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/7.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/spring/gradlew" afterDir="false" />
-    </list>
+    <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -215,6 +66,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -222,6 +80,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HTZVKULYHO2oDsEiA3LBJ5gyPW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -236,13 +97,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "settings.editor.selected.configurable": "editor.preferences.import",
     "spring.configuration.checksum": "05e2abf2308c4d588447adba57b1c372"
   }
 }]]></component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
   <component name="RunManager" selected="Spring Boot.WebApplication">
     <configuration name="AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot.spring-boot-aop.main" />
@@ -314,8 +181,53 @@
       <option name="presentableId" value="Default" />
       <updated>1668311058455</updated>
       <workItem from="1668311060517" duration="908000" />
-      <workItem from="1668311988599" duration="560000" />
+      <workItem from="1668311988599" duration="2842000" />
+      <workItem from="1668314848364" duration="24000" />
+      <workItem from="1668314888173" duration="4561000" />
     </task>
+    <task id="LOCAL-00001" summary="规范化项目提交文件">
+      <created>1668312742196</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668312742196</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加测试注释">
+      <created>1668313217848</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668313217848</updated>
+    </task>
+    <task id="LOCAL-00003" summary="去除测试代码">
+      <created>1668314913421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668314913422</updated>
+    </task>
+    <task id="LOCAL-00004" summary="去除测试代码">
+      <created>1668314947490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668314947490</updated>
+    </task>
+    <task id="LOCAL-00005" summary="代码统一增加注释，填写作者和日期，并且去除多余的包">
+      <created>1668318525165</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668318525166</updated>
+    </task>
+    <task id="LOCAL-00006" summary="测试">
+      <created>1668319464577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668319464577</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,5 +243,14 @@
         <option value="Space.CommitStatus" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="规范化项目提交文件" />
+    <MESSAGE value="增加测试注释" />
+    <MESSAGE value="去除测试代码" />
+    <MESSAGE value="代码同意增加注释，填写作者和日期，并且去除多余的包" />
+    <MESSAGE value="代码统一增加注释，填写作者和日期，并且去除多余的包" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
 </project>
