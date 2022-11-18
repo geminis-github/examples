@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="" />
+    <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/spring-boot/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-demo/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,9 +61,38 @@
         <task path="$PROJECT_DIR$/spring-boot/spring-boot-web">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/spring">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/spring/spring-demo">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-demo" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-demo" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-demo" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -70,6 +103,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -87,24 +121,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;05e2abf2308c4d588447adba57b1c372&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "05e2abf2308c4d588447adba57b1c372"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
@@ -115,24 +149,11 @@
       <recent name="com.examples.spring.boot.web" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.WebApplicationTests.test001">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.examples.java.Example" />
-      <module name="java-base.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.examples.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebApplicationTests.test001" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="JUnit.SpringApplicationTest.test01">
+    <configuration name="SpringApplicationTest.test01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -140,9 +161,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":spring-boot-web:test" />
+            <option value=":spring-demo:test" />
             <option value="--tests" />
-            <option value="&quot;com.examples.spring.boot.web.WebApplicationTests.test001&quot;" />
+            <option value="&quot;com.examples.spring.demo.SpringApplicationTest.test01&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -152,66 +173,70 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot.spring-boot-aop.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.aop.AopApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="spring:spring-demo [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring/spring-demo" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="KafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot.spring-boot-kafka.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.kafka.KafkaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="spring:spring-demo [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring/spring-demo" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="MyBatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot.spring-boot-mybatis-plus.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.boot.mybatis.plus.MyBatisPlusApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NacosDiscoveryConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud.spring-cloud-nasoc-discovery-consumer.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.cloud.nacos.discovery.consumer.NacosDiscoveryConsumerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NacosDiscoveryProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud.spring-cloud-nasoc-discovery-provider.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.cloud.nacos.discovery.provider.NacosDiscoveryProviderApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot.spring-boot-data-redis.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.data.redis.RedisApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot.spring-boot-web.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.web.WebApplication" />
+    <configuration name="SpringApplicationTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring.spring-demo.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.examples.spring.boot.web.*" />
+          <option name="PATTERN" value="com.examples.spring.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.examples.spring.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.spring.demo.SpringApplicationTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.WebApplicationTests.test001" />
-        <item itemvalue="Spring Boot.WebApplication" />
-        <item itemvalue="Application.Example" />
+        <item itemvalue="JUnit.SpringApplicationTest.test01" />
+        <item itemvalue="Gradle.SpringApplicationTest.test01" />
+        <item itemvalue="Gradle.spring:spring-demo [build]" />
+        <item itemvalue="Gradle.spring:spring-demo [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +252,8 @@
       <workItem from="1668311988599" duration="2842000" />
       <workItem from="1668314848364" duration="24000" />
       <workItem from="1668314888173" duration="9942000" />
-      <workItem from="1668336858963" duration="1429000" />
+      <workItem from="1668336858963" duration="10328000" />
+      <workItem from="1668562118503" duration="8956000" />
     </task>
     <task id="LOCAL-00001" summary="规范化项目提交文件">
       <created>1668312742196</created>
@@ -271,7 +297,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668319464577</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="测试">
+      <created>1668416574815</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668416574815</updated>
+    </task>
+    <task id="LOCAL-00008" summary="测试">
+      <created>1668416760207</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668416760207</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
