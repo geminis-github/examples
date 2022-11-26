@@ -19,7 +19,7 @@ class MyBatisPlusApplicationTests {
     private UserDao userDao;
     @Test
     void test001 () {
-        List<User> list = userDao.selectList();
+        List<User> list = userDao.selectList(); // query
     }
 
     @Test
