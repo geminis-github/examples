@@ -15,7 +15,8 @@ public class CountDownLatchExample {
         CountDownLatch countDownLatch = new CountDownLatch(2);
         Runnable taskMain = () -> {
             try {
-                countDownLatch.await();  // 挂起，等待AQS的state值为0时被唤醒，解锁继续执行
+                // 挂起，等待AQS的state值为0时被唤醒，解锁继续执行
+                countDownLatch.await();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -27,7 +28,8 @@ public class CountDownLatchExample {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            countDownLatch.countDown();  // 将AQS的state值减1 (计数器减1)
+            // 将AQS的state值减1 (计数器减1)
+            countDownLatch.countDown();
             System.out.println("前置任务1完成");
         };
 
@@ -37,7 +39,8 @@ public class CountDownLatchExample {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            countDownLatch.countDown(); // 将AQS的state值减1 (计数器减1)
+            // 将AQS的state值减1 (计数器减1)
+            countDownLatch.countDown();
             System.out.println("前置任务2完成");
         };
         new Thread(taskMain).start();

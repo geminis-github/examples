@@ -12,10 +12,12 @@ import java.util.concurrent.*;
  */
 public class BlockingQueueExample {
 
-    static BlockingQueue<String> queue = new ArrayBlockingQueue(3);
+    private static BlockingQueue<String> queue = new ArrayBlockingQueue(3);
 
-    // 生产者
-    static class Producer implements Runnable {
+    /**
+     * 生产者
+     */
+    private static class Producer implements Runnable {
         @Override
         public void run() {
             try {
@@ -32,8 +34,10 @@ public class BlockingQueueExample {
         }
     }
 
-    // 消费者
-    static class Consumer implements Runnable {
+    /**
+     * 消费者
+     */
+    private static class Consumer implements Runnable {
         @Override
         public void run() {
             try {
@@ -49,7 +53,7 @@ public class BlockingQueueExample {
         }
     }
 
-    static String productData () throws InterruptedException{
+    static String productData() throws InterruptedException {
         // 模拟正式环境的时间损耗
         TimeUnit.SECONDS.sleep(3);
         return new Random().nextInt(100) + "";

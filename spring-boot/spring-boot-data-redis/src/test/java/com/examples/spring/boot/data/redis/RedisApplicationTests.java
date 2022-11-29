@@ -15,9 +15,6 @@ import java.util.concurrent.TimeUnit;
 class RedisApplicationTests {
 
     @Autowired
-    private RedisTemplate<String, Object> redisTemplate;
-
-    @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
     @Test

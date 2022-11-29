@@ -14,16 +14,20 @@ import java.util.concurrent.TimeUnit;
  */
 public class SemaphoreExample {
 
-    static int num = 3; // 三个停车位
+    /**
+     * 三个停车位
+     */
+    private static int num = 3;
 
-    static Semaphore semaphore = new Semaphore(num);
+    private static Semaphore semaphore = new Semaphore(num);
 
-    static class PartTask implements Runnable {
+    private static class PartTask implements Runnable {
         @Override
         public void run() {
             String name = Thread.currentThread().getName();
             try {
-                semaphore.acquire(); // 获取许可
+                // 获取许可
+                semaphore.acquire();
                 int seconds = new Random().nextInt(10) + 5;
                 System.out.println(name + "：进入停车位，停车 " + seconds + " 秒");
                 TimeUnit.SECONDS.sleep(seconds);
@@ -31,16 +35,18 @@ public class SemaphoreExample {
                 e.printStackTrace();
             } finally {
                 System.out.println(name + "：退出停车位");
-                semaphore.release(); // 需要释放许可
+                // 需要释放许可
+                semaphore.release();
             }
         }
     }
 
-    static String[] names = new String[] { "刘备", "关羽", "张飞", "曹操", "司马懿", "郭嘉", "孙权", "孙坚", "孙尚香", "吕布" };
+    private static String[] names = new String[] { "刘备", "关羽", "张飞", "曹操", "司马懿", "郭嘉", "孙权", "孙坚", "孙尚香", "吕布" };
 
     public static void main(String[] args) throws Exception {
         List<Thread> list = new ArrayList<>();
-        for (int i = 0; i < 10; i++) { // 有10辆车需要停车
+        // 有10辆车需要停车
+        for (int i = 0; i < 10; i++) {
             list.add(new Thread(new PartTask(), names[i]));
         }
         for (Thread thread : list) {

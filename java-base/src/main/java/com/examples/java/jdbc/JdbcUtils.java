@@ -16,6 +16,9 @@ import java.sql.*;
  */
 public class JdbcUtils {
 
+    /**
+     * 连接数据库
+     */
     public static void connection () {
         // 连接信息
         String url = "jdbc:mysql://47.106.78.167:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC";

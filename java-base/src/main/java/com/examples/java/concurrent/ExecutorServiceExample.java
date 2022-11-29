@@ -3,9 +3,7 @@ package com.examples.java.concurrent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 /**
  * 对比手动创建线程和使用线程池的效率差距
@@ -46,7 +44,7 @@ public class ExecutorServiceExample {
 //            thread.join();
 //        }
         // 线程池创建线程
-        ExecutorService exec = Executors.newFixedThreadPool(100);
+        ExecutorService exec = new ThreadPoolExecutor(100, 100, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
         for (int i = 0; i < size; i++) {
             exec.execute(searchTask);
         }

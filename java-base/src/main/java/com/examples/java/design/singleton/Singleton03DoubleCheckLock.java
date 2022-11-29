@@ -11,20 +11,31 @@ package com.examples.java.design.singleton;
  */
 public class Singleton03DoubleCheckLock {
 
-    /** 私有化构造器 */
+    /**
+     * 私有化构造器
+     */
     private Singleton03DoubleCheckLock() {
         // 抛出异常防止通过反射创建实例
         throw new RuntimeException("Instance creation is not allowed");
     }
 
-    /** 声明静态实例对象，延迟进行实例化（确保可见性） */
-    private volatile static Singleton03DoubleCheckLock INSTANCE = null; // 赋值null解决DCL失效问题
+    /**
+     * 声明静态实例对象，延迟进行实例化（确保可见性），赋值null解决DCL失效问题
+     */
+    private volatile static Singleton03DoubleCheckLock INSTANCE = null;
 
-    /** 通过公有的静态方法获取实例 */
+    /**
+     * 通过公有的静态方法获取实例
+     *
+     * @return 实例
+     */
     public static Singleton03DoubleCheckLock getInstance() {
-        if (INSTANCE == null) { // 第一重判断
-            synchronized (Singleton03DoubleCheckLock.class) { // 加锁
-                if (INSTANCE == null) { // 第二重判断（因为可能会有多个线程一起进入同步块外的if，如果在同步块内不进行二次检验的话就会生成多个实例了）
+        // 第一重判断
+        if (INSTANCE == null) {
+            // 加锁
+            synchronized (Singleton03DoubleCheckLock.class) {
+                // 第二重判断（因为可能会有多个线程一起进入同步块外的if，如果在同步块内不进行二次检验的话就会生成多个实例了）
+                if (INSTANCE == null) {
                     INSTANCE = new Singleton03DoubleCheckLock();
                 }
             }

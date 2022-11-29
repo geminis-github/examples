@@ -8,6 +8,9 @@ package com.examples.java.design.factory;
  */
 public interface Phone {
 
+    /**
+     * 打电话
+     */
     void call();
 
 }

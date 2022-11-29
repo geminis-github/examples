@@ -11,7 +11,9 @@ package com.examples.java.design.singleton;
  */
 public enum Singleton05Enum {
 
-    /** 枚举元素本身就是单例 */
-    INSTANCE;
+    /**
+     * 枚举元素本身就是单例
+     */
+    INSTANCE
 
 }

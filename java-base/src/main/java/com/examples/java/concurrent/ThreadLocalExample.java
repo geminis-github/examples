@@ -2,9 +2,7 @@ package com.examples.java.concurrent;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 /**
  * ThreadLocal使用
@@ -15,9 +13,9 @@ import java.util.concurrent.TimeUnit;
  */
 public class ThreadLocalExample {
 
-    static ThreadLocal<HelloTask> threadLocal = new ThreadLocal<>();
+    private static ThreadLocal<HelloTask> threadLocal = new ThreadLocal<>();
 
-    static class HelloTask {
+    private static class HelloTask {
         private String name;
         public HelloTask (String name) {
             this.name = name;
@@ -29,12 +27,13 @@ public class ThreadLocalExample {
     }
 
     public static void main(String[] args) {
-        ExecutorService exec = Executors.newFixedThreadPool(10);
+        ExecutorService exec = new ThreadPoolExecutor(10, 10, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
         threadLocal.set(new HelloTask("main"));
         exec.execute(() -> {
-            threadLocal.set(new HelloTask("jack")); // 不同线程设置的变量值是不一样的
+            threadLocal.set(new HelloTask("jack"));
             System.out.println("OneThread: " + threadLocal.get());
-            threadLocal.remove(); // 使用完remove避免内存泄漏和加快内存释放
+            // 使用完remove避免内存泄漏和加快内存释放
+            threadLocal.remove();
         });
         exec.execute(() -> {
             threadLocal.set(new HelloTask("mark"));

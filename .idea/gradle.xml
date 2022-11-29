@@ -8,7 +8,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle-7.5.1" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -20,7 +20,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/java-base" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle-7.5.1" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java-base" />
@@ -29,10 +29,10 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="PLATFORM" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle-7.5.1" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/spring" />
@@ -45,7 +45,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle-7.5.1" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/spring-boot" />
@@ -64,7 +64,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring-cloud" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle-7.5.1" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/spring-cloud" />

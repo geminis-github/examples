@@ -10,8 +10,8 @@ import org.openjdk.jol.info.ClassLayout;
  */
 public class JolExample {
 
-    String name;
-    Integer age;
+    private String name;
+    private Integer age;
 
     public static void main(String[] args) {
         JolExample example = new JolExample();

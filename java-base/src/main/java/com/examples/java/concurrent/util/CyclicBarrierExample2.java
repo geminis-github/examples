@@ -1,8 +1,6 @@
 package com.examples.java.concurrent.util;
 
-import java.util.concurrent.CyclicBarrier;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 /**
  * CountDownLatch使用示例2
@@ -12,11 +10,13 @@ import java.util.concurrent.Executors;
  */
 public class CyclicBarrierExample2 {
 
-    // 当计数器为0时，立即执行
+    /**
+     * 当计数器为0时，立即执行
+     */
     private static CyclicBarrier cyclicBarrier = new CyclicBarrier(2, () -> System.out.println("汇总线程：" + Thread.currentThread().getName() + " 任务合并。"));
 
     public static void main(String[] args) {
-        ExecutorService executorService = Executors.newFixedThreadPool(2);
+        ExecutorService executorService = new ThreadPoolExecutor(2, 2, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
         // 将线程A添加到线程池
         executorService.submit(() -> {
             try {

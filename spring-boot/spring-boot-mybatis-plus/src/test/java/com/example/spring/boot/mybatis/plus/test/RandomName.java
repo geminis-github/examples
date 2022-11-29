@@ -12,8 +12,9 @@ import java.util.Random;
  */
 
 public class RandomName {
+
     public static void main(String[] args) {
-        /**随机产生100个昵称*/
+        // 随机产生100个昵称
         HashSet<String> set = new HashSet<String>();
         for (int i = 0; i < 100; i++) {
             String chineseName = randomName(true, 3);
@@ -25,7 +26,6 @@ public class RandomName {
         while (iterator.hasNext()) {
             System.err.print(iterator.next() + "\n");
         }
-
     }
 
     /**
@@ -35,15 +35,19 @@ public class RandomName {
         String randomName = "";
         for (int i = 0; i < len; i++) {
             String str = null;
-            int hightPos, lowPos; // 定义高低位
+            // 定义高低位
+            int hightPos, lowPos;
             Random random = new Random();
-            hightPos = (176 + Math.abs(random.nextInt(39))); // 获取高位值
-            lowPos = (161 + Math.abs(random.nextInt(93))); // 获取低位值
+            // 获取高位值
+            hightPos = (176 + Math.abs(random.nextInt(39)));
+            // 获取低位值
+            lowPos = (161 + Math.abs(random.nextInt(93)));
             byte[] b = new byte[2];
-            b[0] = (new Integer(hightPos).byteValue());
-            b[1] = (new Integer(lowPos).byteValue());
+            b[0] = (byte) hightPos;
+            b[1] = (byte) lowPos;
             try {
-                str = new String(b, "GBK"); // 转成中文
+                // 转成中文
+                str = new String(b, "GBK");
             } catch (UnsupportedEncodingException ex) {
                 ex.printStackTrace();
             }
@@ -52,10 +56,12 @@ public class RandomName {
         return randomName;
     }
 
+
     /**
      * 方法2
      */
     public static String randomName(boolean simple, int len) {
+        // 单姓
         String surName[] = {
                 "赵", "钱", "孙", "李", "周", "吴", "郑", "王", "冯", "陈", "楮", "卫", "蒋", "沈", "韩", "杨",
                 "朱", "秦", "尤", "许", "何", "吕", "施", "张", "孔", "曹", "严", "华", "金", "魏", "陶", "姜",
@@ -85,15 +91,16 @@ public class RandomName {
                 "游", "竺", "权", "逑", "盖", "益", "桓", "公", "晋", "楚", "阎", "法", "汝", "鄢", "涂", "钦",
                 "岳", "帅", "缑", "亢", "况", "后", "有", "琴", "商", "牟", "佘", "佴", "伯", "赏", "墨", "哈",
                 "谯", "笪", "年", "爱", "阳", "佟"};
-
+        // 复姓
         String doubleSurName[] = {"万俟", "司马", "上官", "欧阳", "夏侯", "诸葛", "闻人", "东方",
                 "赫连", "皇甫", "尉迟", "公羊", "澹台", "公冶", "宗政", "濮阳", "淳于", "单于", "太叔", "申屠",
                 "公孙", "仲孙", "轩辕", "令狐", "锺离", "宇文", "长孙", "慕容", "鲜于", "闾丘", "司徒", "司空",
                 "丌官", "司寇", "仉", "督", "子车", "颛孙", "端木", "巫马", "公西", "漆雕", "乐正", "壤驷", "公良",
                 "拓拔", "夹谷", "宰父", "谷梁", "段干", "百里", "东郭", "南门", "呼延", "归", "海", "羊舌", "微生",
                 "梁丘", "左丘", "东门", "西门", "南宫"};
-
-        String[] word = {"一", "乙", "二", "十", "丁", "厂", "七", "卜", "人", "入", "八", "九", "几", "儿", "了", "力", "乃", "刀", "又",
+        // 名
+        String[] word = {
+                "一", "乙", "二", "十", "丁", "厂", "七", "卜", "人", "入", "八", "九", "几", "儿", "了", "力", "乃", "刀", "又",
                 "三", "于", "干", "亏", "士", "工", "土", "才", "寸", "下", "大", "丈", "与", "万", "上", "小", "口", "巾", "山",
                 "千", "乞", "川", "亿", "个", "勺", "久", "凡", "及", "夕", "丸", "么", "广", "亡", "门", "义", "之", "尸", "弓",
                 "己", "已", "子", "卫", "也", "女", "飞", "刃", "习", "叉", "马", "乡", "丰", "王", "井", "开", "夫", "天", "无",
@@ -224,7 +231,8 @@ public class RandomName {
                 "器", "赠", "默", "镜", "赞", "篮", "邀", "衡", "膨", "雕", "磨", "凝", "辨", "辩", "糖", "糕", "燃", "澡", "激",
                 "懒", "壁", "避", "缴", "戴", "擦", "鞠", "藏", "霜", "霞", "瞧", "蹈", "螺", "穗", "繁", "辫", "赢", "糟", "糠",
                 "燥", "臂", "翼", "骤", "鞭", "覆", "蹦", "镰", "翻", "鹰", "警", "攀", "蹲", "颤", "瓣", "爆", "疆", "壤", "耀",
-                "躁", "嚼", "嚷", "籍", "魔", "灌", "蠢", "霸", "露", "囊", "罐"};
+                "躁", "嚼", "嚷", "籍", "魔", "灌", "蠢", "霸", "露", "囊", "罐"
+        };
 
         int surNameLen = surName.length;
         int doubleSurNameLen = doubleSurName.length;

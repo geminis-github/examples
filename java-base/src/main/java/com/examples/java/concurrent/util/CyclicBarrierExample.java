@@ -23,7 +23,7 @@ public class CyclicBarrierExample {
             System.out.println(num + " number start, ready work");
             try {
                 TimeUnit.SECONDS.sleep(new Random().nextInt(10));
-//                cyclicBarrier.await(); // 只有超过一定数量的线程到达这里的时候，才会执行后续的代码
+                cyclicBarrier.await(); // 只有超过一定数量的线程到达这里的时候，才会执行后续的代码
             } catch (Exception e) {
                 e.printStackTrace();
             }

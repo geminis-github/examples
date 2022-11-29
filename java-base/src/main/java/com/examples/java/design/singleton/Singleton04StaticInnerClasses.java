@@ -11,20 +11,28 @@ package com.examples.java.design.singleton;
  */
 public class Singleton04StaticInnerClasses {
 
-    /** 私有化构造器 */
+    /**
+     * 私有化构造器
+     */
     private Singleton04StaticInnerClasses() {
         // 抛出异常防止通过反射创建实例
         throw new RuntimeException("Instance creation is not allowed");
     }
 
-    /** 通过公有的静态方法获取实例 */
+    /**
+     * 通过公有的静态方法获取实例
+     *
+     * @return 实例
+     */
     public static Singleton04StaticInnerClasses getInstance() {
         return Holder.INSTANCE;
     }
 
-    /** 声明私有静态内部类  */
+    /**
+     * 声明私有静态内部类
+     */
     private static class Holder {
-        /** 持有外部类的实例 */
+        // 持有外部类的实例
         private static final Singleton04StaticInnerClasses INSTANCE = new Singleton04StaticInnerClasses();
     }
 

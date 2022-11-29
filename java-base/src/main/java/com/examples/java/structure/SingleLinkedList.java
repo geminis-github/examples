@@ -8,10 +8,14 @@ package com.examples.java.structure;
  */
 public class SingleLinkedList<E> {
 
-    // 头节点
+    /**
+     * 头节点
+     */
     private Node head;
 
-    // 元素个数
+    /**
+     * 元素个数
+     */
     private int size;
 
     /**

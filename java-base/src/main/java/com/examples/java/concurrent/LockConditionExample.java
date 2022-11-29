@@ -14,17 +14,20 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class LockConditionExample {
 
-    Lock lock = new ReentrantLock();
+    private Lock lock = new ReentrantLock();
     private Condition putCondition = lock.newCondition();
     private Condition popCondition = lock.newCondition();
-    private List<Integer> dataList = new ArrayList<>(); // 仓库
+    /**
+     * 仓库
+     */
+    private List<Integer> dataList = new ArrayList<>();
 
     /**
      * 生产者方法
      */
     public void put() {
+        lock.lock();
         try {
-            lock.lock();
             while (dataList.size() >= 3) {
                 System.out.println("仓库数量超过3，不能进行生产 size:" + dataList.size());
                 putCondition.await();
@@ -32,7 +35,8 @@ public class LockConditionExample {
             }
             dataList.add(dataList.size() + 1);
             System.out.println("生产者生产 1 个商品，当前 仓库 size:" + dataList.size());
-            popCondition.signalAll(); // 通知消费者 消费
+            // 通知消费者 消费
+            popCondition.signalAll();
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
@@ -44,8 +48,8 @@ public class LockConditionExample {
      * 消费者方法
      */
     public void pop() {
+        lock.lock();
         try {
-            lock.lock();
             while (dataList.size() == 0) {
                 System.out.println("仓库无商品，不能进行消费 size:" + dataList.size());
                 popCondition.await();
@@ -53,7 +57,8 @@ public class LockConditionExample {
             }
             dataList.remove(0);
             System.out.println("消费者消费1个商品，当前 仓库 size:" + dataList.size());
-            putCondition.signalAll(); // 通知生产者生产
+            // 通知生产者生产
+            putCondition.signalAll();
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {

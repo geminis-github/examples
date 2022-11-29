@@ -31,7 +31,7 @@ public class MessageProducer {
         ListenableFuture<SendResult<String, String>> future = kafkaTemplate.send(TOPIC_NAME, key, message);
         try {
             SendResult<String, String> sendResult = future.get();
-            log.info("send message success = {}", message);
+            log.info("send message success = {}, result = {}", message, sendResult);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
