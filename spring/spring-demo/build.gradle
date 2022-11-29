@@ -10,7 +10,7 @@ repositories {
 }
 
 ext {
-    springVersion = '6.0.0'
+    springVersion = '5.3.24'
 }
 
 dependencies {
