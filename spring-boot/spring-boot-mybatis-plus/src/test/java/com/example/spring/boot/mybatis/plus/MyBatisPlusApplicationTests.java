@@ -43,7 +43,7 @@ class MyBatisPlusApplicationTests {
         }
         @Override
         public void run() {
-            int step = 50000;
+            int step = 1000;
             int start = step * (num + 1);
             for (int i = (start - step); i < start; i++) {
                 User user = buildUser(i);

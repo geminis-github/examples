@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
  */
 @Slf4j
 @Component
-public class MessageConsumer {
+public class ConsumerMessage {
 
     private static final String TOPIC_NAME = "springTest";
     private static final String GROUP_ID = "springTestGroup";

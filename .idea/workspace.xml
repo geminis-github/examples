@@ -9,38 +9,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ExecutorServiceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ExecutorServiceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ExecutorTerminatedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ExecutorTerminatedExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/LockConditionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/LockConditionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/LongAccumulatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/LongAccumulatorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ThreadFactoryAndExecutorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ThreadFactoryAndExecutorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ThreadInterruptExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ThreadInterruptExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ThreadLocalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ThreadLocalExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/collection/BlockingQueueExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/collection/BlockingQueueExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/util/CountDownLatchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/util/CountDownLatchExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/util/CyclicBarrierExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/util/CyclicBarrierExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/util/CyclicBarrierExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/util/CyclicBarrierExample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/util/ExchangerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/util/ExchangerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/util/SemaphoreExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/util/SemaphoreExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/factory/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/factory/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/prototype/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/prototype/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton01Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton01Hungry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton02Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton02Lazy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton03DoubleCheckLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton03DoubleCheckLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton04StaticInnerClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton04StaticInnerClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton05Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton05Enum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/jdbc/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/jdbc/JdbcUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/jvm/JolExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/jvm/JolExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/other/AcceleratedSpeedCalculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/other/AcceleratedSpeedCalculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/structure/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/structure/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-aop/src/main/java/com/examples/spring/boot/aop/AopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-aop/src/main/java/com/examples/spring/boot/aop/AopApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-data-redis/src/main/java/com/examples/spring/boot/data/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-data-redis/src/main/java/com/examples/spring/boot/data/redis/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-data-redis/src/test/java/com/examples/spring/boot/data/redis/RedisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-data-redis/src/test/java/com/examples/spring/boot/data/redis/RedisApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/MessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/MessageProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/example/spring/boot/mybatis/plus/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/example/spring/boot/mybatis/plus/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/example/spring/boot/mybatis/plus/test/GenerateSqls.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/example/spring/boot/mybatis/plus/test/GenerateSqls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/example/spring/boot/mybatis/plus/test/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/example/spring/boot/mybatis/plus/test/IdWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/example/spring/boot/mybatis/plus/test/RandomName.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/example/spring/boot/mybatis/plus/test/RandomName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-data-redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-data-redis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/MessageConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/ConsumerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/MessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/ProducerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/example/spring/boot/mybatis/plus/MyBatisPlusApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/example/spring/boot/mybatis/plus/MyBatisPlusApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +81,9 @@
         <task path="$PROJECT_DIR$/spring-boot">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/spring-cloud">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -110,11 +94,18 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-boot" type="f1a62948:ProjectNode" />
+                <item name="spring-boot-web" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-boot" type="f1a62948:ProjectNode" />
+                <item name="spring-boot-web" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-boot" type="f1a62948:ProjectNode" />
+                <item name="spring-boot-web" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -130,6 +121,8 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Script" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -150,25 +143,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Projects/ideaProjects/example",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.import",
-    "spring.configuration.checksum": "27c5d8f65db4afa57bdf57277e68263b"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/ideaProjects/spring-framework&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Docker&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;27c5d8f65db4afa57bdf57277e68263b&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;MySQL&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
@@ -181,25 +183,15 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\ideaProjects\examples\spring-boot\spring-boot-web\src\main\docker" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.examples.spring.boot.web" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomName">
-    <configuration name="RandomName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.spring.boot.mybatis.plus.test.RandomName" />
-      <module name="spring-boot.spring-boot-mybatis-plus.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.spring.boot.mybatis.plus.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisPlusApplicationTests.test001" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RedisApplicationTests.contextLoads">
+    <configuration name="MyBatisPlusApplicationTests.insertUserData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot" />
@@ -212,7 +204,7 @@
           <list>
             <option value=":spring-boot-mybatis-plus:test" />
             <option value="--tests" />
-            <option value="&quot;com.example.spring.boot.mybatis.plus.MyBatisPlusApplicationTests.test001&quot;" />
+            <option value="&quot;com.example.spring.boot.mybatis.plus.MyBatisPlusApplicationTests.insertUserData&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -245,10 +237,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="spring-boot [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="spring-boot:spring-boot-web [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot/spring-boot-web" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -256,7 +248,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -265,22 +257,6 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
-    </configuration>
-    <configuration name="MyBatisPlusApplicationTests.test001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot.spring-boot-mybatis-plus.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.spring.boot.mybatis.plus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.spring.boot.mybatis.plus" />
-      <option name="MAIN_CLASS_NAME" value="com.example.spring.boot.mybatis.plus.MyBatisPlusApplicationTests" />
-      <option name="METHOD_NAME" value="test001" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
@@ -332,12 +308,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="spring-boot-web" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="example-spring-boot-web:1.0" />
+          <option name="containerName" value="spring-boot-web" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="spring-boot/spring-boot-web/src/main/docker/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.RandomName" />
-      <item itemvalue="Gradle.MyBatisPlusApplicationTests.test001" />
+      <item itemvalue="Docker.spring-boot-web" />
+      <item itemvalue="Gradle.MyBatisPlusApplicationTests.insertUserData" />
       <item itemvalue="Gradle.RedisApplicationTests.contextLoads" />
-      <item itemvalue="Gradle.spring-boot [clean]" />
-      <item itemvalue="JUnit.MyBatisPlusApplicationTests.test001" />
+      <item itemvalue="Gradle.spring-boot:spring-boot-web [build]" />
       <item itemvalue="Spring Boot.AopApplication" />
       <item itemvalue="Spring Boot.KafkaApplication" />
       <item itemvalue="Spring Boot.MyBatisPlusApplication" />
@@ -348,11 +341,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RandomName" />
-        <item itemvalue="Gradle.MyBatisPlusApplicationTests.test001" />
         <item itemvalue="Gradle.RedisApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.MyBatisPlusApplicationTests.test001" />
-        <item itemvalue="Gradle.spring-boot [clean]" />
+        <item itemvalue="Gradle.MyBatisPlusApplicationTests.insertUserData" />
+        <item itemvalue="Docker.spring-boot-web" />
+        <item itemvalue="Gradle.spring-boot:spring-boot-web [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +385,26 @@
       <workItem from="1669450089916" duration="861000" />
       <workItem from="1669467064830" duration="9376000" />
       <workItem from="1669729855621" duration="1681000" />
-      <workItem from="1669731563359" duration="3547000" />
+      <workItem from="1669731563359" duration="9441000" />
+      <workItem from="1669799321369" duration="29000" />
+      <workItem from="1669799752208" duration="9000" />
+      <workItem from="1669800855546" duration="1725000" />
+      <workItem from="1669810827364" duration="1245000" />
+      <workItem from="1669813013808" duration="378000" />
+      <workItem from="1669814476655" duration="20955000" />
+      <workItem from="1669878489481" duration="1107000" />
+      <workItem from="1669879608466" duration="4780000" />
+      <workItem from="1669885952086" duration="1264000" />
+      <workItem from="1669887485534" duration="387000" />
+      <workItem from="1669888071080" duration="2194000" />
+      <workItem from="1669896136738" duration="4136000" />
+      <workItem from="1669903305400" duration="43000" />
+      <workItem from="1669903797030" duration="43000" />
+      <workItem from="1669904347241" duration="20108000" />
+      <workItem from="1669987235960" duration="807000" />
+      <workItem from="1669989858218" duration="54000" />
+      <workItem from="1669995103077" duration="1350000" />
+      <workItem from="1670035291678" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="规范化项目提交文件">
       <created>1668312742196</created>
@@ -530,15 +541,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="去除多余注释" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/example/spring/boot/mybatis/plus/MyBatisPlusApplicationTests.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="GradleRunConfiguration">
         <watch expression="druidDataSource" />

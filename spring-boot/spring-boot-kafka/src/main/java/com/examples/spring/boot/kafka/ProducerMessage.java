@@ -17,7 +17,7 @@ import java.util.concurrent.ExecutionException;
  */
 @Slf4j
 @Component
-public class MessageProducer {
+public class ProducerMessage {
 
     @Autowired
     private KafkaTemplate<String, String> kafkaTemplate;

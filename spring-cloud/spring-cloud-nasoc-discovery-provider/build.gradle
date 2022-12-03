@@ -12,8 +12,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.cloud:spring-cloud-starter-loadbalancer:3.1.3' // 这里不引入这个依赖就会报错（只引入alibaba的依赖不引入spring-cloud的依赖）
-    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.8.RELEASE'
+    implementation 'org.springframework.cloud:spring-cloud-starter-loadbalancer:3.1.5' // 这里不引入这个依赖就会报错（只引入alibaba的依赖不引入spring-cloud的依赖）
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2021.0.4.0'
 }
 
 test {

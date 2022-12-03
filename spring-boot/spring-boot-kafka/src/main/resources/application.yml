@@ -4,7 +4,7 @@ spring:
   application:
     name: kafka
   kafka:
-    bootstrap-servers: 47.106.78.167:9092 #,47.106.78.167:9093,47.106.78.167:9094 # kafka集群信息
+    bootstrap-servers: geminis:9092 #,47.106.78.167:9093,47.106.78.167:9094 # kafka集群信息
     producer: # 生产者配置
       retries: 3 # 设置大于0的值，则客户端会将发送失败的记录重新发送
       batch-size: 16384 #16K

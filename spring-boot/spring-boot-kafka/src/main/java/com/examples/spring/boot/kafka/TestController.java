@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @Autowired
-    private MessageProducer messageProducer;
+    private ProducerMessage producerMessage;
 
     @GetMapping("/test/{message}")
     public String test (@PathVariable("message") String message) {
-        messageProducer.send(message);
+        producerMessage.send(message);
         return "success";
     }
 
