@@ -1,0 +1,5 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' # actuator开放除了/shutdown之外所有端点， 访问路径：/actuator/health（加actuator）

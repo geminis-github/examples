@@ -12,14 +12,9 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'org.projectlombok:lombok'
-    annotationProcessor 'org.projectlombok:lombok'
-    testCompileOnly 'org.projectlombok:lombok'
-    testAnnotationProcessor 'org.projectlombok:lombok'
-
-    implementation 'com.baomidou:mybatis-plus-boot-starter:3.5.0'
-    implementation 'mysql:mysql-connector-java:8.0.27'
-    implementation 'com.alibaba:druid-spring-boot-starter:1.2.8'
+    implementation 'com.baomidou:mybatis-plus-boot-starter:3.5.2'
+    implementation 'mysql:mysql-connector-java:8.0.31'
+    implementation 'com.alibaba:druid-spring-boot-starter:1.2.15'
 }
 
 test {

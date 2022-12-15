@@ -11,6 +11,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+/**
+ * 测试用例类，此测试用例无法使用gradle运行，需要在 Build Tools里面配置使用IDEA启动，具体参考下方的文档
+ *
+ * @see <a href=https://blog.csdn.net/xingxincsdn/article/details/125647409>【问题】idea执行spring boot单元测试报错No tests found</a>
+ */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {AppConfig.class})
 public class SpringApplicationTest {

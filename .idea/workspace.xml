@@ -8,20 +8,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-data-redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-data-redis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/MessageConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/ConsumerMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/MessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/ProducerMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="保存sql，归类版本">
+      <change beforePath="$PROJECT_DIR$/java-base/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/jdbc/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/jdbc/JdbcUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shell.md" beforeDir="false" afterPath="$PROJECT_DIR$/shell.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-actuator/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-data-redis/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-data-redis/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-log4j2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/example/spring/boot/mybatis/plus/config/DruidConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/example/spring/boot/mybatis/plus/config/DruidConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/example/spring/boot/mybatis/plus/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/example/spring/boot/mybatis/plus/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/dao/UserDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/example/spring/boot/mybatis/plus/MyBatisPlusApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/example/spring/boot/mybatis/plus/MyBatisPlusApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-demo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-demo/src/test/java/com/examples/spring/demo/SpringApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-demo/src/test/java/com/examples/spring/demo/SpringApplicationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,24 +98,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-boot" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-boot" type="f1a62948:ProjectNode" />
-                <item name="spring-boot-web" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-boot" type="f1a62948:ProjectNode" />
-                <item name="spring-boot-web" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-boot" type="f1a62948:ProjectNode" />
-                <item name="spring-boot-web" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -119,10 +108,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin Script" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -154,13 +143,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/ideaProjects/spring-framework&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/ideaProjects/examples/spring-boot/spring-boot-test/src/main/resources&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Docker&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;27c5d8f65db4afa57bdf57277e68263b&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;a2e108fee9f1d43259daf2abe1541ea1&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -183,15 +172,45 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\ideaProjects\examples\spring-boot\spring-boot-test\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\ideaProjects\examples\spring-boot\spring-boot-web\src\main\docker" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.examples.spring.boot.web" />
+      <recent name="com.examples.spring.boot.es" />
+      <recent name="com.examples.spring.boot.test.service.impl" />
+      <recent name="com.examples.spring.boot.test.controller" />
+      <recent name="com.examples.spring.boot.test.service" />
+      <recent name="com.examples.spring.boot.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RedisApplicationTests.contextLoads">
-    <configuration name="MyBatisPlusApplicationTests.insertUserData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ElasticSearchApplicationTests.test01">
+    <configuration name="ElasticSearchApplicationTests.test01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":spring-boot-elasticsearch:test" />
+            <option value="--tests" />
+            <option value="&quot;com.examples.spring.boot.es.ElasticSearchApplicationTests.test01&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MyBatisPlusApplicationTests.test001" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot" />
@@ -204,7 +223,7 @@
           <list>
             <option value=":spring-boot-mybatis-plus:test" />
             <option value="--tests" />
-            <option value="&quot;com.example.spring.boot.mybatis.plus.MyBatisPlusApplicationTests.insertUserData&quot;" />
+            <option value="&quot;com.example.spring.boot.mybatis.plus.MyBatisPlusApplicationTests.test001&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -214,7 +233,30 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RedisApplicationTests.contextLoads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SpringApplicationTest.test01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":spring-demo:test" />
+            <option value="--tests" />
+            <option value="&quot;com.examples.spring.demo.SpringApplicationTest.test01&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestApplicationTests.test001" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot" />
@@ -225,9 +267,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":spring-boot-data-redis:test" />
+            <option value=":spring-boot-test:test" />
             <option value="--tests" />
-            <option value="&quot;com.examples.spring.boot.data.redis.RedisApplicationTests.contextLoads&quot;" />
+            <option value="&quot;com.examples.spring.boot.test.TestApplicationTests.test001&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -237,31 +279,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="spring-boot:spring-boot-web [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot/spring-boot-web" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="SpringApplicationTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring.spring-demo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.examples.spring.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.examples.spring.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.spring.demo.SpringApplicationTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="spring-boot.spring-boot-aop.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.aop.AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot.spring-boot-elasticsearch.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.es.ElasticSearchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -301,6 +345,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot.spring-boot-test.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.test.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot.spring-boot-web.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.web.WebApplication" />
@@ -308,29 +359,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spring-boot-web" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="imageTag" value="example-spring-boot-web:1.0" />
-          <option name="containerName" value="spring-boot-web" />
-          <option name="portBindings">
-            <list>
-              <DockerPortBindingImpl>
-                <option name="containerPort" value="8080" />
-                <option name="hostPort" value="8080" />
-              </DockerPortBindingImpl>
-            </list>
-          </option>
-          <option name="sourceFilePath" value="spring-boot/spring-boot-web/src/main/docker/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Docker.spring-boot-web" />
-      <item itemvalue="Gradle.MyBatisPlusApplicationTests.insertUserData" />
-      <item itemvalue="Gradle.RedisApplicationTests.contextLoads" />
-      <item itemvalue="Gradle.spring-boot:spring-boot-web [build]" />
+      <item itemvalue="Gradle.ElasticSearchApplicationTests.test01" />
+      <item itemvalue="Gradle.MyBatisPlusApplicationTests.test001" />
+      <item itemvalue="Gradle.SpringApplicationTest.test01" />
+      <item itemvalue="Gradle.TestApplicationTests.test001" />
+      <item itemvalue="JUnit.SpringApplicationTest.test01" />
+      <item itemvalue="Spring Boot.ElasticSearchApplication" />
+      <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="Spring Boot.AopApplication" />
       <item itemvalue="Spring Boot.KafkaApplication" />
       <item itemvalue="Spring Boot.MyBatisPlusApplication" />
@@ -341,10 +377,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RedisApplicationTests.contextLoads" />
-        <item itemvalue="Gradle.MyBatisPlusApplicationTests.insertUserData" />
-        <item itemvalue="Docker.spring-boot-web" />
-        <item itemvalue="Gradle.spring-boot:spring-boot-web [build]" />
+        <item itemvalue="Gradle.ElasticSearchApplicationTests.test01" />
+        <item itemvalue="Gradle.TestApplicationTests.test001" />
+        <item itemvalue="Gradle.MyBatisPlusApplicationTests.test001" />
+        <item itemvalue="JUnit.SpringApplicationTest.test01" />
+        <item itemvalue="Gradle.SpringApplicationTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -405,6 +442,16 @@
       <workItem from="1669989858218" duration="54000" />
       <workItem from="1669995103077" duration="1350000" />
       <workItem from="1670035291678" duration="307000" />
+      <workItem from="1670077624759" duration="43347000" />
+      <workItem from="1670247317126" duration="978000" />
+      <workItem from="1670333907356" duration="83000" />
+      <workItem from="1670410171357" duration="4584000" />
+      <workItem from="1670505462198" duration="4000" />
+      <workItem from="1670588091469" duration="2354000" />
+      <workItem from="1670594765684" duration="7000" />
+      <workItem from="1670915968280" duration="5271000" />
+      <workItem from="1670938722750" duration="12860000" />
+      <workItem from="1671020294914" duration="9481000" />
     </task>
     <task id="LOCAL-00001" summary="规范化项目提交文件">
       <created>1668312742196</created>
@@ -541,6 +588,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="去除多余注释" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring/spring-demo/src/test/java/com/examples/spring/demo/SpringApplicationTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot/spring-boot-elasticsearch/src/test/java/com/examples/spring/boot/es/ElasticSearchApplicationTests.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="GradleRunConfiguration">
         <watch expression="druidDataSource" />

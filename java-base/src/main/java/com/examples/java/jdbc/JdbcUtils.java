@@ -4,6 +4,7 @@ import java.sql.*;
 
 /**
  * 使用远程JDBC连接数据库
+ *
  * 1、加载驱动
  * 2、创建数据库连接
  * 3、创建执行sql的语句
@@ -21,7 +22,7 @@ public class JdbcUtils {
      */
     public static void connection () {
         // 连接信息
-        String url = "jdbc:mysql://47.106.78.167:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC";
+        String url = "jdbc:mysql://geminis:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC";
         String user = "root";
         String password = "123456";
         try {
@@ -30,8 +31,8 @@ public class JdbcUtils {
             // 2、获取数据库连接
             Connection connection = DriverManager.getConnection(url, user, password);
             // 3、创建执行sql语句
-            String nickname = "Jack";
-            String sql = "select * from test_user where nickname = ?";
+            String nickname = "太叔";
+            String sql = "select * from test_user where real_name = ? limit 10";
             // 4、执行语句
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1, nickname);

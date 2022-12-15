@@ -1,5 +1,7 @@
 package com.example.spring.boot.mybatis.plus;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.spring.boot.mybatis.plus.dao.UserDao;
 import com.example.spring.boot.mybatis.plus.entity.User;
 import org.junit.jupiter.api.Test;
@@ -17,11 +19,23 @@ class MyBatisPlusApplicationTests {
 
     @Autowired
     private UserDao userDao;
+
+    /**
+     * 自定义查询增加分页
+     */
     @Test
     void test001 () {
-        List<User> list = userDao.selectList();
+        Page<User> page = new Page<>(1, 100);
+        // 需要把分页page作为第一个参数传给查询
+        // 方法
+        List<User> list = userDao.selectSample(page);
     }
 
+    /**
+     * 批量插入数据
+     *
+     * @throws InterruptedException
+     */
     @Test
     void insertUserData() throws InterruptedException {
         List<Thread> list = new ArrayList<>();
@@ -36,7 +50,10 @@ class MyBatisPlusApplicationTests {
         }
     }
 
-    class CreateTask implements Runnable {
+    /**
+     * 循环创建用户任务
+     */
+    private class CreateTask implements Runnable {
         private int num;
         public CreateTask(int num) {
             this.num = num;
@@ -53,10 +70,16 @@ class MyBatisPlusApplicationTests {
         }
     }
 
-    private User buildUser (int i) {
+    /**
+     * 创建模拟用户
+     *
+     * @param sn 用户序号
+     * @return
+     */
+    private User buildUser (int sn) {
         User user = User.builder()
                 .userType(userType())
-                .sn(i + "")
+                .sn(String.valueOf(sn))
                 .nickname(nickName())
                 .cardNumber(cardNumber())
                 .realName(realName())

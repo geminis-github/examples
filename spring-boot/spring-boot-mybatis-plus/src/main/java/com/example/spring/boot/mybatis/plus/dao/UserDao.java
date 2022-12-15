@@ -1,6 +1,7 @@
 package com.example.spring.boot.mybatis.plus.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.spring.boot.mybatis.plus.entity.User;
 import org.springframework.stereotype.Repository;
 
@@ -15,6 +16,11 @@ import java.util.List;
 @Repository
 public interface UserDao extends BaseMapper<User> {
 
-    List<User> selectList();
+    /**
+     * 自定义查询
+     *
+     * @return 列表数据
+     */
+    List<User> selectSample(Page<User> page);
 
 }

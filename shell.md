@@ -25,9 +25,11 @@
 4、docker pull kibana:8.5.2
 5、docker run -d --net es --name kb8 -p 5601:5601  -e "I18N_LOCALE=zh-CN" kibana:8.5.2
 
-PS: 账户：elastic，密码：1V9jmMPCpqsLkh3UQWYI，重置密码：bin/elasticsearch-reset-password -u elastic
-PS：重置命令：bin/elasticsearch-create-enrollment-token --scope kibana，kinaba令牌：eyJ2ZXIiOiI4LjUuMiIsImFkciI6WyIxNzIuMTguMC4yOjkyMDAiXSwiZmdyIjoiZmNmZGUzZjUyYzM1Y2ZhN2Q1Y2JhMTQxYmViYTgwZTgwMDlkYmM5NDA1NzlkN2I5NzNlMmZkZTI0ZWUxOGU2ZCIsImtleSI6Ik5ibUt6b1FCVkw1cl92NUp2S3dSOnAyQmsxenBjVFZ5VmQ3Q0JjT2kteFEifQ==
-
+elastic账号密码：1nInRVL87Jz6BHC9c9w8，重置密码命令：bin/elasticsearch-reset-password -u elastic（es里面执行命令）
+kibana_system账号密码：WHugdhS0k8mupozUenvO，重置密码命令：bin/elasticsearch-reset-password -u kibana_system（es里面执行命令）
+Kibana验证码：101 326 生成命令=kibana-verification-code（kibana执行）
+令牌：eyJ2ZXIiOiI4LjUuMiIsImFkciI6WyIxNzIuMTguMC4yOjkyMDAiXSwiZmdyIjoiNTU3ZTI4NGQyNGQ1MWMzNDBiMTJhNTc4MzBiOThhMTI5ZTViZjc2NGMwZWQyYmY1MTU5ZWNlNGU1YjA4MzhmNSIsImtleSI6Ikh1aXhFSVVCeE96M1NYQU1zRDBwOmREcjNMMk1QU0hPdW5OLVpoVVZkQ1EifQ==
+令牌重置命令：bin/elasticsearch-create-enrollment-token --scope kibana (es里面执行命令生成)
 
 # command
 docker rm $(docker stop $(docker ps -a -q))

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--日志级别以及优先级排序: OFF > FATAL > ERROR > WARN > INFO > DEBUG > TRACE > ALL -->
+<!--status="WARN" :用于设置log4j2自身内部日志的信息输出级别，默认是OFF-->
+<!--monitorInterval="30"  :间隔秒数,自动检测配置文件的变更和重新配置本身-->
+<configuration status="warn" monitorInterval="60" strict="true">
+  <properties>
+	<!--自定义一些常量，之后使用${变量名}引用-->
+    <property name="logpath">./logs</property>
+    <property name="charset">UTF-8</property>
+	<!--自定义的输出格式-->
+    <property name="pattern">%-d{yyyy-MM-dd HH:mm:ss.SSS}@@%p@@%X{ip}@@%t %C@@%X{requestId} %M %m %n </property>
+  </properties>
+  <!--appenders:定义输出内容,输出格式,输出方式,日志保存策略等,常用其下三种标签[console,File,RollingFile]-->
+  <!--Appender可以理解为日志的输出目的地-->
+  <appenders>
+    <!--console :控制台输出的配置-->
+    <Console name="console" target="SYSTEM_OUT">
+      <PatternLayout pattern="${pattern}" charset="${charset}"/>
+    </Console>
+	<!--RollingRandomAccessFile性能比RollingFile提升官网宣称是20-200%-->
+    <RollingRandomAccessFile name="YZY.TRACE" immediateFlush="true" bufferSize="1024"
+      fileName="${logpath}/trace.log"
+      filePattern="${logpath}/trace.log.%d{yyyy-MM-dd}.gz">
+      <PatternLayout pattern="${pattern}" charset="${charset}"/>
+      <TimeBasedTriggeringPolicy/>
+      <DefaultRolloverStrategy>
+        <Delete basePath="${logpath}" maxDepth="2" followLinks="true">
+          <IfFileName glob="trace.log.*.gz"/>
+          <IfLastModified age="3d"/>
+        </Delete>
+      </DefaultRolloverStrategy>
+    </RollingRandomAccessFile>
+    <RollingRandomAccessFile name="YZY.SYSTEM" immediateFlush="true" bufferSize="4096"
+      fileName="${logpath}/system.log"
+      filePattern="${logpath}/system.log.%d{yyyy-MM-dd}.gz"
+      ignoreExceptions="false">
+	  <!--引用上面自定义的输出格式-->
+      <PatternLayout pattern="${pattern}" charset="${charset}"/>
+      <Filters>
+		<!--ThresholdFilter :日志输出过滤-->
+        <!--level="info" :日志级别,onMatch="ACCEPT" :级别在info之上则接受,onMismatch="DENY" :级别在info之下则拒绝-->
+        <!--与logger、root中定义的日志级别相配合，相当于两个闸门，先判断logger、root的级别，符合了才会用到该filter中的level，此时再进行一次筛选-->
+        <ThresholdFilter level="TRACE" onMatch="ACCEPT" onMismatch="DENY"/>
+        <!--<ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>-->
+        <!--<ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>-->
+      </Filters>
+	  <!-- Policies :日志滚动策略-->
+      <Policies>
+        <!--<TimeBasedTriggeringPolicy interval="1" modulate="true"/>-->
+        <CronTriggeringPolicy schedule="0 0 2 * * ?" evaluateOnStartup="true"/>
+      </Policies>
+	  <!-- DefaultRolloverStrategy属性如不设置，则默认为最多同一文件夹下7个文件-->
+      <DefaultRolloverStrategy>
+        <Delete basePath="${logpath}" maxDepth="2" followLinks="true">
+          <IfFileName glob="system.log.*.gz"/>
+	  <!--只保留7天，超过则删除-->
+          <IfLastModified age="7d"/>
+        </Delete>
+      </DefaultRolloverStrategy>
+    </RollingRandomAccessFile>
+    <RollingRandomAccessFile name="YZY.ERROR" immediateFlush="true" bufferSize="4096"
+      fileName="${logpath}/error.log"
+      filePattern="${logpath}/error.log.%d{yyyy-MM-dd}.gz"
+      ignoreExceptions="false">
+      <PatternLayout pattern="${pattern}" charset="${charset}"/>
+      <Filters>
+        <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+      </Filters>
+      <TimeBasedTriggeringPolicy/>
+      <DefaultRolloverStrategy>
+        <Delete basePath="${logpath}" maxDepth="2" followLinks="true">
+          <IfFileName glob="error.log.*.gz"/>
+          <IfLastModified age="7d"/>
+        </Delete>
+      </DefaultRolloverStrategy>
+    </RollingRandomAccessFile>
+    <RollingRandomAccessFile name="YZY.AUDIT" immediateFlush="false" bufferSize="8192"
+      fileName="${logpath}/audit.log"
+      filePattern="${logpath}/audit.log.%d{yyyy-MM-dd}.gz"
+      ignoreExceptions="false">
+      <PatternLayout pattern="${pattern}" charset="${charset}"/>
+      <Filters>
+        <ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="DENY"/>
+      </Filters>
+      <TimeBasedTriggeringPolicy/>
+      <DefaultRolloverStrategy>
+        <Delete basePath="${logpath}" maxDepth="2" followLinks="true">
+          <IfFileName glob="audit.log.*.gz"/>
+          <IfLastModified age="7d"/>
+        </Delete>
+      </DefaultRolloverStrategy>
+    </RollingRandomAccessFile>
+    <RollingRandomAccessFile name="YZY.POOL" immediateFlush="true" bufferSize="1024"
+      fileName="${logpath}/pool.log"
+      filePattern="${logpath}/pool.log.%d{yyyy-MM-dd}.gz"
+      ignoreExceptions="false">
+      <PatternLayout pattern="${pattern}" charset="${charset}"/>
+      <TimeBasedTriggeringPolicy/>
+      <DefaultRolloverStrategy>
+        <Delete basePath="${logpath}" maxDepth="2" followLinks="true">
+          <IfFileName glob="pool.log.*.gz"/>
+          <IfLastModified age="3d"/>
+        </Delete>
+      </DefaultRolloverStrategy>
+    </RollingRandomAccessFile>
+    <RollingRandomAccessFile name="YZY.MONITOR" immediateFlush="true" bufferSize="1024"
+      fileName="${logpath}/monitor.log"
+      filePattern="${logpath}/pool.log.%d{yyyy-MM-dd}.gz"
+      ignoreExceptions="false">
+      <PatternLayout pattern="${pattern}" charset="${charset}"/>
+      <TimeBasedTriggeringPolicy/>
+      <DefaultRolloverStrategy>
+        <Delete basePath="${logpath}" maxDepth="2" followLinks="true">
+          <IfFileName glob="pool.log.*.gz"/>
+          <IfLastModified age="3d"/>
+        </Delete>
+      </DefaultRolloverStrategy>
+    </RollingRandomAccessFile>
+    <RollingRandomAccessFile name="YZY.BIZ" immediateFlush="true"
+      fileName="${logpath}/biz.log"
+      filePattern="${logpath}/biz.log.%d{yyyy-MM-dd}.gz"
+      ignoreExceptions="false">
+      <PatternLayout pattern="${pattern}" charset="${charset}"/>
+      <TimeBasedTriggeringPolicy/>
+      <DefaultRolloverStrategy>
+        <Delete basePath="${logpath}" maxDepth="2" followLinks="true">
+          <IfFileName glob="biz.log.*.gz"/>
+          <IfLastModified age="7d"/>
+        </Delete>
+      </DefaultRolloverStrategy>
+    </RollingRandomAccessFile>
+  </appenders>
+
+  <!--然后定义logger，只有定义了logger并引入的appender，appender才会生效-->
+  <loggers>
+	<!--additivity="false"表示在该logger中输出的日志不会再延伸到父层logger。这里如果改为true，则会延伸到Root Logger，遵循Root Logger的配置也输出一次。-->
+    <Logger additivity="false" name="YZY.TRACE" level="INFO">
+      <AppenderRef ref="YZY.TRACE"/>
+    </Logger>
+    <Logger additivity="false" name="YZY.SYSTEM" level="INFO">
+      <AppenderRef ref="YZY.SYSTEM"/>
+      <AppenderRef ref="YZY.ERROR"/>
+    </Logger>
+    <Logger additivity="false" name="YZY.BIZ" level="INFO">
+      <AppenderRef ref="YZY.BIZ"/>
+    </Logger>
+    <!--Logger节点用来单独指定日志的形式，name为包路径,比如要为org.apache包下所有日志指定为INFO级别等。 -->
+    <Logger additivity="false" name="org.apache" level="INFO">
+      <AppenderRef ref="console"/>
+    </Logger>
+    <Logger additivity="false"
+      name="com.alibaba.dubbo.common.threadpool.monitor.MonitorPoolRunnable" level="INFO">
+      <AppenderRef ref="YZY.POOL"/>
+    </Logger>
+    <Logger additivity="false" name="com.alibaba.dubbo.monitor.dubbo.sfextend.SfMonitorExtend"
+      level="INFO">
+      <AppenderRef ref="YZY.MONITOR"/>
+    </Logger>
+    <!--针对,request以及reponse的信息配置输出级别,生产线请配置为error-->
+    <Logger additivity="true" name="com.alibaba.dubbo.rpc.protocol.rest.support" level="INFO">
+      <AppenderRef ref="console"/>
+    </Logger>
+    <!-- 在开发和测试环境启用,输出sql -->
+    <Logger additivity="true" name="com.YZY.mapper" level="DEBUG">
+    </Logger>
+	<!-- Root节点用来指定项目的根日志，如果没有单独指定Logger，那么就会默认使用该Root日志输出 -->
+    <Root level="DEBUG" includeLocation="true">
+      <AppenderRef ref="console"/>
+      <AppenderRef ref="YZY.SYSTEM"/>
+      <AppenderRef ref="YZY.ERROR"/>
+      <AppenderRef ref="YZY.AUDIT"/>
+    </Root>
+  </loggers>
+</configuration>
