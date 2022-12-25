@@ -13,7 +13,20 @@ import java.util.concurrent.*;
  */
 public class ThreadLocalExample {
 
+    /**
+     * 不初始化的方式创建
+     */
     private static ThreadLocal<HelloTask> threadLocal = new ThreadLocal<>();
+
+    /**
+     * 通过重写initialValue方法也可以
+     */
+    private static ThreadLocal<HelloTask> threadLocalImp = new ThreadLocal<>() {
+        @Override
+        protected HelloTask initialValue() {
+            return new HelloTask("imp");
+        }
+    };
 
     private static class HelloTask {
         private String name;
@@ -41,7 +54,8 @@ public class ThreadLocalExample {
             threadLocal.remove();
         });
         exec.shutdown();
-        System.out.println("主线程结束：" + threadLocal.get());
+        System.out.println("主线程结束1：" + threadLocal.get());
+        System.out.println("主线程结束2：" + threadLocalImp.get());
     }
 
 }

@@ -1,0 +1,12 @@
+# spring配置
+spring:
+  datasource:
+    username: root
+    password: 123456 # localhost=root
+    url: jdbc:mysql://geminis:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  type-aliases-package: com.examples.spring.boot.mybatis.tk.entity
+  mapper-locations: classpath:mapper/*.xml
+  config-location: classpath:config/mybatis-config.xml

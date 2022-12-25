@@ -12,6 +12,11 @@ repositories {
 dependencies {
     implementation 'mysql:mysql-connector-java:8.0.27'
     implementation 'org.openjdk.jol:jol-core:0.9'
+
+    implementation 'com.alibaba.fastjson2:fastjson2:2.0.21'
+    implementation 'cn.hutool:hutool-all:5.8.10'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    implementation 'org.jsoup:jsoup:1.15.3'
 }
 
 test {

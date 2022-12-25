@@ -17,11 +17,34 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class BaseEntity {
 
+    /**
+     * 主键ID
+     */
     private Long id;
+
+    /**
+     * 创建人ID
+     */
     private Long createdBy;
+
+    /**
+     * 最后更新人ID
+     */
     private Long updatedBy;
+
+    /**
+     * 创建时间
+     */
     private LocalDateTime createTime;
+
+    /**
+     * 修改时间
+     */
     private LocalDateTime updateTime;
+
+    /**
+     * 删除标志
+     */
     private Boolean deleted;
 
 }

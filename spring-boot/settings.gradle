@@ -7,4 +7,5 @@ include 'spring-boot-kafka'
 include 'spring-boot-data-redis'
 include 'spring-boot-test'
 include 'spring-boot-elasticsearch'
+include 'spring-boot-mybatis-tk'
 
