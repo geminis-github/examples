@@ -1,6 +1,6 @@
 package com.examples.spring.boot.mybatis.tk.mapper;
 
-import com.examples.spring.boot.mybatis.tk.common.ParentMapper;
+import com.examples.spring.boot.mybatis.tk.common.BaseMapper;
 import com.examples.spring.boot.mybatis.tk.entity.User;
 import org.springframework.stereotype.Repository;
 
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
  * @date 2022-11-13 12:57
  */
 @Repository
-public interface UserMapper extends ParentMapper<User> {
+public interface UserMapper extends BaseMapper<User> {
 
 
 }

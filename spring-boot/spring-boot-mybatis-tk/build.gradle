@@ -12,6 +12,8 @@ repositories {
 }
 
 dependencies {
+    // 引入common项目
+    implementation project(':spring-boot-common')
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'tk.mybatis:mapper-spring-boot-starter:4.2.2'
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.1'

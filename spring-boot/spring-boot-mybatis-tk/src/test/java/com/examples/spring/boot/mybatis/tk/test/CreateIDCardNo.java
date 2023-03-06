@@ -1,4 +1,4 @@
-package com.example.spring.boot.mybatis.plus.test;
+package com.examples.spring.boot.mybatis.tk.test;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -24,6 +24,7 @@ public class CreateIDCardNo {
             System.out.println(randomID);
         }
     }
+
 
     public String getRandomID() {
         String id = "";

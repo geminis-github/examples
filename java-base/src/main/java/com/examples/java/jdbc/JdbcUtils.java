@@ -1,4 +1,4 @@
-package com.examples.java.design.jdbc;
+package com.examples.java.jdbc;
 
 import java.sql.*;
 
@@ -17,6 +17,7 @@ import java.sql.*;
  */
 public class JdbcUtils {
 
+
     /**
      * 连接数据库
      */
@@ -31,7 +32,7 @@ public class JdbcUtils {
             // 2、获取数据库连接
             Connection connection = DriverManager.getConnection(url, user, password);
             // 3、创建执行sql语句
-            String nickname = "太叔";
+            String nickname = "闾丘";
             String sql = "select * from test_user where real_name = ? limit 10";
             // 4、执行语句
             PreparedStatement statement = connection.prepareStatement(sql);

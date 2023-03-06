@@ -8,4 +8,6 @@ include 'spring-boot-data-redis'
 include 'spring-boot-test'
 include 'spring-boot-elasticsearch'
 include 'spring-boot-mybatis-tk'
+include 'spring-boot-common'
+include 'spring-boot-security'
 

@@ -36,5 +36,4 @@ class TestApplicationTests {
         System.out.println(spy.getName());
     }
 
-
 }

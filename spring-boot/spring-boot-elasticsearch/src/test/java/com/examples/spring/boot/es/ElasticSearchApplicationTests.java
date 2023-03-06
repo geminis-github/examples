@@ -22,14 +22,13 @@ class ElasticSearchApplicationTests {
 
     @Test
     public void test01() throws IOException {
-        RestClientBuilder builder = RestClient.builder(new HttpHost("geminis", 9200, "http"));
-        RestClient restClient = builder.build();
-        ElasticsearchTransport transport = new RestClientTransport(restClient, new JacksonJsonpMapper());
-        ElasticsearchClient client = new ElasticsearchClient(transport);
-        ElasticsearchAsyncClient asyncClient = new ElasticsearchAsyncClient(transport);
-        ElasticsearchIndicesClient indexClient = client.indices();
-        GetIndexResponse getIndexResponse = client.indices().get(req -> req.index("*"));
-
+//        RestClientBuilder builder = RestClient.builder(new HttpHost("geminis", 9200, "http"));
+//        RestClient restClient = builder.build();
+//        ElasticsearchTransport transport = new RestClientTransport(restClient, new JacksonJsonpMapper());
+//        ElasticsearchClient client = new ElasticsearchClient(transport);
+//        ElasticsearchAsyncClient asyncClient = new ElasticsearchAsyncClient(transport);
+//        ElasticsearchIndicesClient indexClient = client.indices();
+//        GetIndexResponse getIndexResponse = client.indices().get(req -> req.index("*"));
     }
 
 }

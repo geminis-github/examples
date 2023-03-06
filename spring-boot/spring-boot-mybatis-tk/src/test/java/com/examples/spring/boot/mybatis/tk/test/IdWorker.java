@@ -1,4 +1,4 @@
-package com.example.spring.boot.mybatis.plus.test;
+package com.examples.spring.boot.mybatis.tk.test;
 
 public class IdWorker {
 

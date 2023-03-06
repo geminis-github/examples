@@ -1,8 +1,6 @@
 package com.examples.spring.boot.mybatis.tk.common;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import javax.persistence.Id;
 import java.time.LocalDateTime;
@@ -14,8 +12,6 @@ import java.time.LocalDateTime;
  * @date 2022-12-21 19:28
  */
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class BaseEntity {
 
     /**
