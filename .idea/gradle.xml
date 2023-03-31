@@ -50,11 +50,13 @@
           <set>
             <option value="$PROJECT_DIR$/spring-boot" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-aop" />
+            <option value="$PROJECT_DIR$/spring-boot/spring-boot-common" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-data-redis" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-elasticsearch" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-kafka" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk" />
+            <option value="$PROJECT_DIR$/spring-boot/spring-boot-security" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-test" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-web" />
           </set>
