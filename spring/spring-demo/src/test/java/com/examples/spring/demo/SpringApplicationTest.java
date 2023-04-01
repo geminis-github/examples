@@ -5,7 +5,10 @@ import com.examples.spring.demo.service.UserService;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.Aware;
+import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
@@ -21,7 +24,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class SpringApplicationTest {
 
     @Test
-    public void test01 () {
+    public void test01() {
         // 获取Context
         ApplicationContext xmlContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         AnnotationConfigApplicationContext annotationContext = new AnnotationConfigApplicationContext(AppConfig.class);
@@ -31,6 +34,12 @@ public class SpringApplicationTest {
         // 业务方法
         userServiceXml.call();
         userService.call();
+    }
+
+    @Test
+    public void test02() {
+        BeanPostProcessor beanPostProcessor;
+        ApplicationContextAware applicationContextAware;
     }
 
 }

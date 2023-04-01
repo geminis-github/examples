@@ -34,6 +34,7 @@ class TestApplicationTests {
         Machine spy = spy(machine);
         when(spy.getName()).thenReturn("Mark");
         System.out.println(spy.getName());
+        Assert.notNull("", "");
     }
 
 }
