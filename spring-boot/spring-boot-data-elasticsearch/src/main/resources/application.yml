@@ -1,0 +1,4 @@
+spring:
+  elasticsearch:
+    username: elastic
+    password: 1hsBnhiw-H3vH-Dw9o1i

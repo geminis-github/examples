@@ -4,9 +4,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
         <option name="modules">
@@ -16,9 +13,6 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/java-base" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
         <option name="modules">
@@ -28,9 +22,7 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="PLATFORM" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
         <option name="modules">
@@ -41,9 +33,6 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
         <option name="modules">
@@ -51,10 +40,9 @@
             <option value="$PROJECT_DIR$/spring-boot" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-aop" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-common" />
+            <option value="$PROJECT_DIR$/spring-boot/spring-boot-data-elasticsearch" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-data-redis" />
-            <option value="$PROJECT_DIR$/spring-boot/spring-boot-elasticsearch" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-kafka" />
-            <option value="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-security" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-test" />
@@ -63,9 +51,6 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring-cloud" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
         <option name="modules">
