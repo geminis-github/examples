@@ -1,19 +1,20 @@
 plugins {
-    id 'org.springframework.boot' version '2.7.10'
-    id 'io.spring.dependency-management' version '1.1.0'
-    id 'java'
+    id "org.springframework.boot" version "3.0.4"
+    id "io.spring.dependency-management" version "1.1.0"
+    id "java"
 }
 
-group 'com.examples'
-version '1.0-SNAPSHOT'
+group "com.examples"
+version "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
 }
 
 ext {
-    springCloudVersion = '2021.0.5'
-    SpringCloudAlibabaVersion = '2021.0.4.0'
+    springCloudStarterVersion = "4.0.2"
+    springCloudVersion = "2022.0.2"
+    SpringCloudAlibabaVersion = "2022.0.0.0-RC1"
 }
 
 dependencies {
@@ -21,12 +22,12 @@ dependencies {
 }
 
 subprojects {
-    apply plugin: 'java'
+    apply plugin: "java"
     dependencies {
-        implementation 'org.springframework.boot:spring-boot-starter-web'
-        testImplementation 'org.springframework.boot:spring-boot-starter-test'
-        compileOnly 'org.springframework.boot:spring-boot-devtools'
-        compileOnly 'org.projectlombok:lombok'
+        implementation "org.springframework.boot:spring-boot-starter-web"
+        testImplementation "org.springframework.boot:spring-boot-starter-test"
+        compileOnly "org.springframework.boot:spring-boot-devtools"
+        compileOnly "org.projectlombok:lombok"
     }
 }
 
@@ -44,4 +45,4 @@ test {
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
-[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+[compileJava, compileTestJava]*.options*.encoding = "UTF-8"

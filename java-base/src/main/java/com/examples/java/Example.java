@@ -15,8 +15,9 @@ import java.nio.charset.Charset;
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * 测试示例
@@ -27,8 +28,24 @@ import java.util.concurrent.ThreadPoolExecutor;
  */
 public class Example {
 
-    public static void main(String[] args) throws Exception {
+    private static final AtomicLong num = new AtomicLong(0);
 
+    public static void main(String[] args) throws Exception {
+        long beginTime = System.currentTimeMillis();
+        int nThreads = 100;
+        ExecutorService executor = new ThreadPoolExecutor(nThreads, nThreads, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
+        for (int i = 0; i < nThreads; i++) {
+            executor.execute(() -> {
+                for (int j = 0; j < 1000000; j++) {
+                    num.addAndGet(1);
+                }
+            });
+        }
+        executor.shutdown();
+        while (!executor.isTerminated()) {
+            Thread.sleep(1000);
+        }
+        System.out.println("main thread end, num = " + num.get() + ", use times " + (System.currentTimeMillis() - beginTime));
     }
 
 }

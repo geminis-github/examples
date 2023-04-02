@@ -11,6 +11,11 @@ docker volume rm $(docker volume list -q)
 2、docker run -p 6379:6379 --name redis -v /D/dev/docker/redis/data:/data -v /D/dev/docker/redis/conf/redis.conf:/etc/redis/redis.conf --restart=always -d redis redis-server
 
 # Mongodb
+docker pull mongo:latest
+docker run -itd --name mongo -p 27017:27017 mongo --auth
+docker exec -it mongo mongosh admin
+db.createUser({ user:'admin',pwd:'123456',roles:[ { role:'userAdminAnyDatabase', db: 'admin'},"readWriteAnyDatabase"]})
+db.auth('admin', '123456')
 
 # RocketMQ
 
@@ -21,8 +26,9 @@ docker volume rm $(docker volume list -q)
 4、docker run -d --name kafka --publish 9092:9092 --link zookeeper --env KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 --env KAFKA_ADVERTISED_HOST_NAME=GEMINIS --env KAFKA_ADVERTISED_PORT=9092 --env KAFKA_MESSAGE_MAX_BYTES=3145728 wurstmeister/kafka
 
 # Nacos
-1、docker pull nacos/nacos-server
-2、docker run --name nacos -d -p 8848:8848 -p 9848:9848 -p 9849:9849 --privileged=true --restart=always -e MODE=standalone -e PREFER_HOST_MODE=hostname nacos/nacos-server
+1、docker pull nacos/nacos-server:v2.2.1
+2、docker run --name nacos -d -p 8848:8848 -p 9848:9848 -p 9849:9849 --privileged=true --restart=always -e MODE=standalone -e PREFER_HOST_MODE=hostname nacos/nacos-server:v2.2.0
+2021.0.4.0 对应 v2.0.4
 
 # ElasticSearch
 1、docker pull elasticsearch:8.5.2

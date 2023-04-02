@@ -7,6 +7,7 @@ import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Component;
 import org.springframework.util.concurrent.ListenableFuture;
 
+import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 /**
@@ -28,7 +29,7 @@ public class ProducerMessage {
         // key可以根据时机情况进行设置
         String key = "simpleKey";
         // 发送消息
-        ListenableFuture<SendResult<String, String>> future = kafkaTemplate.send(TOPIC_NAME, key, message);
+        CompletableFuture<SendResult<String, String>> future = kafkaTemplate.send(TOPIC_NAME, key, message);
         try {
             SendResult<String, String> sendResult = future.get();
             log.info("send message success = {}, result = {}", message, sendResult);

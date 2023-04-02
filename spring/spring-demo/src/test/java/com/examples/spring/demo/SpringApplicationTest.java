@@ -38,8 +38,7 @@ public class SpringApplicationTest {
 
     @Test
     public void test02() {
-        BeanPostProcessor beanPostProcessor;
-        ApplicationContextAware applicationContextAware;
+
     }
 
 }

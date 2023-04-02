@@ -16,9 +16,12 @@ spring:
       transport:
         dashboard: localhost:8080
       eager: true
+    openfeign:
+      lazy-attributes-resolution: true # the bug see https://github.com/alibaba/spring-cloud-alibaba/issues/3024
 # server
 server:
   port: 9200
 feign:
   sentinel:
     enabled: true # 开启服务降级
+

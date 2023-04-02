@@ -9,32 +9,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="保存sql，归类版本">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker_install.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/docker_install.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/docker_install.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/docker_install.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-elasticsearch/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-data-elasticsearch/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-elasticsearch/src/main/java/com/examples/spring/boot/es/ElasticSearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-data-elasticsearch/src/main/java/com/examples/spring/boot/data/elasticsearch/ElasticSearchApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-elasticsearch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-data-elasticsearch/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-elasticsearch/src/test/java/com/examples/spring/boot/es/ElasticSearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-data-elasticsearch/src/test/java/com/examples/spring/boot/data/elasticsearch/ElasticSearchApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/example/spring/boot/mybatis/plus/MyBatisPlusApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/example/spring/boot/mybatis/plus/config/DruidConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/example/spring/boot/mybatis/plus/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/example/spring/boot/mybatis/plus/entity/BaseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/example/spring/boot/mybatis/plus/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/config/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/dao/UserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/sql/sample.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/sql/test_user.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/example/spring/boot/mybatis/plus/MyBatisPlusApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/spring-boot-web-info-level.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/spring-boot-web-info-level.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/spring-boot-web-info-threshold.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/spring-boot-web-info-threshold.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/spring-boot-web.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/spring-boot-web.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-aop/src/main/java/com/examples/spring/boot/aop/AopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-aop/src/main/java/com/examples/spring/boot/data/mongodb/AopApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-aop/src/main/java/com/examples/spring/boot/aop/CustomAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-aop/src/main/java/com/examples/spring/boot/data/mongodb/CustomAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-aop/src/main/java/com/examples/spring/boot/aop/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-aop/src/main/java/com/examples/spring/boot/data/mongodb/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/ProducerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/src/main/java/com/examples/spring/boot/kafka/ProducerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/backup/2023-03/spring-boot-web-2023-03-07_1.log.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/backup/2023-03/spring-boot-web-2023-03-30_1.log.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/backup/2023-03/spring-boot-web-info-level-2023-03-07_1.log.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/backup/2023-03/spring-boot-web-info-level-2023-03-30_1.log.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/backup/2023-03/spring-boot-web-info-threshold-2023-03-07_1.log.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/backup/2023-03/spring-boot-web-info-threshold-2023-03-30_1.log.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/spring-boot-web-info-level.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/spring-boot-web-info-threshold.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/logs/spring-boot-web/spring-boot-web.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/log-template01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/log-template02.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/src/main/java/com/examples/spring/cloud/nacos/discovery/provider/EchoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/src/main/java/com/examples/spring/cloud/nacos/discovery/provider/EchoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-demo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring-demo/src/test/java/com/examples/spring/demo/SpringApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-demo/src/test/java/com/examples/spring/demo/SpringApplicationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +111,15 @@
         <task path="$PROJECT_DIR$/spring-boot/spring-boot-data-elasticsearch">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/spring-boot/spring-boot-kafka">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -113,20 +130,24 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-boot" type="f1a62948:ProjectNode" />
-                <item name="spring-boot-data-elasticsearch" type="2d1252cf:ModuleNode" />
+                <item name="spring-boot-kafka" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-boot" type="f1a62948:ProjectNode" />
-                <item name="spring-boot-data-elasticsearch" type="2d1252cf:ModuleNode" />
+                <item name="spring-boot-kafka" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-boot" type="f1a62948:ProjectNode" />
-                <item name="spring-boot-data-elasticsearch" type="2d1252cf:ModuleNode" />
+                <item name="spring-boot-kafka" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-cloud" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -149,6 +170,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -163,41 +191,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Notification.DoNotAsk-null": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Projects/ideaProjects/spring-boot",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "0e419b0bb5f0fff7d6016b1375a2508f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Notification.DoNotAsk-null&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/ideaProjects/examples&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Projects/ideaProjects/examples/spring-boot/spring-boot-log4j2/src/main/java/com/examples/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b05ae936249d2aaea5c0d35e9f12ca05&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "MySQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
@@ -211,6 +240,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\ideaProjects\examples\spring-boot\spring-boot-log4j2\src\main\resources" />
+      <recent name="D:\Projects\ideaProjects\examples\spring-boot\spirng-boot-mongodb" />
       <recent name="D:\Projects\ideaProjects\examples\spring-boot\spring-boot-mybatis-tk\src\main\resources" />
       <recent name="D:\Projects\ideaProjects\examples\spring-boot\spring-boot-mybatis-tk\src\main\resources\config" />
       <recent name="D:\Projects\ideaProjects\examples\spring-boot\spring-boot-test\src\main\resources" />
@@ -220,15 +251,15 @@
       <recent name="D:\Projects\ideaProjects\examples\spring-boot\spring-boot-web\src\main\docker" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.examples.spring.boot.log4j2" />
       <recent name="com.examples.java.design.adapter" />
       <recent name="com.examples.java" />
       <recent name="com.examples.java.design.builder" />
       <recent name="com.examples.spring.boot.mybatis.tk.common" />
-      <recent name="com.examples.spring.boot.mybatis.tk.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ElasticSearchApplicationTests.test01">
-    <configuration name="ElasticSearchApplicationTests.test01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MyBatisTkApplicationTests.test01">
+    <configuration name="MongodbApplicationTests.removeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot" />
@@ -239,9 +270,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":spring-boot-data-elasticsearch:test" />
+            <option value=":spirng-boot-data-mongodb:test" />
             <option value="--tests" />
-            <option value="&quot;com.examples.spring.boot.data.elasticsearch.ElasticSearchApplicationTests.test01&quot;" />
+            <option value="&quot;com.examples.spring.boot.data.mongodb.MongodbApplicationTests.removeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -252,7 +283,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MyBatisTkApplicationTests.insertUserData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MyBatisTkApplicationTests.test01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot" />
@@ -265,7 +296,7 @@
           <list>
             <option value=":spring-boot-mybatis-tk:test" />
             <option value="--tests" />
-            <option value="&quot;com.examples.spring.boot.mybatis.tk.MyBatisTkApplicationTests.insertUserData&quot;" />
+            <option value="&quot;com.examples.spring.boot.mybatis.tk.MyBatisTkApplicationTests.test01&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -276,10 +307,10 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="spring-boot:spring-boot-data-elasticsearch [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="spring-boot:spring-boot-kafka [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot/spring-boot-data-elasticsearch" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot/spring-boot-kafka" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -298,10 +329,10 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="spring-boot:spring-boot-data-elasticsearch [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="spring-boot:spring-boot-kafka [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot/spring-boot-data-elasticsearch" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot/spring-boot-kafka" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -319,6 +350,43 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
+    </configuration>
+    <configuration name="SpringApplicationTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring.spring-demo.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.examples.spring.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.examples.spring.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.examples.spring.demo.SpringApplicationTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot.spirng-boot-mongodb.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.aop.AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot.spirng-boot-data-mongodb.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.aop.AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot.spring-boot-aop.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.data.mongodb.AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot.spring-boot-aop.main" />
@@ -341,15 +409,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="KafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot.spring-boot-kafka.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.kafka.KafkaApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.examples.spring.boot.kafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Log4j2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot.spring-boot-log4j2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.log4j2.Log4j2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongodbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot.spirng-boot-data-mongodb.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.data.mongodb.MongodbApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -403,13 +479,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot.spring-boot-web.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.web.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ElasticSearchApplicationTests.test01" />
-        <item itemvalue="Gradle.spring-boot:spring-boot-data-elasticsearch [build]" />
-        <item itemvalue="Gradle.spring-boot:spring-boot-data-elasticsearch [clean]" />
-        <item itemvalue="Spring Boot.KafkaApplication" />
-        <item itemvalue="Gradle.MyBatisTkApplicationTests.insertUserData" />
+        <item itemvalue="Gradle.MyBatisTkApplicationTests.test01" />
+        <item itemvalue="JUnit.SpringApplicationTest.test01" />
+        <item itemvalue="Gradle.spring-boot:spring-boot-kafka [build]" />
+        <item itemvalue="Gradle.spring-boot:spring-boot-kafka [clean]" />
+        <item itemvalue="Gradle.MongodbApplicationTests.removeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +608,13 @@
       <workItem from="1680266865005" duration="1206000" />
       <workItem from="1680268247016" duration="24669000" />
       <workItem from="1680353330644" duration="4385000" />
-      <workItem from="1680357890064" duration="2082000" />
+      <workItem from="1680357890064" duration="4279000" />
+      <workItem from="1680362181299" duration="10349000" />
+      <workItem from="1680377660717" duration="1614000" />
+      <workItem from="1680379533804" duration="3790000" />
+      <workItem from="1680437439331" duration="835000" />
+      <workItem from="1680438606283" duration="94000" />
+      <workItem from="1680438881418" duration="3024000" />
     </task>
     <task id="LOCAL-00001" summary="规范化项目提交文件">
       <created>1668312742196</created>
@@ -624,6 +713,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ID_ORDER">
       <list>
@@ -665,9 +757,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-boot/spring-boot-data-redis/src/test/java/com/examples/spring/boot/data/redis/RedisApplicationTests.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/spring-boot/spring-boot-log4j2/src/main/java/com/examples/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

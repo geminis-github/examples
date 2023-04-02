@@ -1,19 +1,19 @@
 plugins {
-    id 'org.springframework.boot'
-    id 'io.spring.dependency-management'
-    id 'java'
+    id "org.springframework.boot"
+    id "io.spring.dependency-management"
+    id "java"
 }
 
-group 'com.examples'
-version '1.0-SNAPSHOT'
+group "com.examples"
+version "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation 'org.springframework.cloud:spring-cloud-starter-loadbalancer:3.1.5' // 这里不引入这个依赖就会报错（只引入alibaba的依赖不引入spring-cloud的依赖）
-    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2021.0.4.0'
+    implementation "org.springframework.cloud:spring-cloud-starter-loadbalancer:${springCloudStarterVersion}" // 这里不引入这个依赖就会报错（只引入alibaba的依赖不引入spring-cloud的依赖）
+    implementation "com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:${SpringCloudAlibabaVersion}"
 }
 
 test {

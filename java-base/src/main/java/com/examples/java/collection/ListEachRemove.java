@@ -43,14 +43,14 @@ public class ListEachRemove {
      */
     public static void remove02() {
         List<String> list = new ArrayList(initList);
-        // for
+        // for删除
 //        for (Iterator<String> iterator = list.iterator(); iterator.hasNext(); ) {
 //            String str = iterator.next();
 //            if (str.startsWith("李")) {
 //                iterator.remove();
 //            }
 //        }
-        // while
+        // while删除
         Iterator<String> iterator = list.iterator();
         while (iterator.hasNext()) {
             String str = iterator.next();
