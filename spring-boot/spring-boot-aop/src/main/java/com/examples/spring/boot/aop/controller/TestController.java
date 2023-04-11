@@ -1,4 +1,4 @@
-package com.examples.spring.boot.data.mongodb.controller;
+package com.examples.spring.boot.aop.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

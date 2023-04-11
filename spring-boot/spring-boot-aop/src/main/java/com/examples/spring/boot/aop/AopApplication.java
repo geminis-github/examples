@@ -1,4 +1,4 @@
-package com.examples.spring.boot.data.mongodb;
+package com.examples.spring.boot.aop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

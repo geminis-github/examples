@@ -1,8 +1,7 @@
-package com.examples.spring.boot.data.mongodb;
+package com.examples.spring.boot.aop;
 
-import com.examples.spring.boot.data.mongodb.entity.Book;
+import com.examples.spring.boot.aop.entity.Book;
 import com.mongodb.client.result.DeleteResult;
-import com.mongodb.internal.bulk.DeleteRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

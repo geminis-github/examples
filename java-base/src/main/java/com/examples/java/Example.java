@@ -18,6 +18,9 @@ import java.util.Map;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.LongAdder;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * 测试示例
@@ -28,24 +31,13 @@ import java.util.concurrent.atomic.AtomicLong;
  */
 public class Example {
 
-    private static final AtomicLong num = new AtomicLong(0);
-
-    public static void main(String[] args) throws Exception {
-        long beginTime = System.currentTimeMillis();
-        int nThreads = 100;
-        ExecutorService executor = new ThreadPoolExecutor(nThreads, nThreads, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
-        for (int i = 0; i < nThreads; i++) {
-            executor.execute(() -> {
-                for (int j = 0; j < 1000000; j++) {
-                    num.addAndGet(1);
-                }
-            });
-        }
-        executor.shutdown();
-        while (!executor.isTerminated()) {
-            Thread.sleep(1000);
-        }
-        System.out.println("main thread end, num = " + num.get() + ", use times " + (System.currentTimeMillis() - beginTime));
+    public static void main(String[] args) {
+        Stream.of("a", "bb", "ccc", "dddd")
+                .filter(e -> e.length() > 3)
+                .peek(e -> System.out.println("Filtered value: " + e))
+                .map(String::toUpperCase)
+                .peek(e -> System.out.println("Mapped value: " + e))
+                .collect(Collectors.toList());
     }
 
 }

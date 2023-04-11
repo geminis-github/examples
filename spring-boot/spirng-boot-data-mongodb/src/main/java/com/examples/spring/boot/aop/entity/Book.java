@@ -1,4 +1,4 @@
-package com.examples.spring.boot.data.mongodb.entity;
+package com.examples.spring.boot.aop.entity;
 
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.MongoId;

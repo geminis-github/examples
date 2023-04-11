@@ -14,6 +14,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.beans.BeanInfo;
+import java.beans.IntrospectionException;
+import java.beans.Introspector;
+import java.util.stream.Stream;
+
 /**
  * 测试用例类，此测试用例无法使用gradle运行，需要在 Build Tools里面配置使用IDEA启动，具体参考下方的文档
  *
@@ -37,8 +42,11 @@ public class SpringApplicationTest {
     }
 
     @Test
-    public void test02() {
-
+    public void test02() throws IntrospectionException {
+        BeanInfo beanInfo = Introspector.getBeanInfo(Person.class);
+        Stream.of(beanInfo.getPropertyDescriptors()).forEach(propertyDescriptor -> {
+            System.out.println(propertyDescriptor);
+        });
     }
 
 }

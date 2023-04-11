@@ -1,4 +1,4 @@
-package com.examples.spring.boot.data.mongodb;
+package com.examples.spring.boot.aop;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
