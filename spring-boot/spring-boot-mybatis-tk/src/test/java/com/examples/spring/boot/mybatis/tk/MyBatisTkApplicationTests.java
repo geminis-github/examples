@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.util.Assert;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -58,7 +59,7 @@ public class MyBatisTkApplicationTests {
         }
         @Override
         public void run() {
-            int step = 4000;
+            int step = 400;
             int start = step * (num + 1);
             for (int i = (start - step); i < start; i++) {
                 User user = buildUser(i);

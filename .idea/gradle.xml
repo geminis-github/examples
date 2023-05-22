@@ -4,8 +4,9 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/Gradle/gradle-8.1.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -13,8 +14,9 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/java-base" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/Gradle/gradle-8.1.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java-base" />
@@ -23,8 +25,9 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/Gradle/gradle-8.1.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/spring" />
@@ -33,8 +36,9 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/Gradle/gradle-8.1.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/spring-boot" />
@@ -53,8 +57,9 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring-cloud" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/gradle" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../dev/Gradle/gradle-8.1.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/spring-cloud" />

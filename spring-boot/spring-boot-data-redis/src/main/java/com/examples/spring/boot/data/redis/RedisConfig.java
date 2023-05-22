@@ -51,12 +51,12 @@ public class RedisConfig {
         redisTemplate.setKeySerializer(stringRedisSerializer);
         // 普通hash类型的key也使用 普通序列化方式
         redisTemplate.setHashKeySerializer(stringRedisSerializer);
-        // 解决查询缓存转换异常的问题  大家不能理解就直接用就可以了 这是springboot自带的jackson序列化类，但是会有一定问题
-        Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);
+        // 对象映射
         ObjectMapper om = new ObjectMapper();
         om.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
         om.activateDefaultTyping(new DefaultBaseTypeLimitingValidator(), ObjectMapper.DefaultTyping.NON_FINAL);
-        jackson2JsonRedisSerializer.setObjectMapper(om);
+        // 解决查询缓存转换异常的问题  大家不能理解就直接用就可以了 这是springboot自带的jackson序列化类，但是会有一定问题
+        Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(om, Object.class);
         // 普通的值采用jackson方式自动序列化
         redisTemplate.setValueSerializer(jackson2JsonRedisSerializer);
         // hash类型的值也采用jackson方式序列化

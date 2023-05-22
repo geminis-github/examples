@@ -18,7 +18,7 @@ public class ListDuplicatedRemove {
     /**
      * 3 个张三，2 个李强
      */
-    private static List<String> initList = Arrays.asList(
+    private static final List<String> initList = Arrays.asList(
             "张三",
             "李四",
             "张三",

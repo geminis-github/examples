@@ -18,6 +18,10 @@ db.createUser({ user:'admin',pwd:'123456',roles:[ { role:'userAdminAnyDatabase',
 db.auth('admin', '123456')
 
 # RocketMQ
+1、docker pull rocketmqinc/rocketmq:4.4.0
+2、docker run -d --restart=always --name rocketmq --privileged=true -p 9876:9876  -v /D/dev/docker/rocketmq/nameserver/logs:/root/logs -v /D/dev/docker/rocketmq/nameserver/store:/root/store -e "MAX_POSSIBLE_HEAP=100000000" rocketmqinc/rocketmq sh mqnamesrv
+3、docker pull pangliang/rocketmq-console-ng
+4、docker run -d --restart=always --name rocketmq-admin -e "JAVA_OPTS=-Drocketmq.namesrv.addr=172.17.0.2:9876 -Dcom.rocketmq.sendMessageWithVIPChannel=false" -p 12306:8080 pangliang/rocketmq-console-ng
 
 # Kafka
 1、docker pull wurstmeister/zookeeper
@@ -26,7 +30,7 @@ db.auth('admin', '123456')
 4、docker run -d --name kafka --publish 9092:9092 --link zookeeper --env KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 --env KAFKA_ADVERTISED_HOST_NAME=GEMINIS --env KAFKA_ADVERTISED_PORT=9092 --env KAFKA_MESSAGE_MAX_BYTES=3145728 wurstmeister/kafka
 
 # Nacos
-1、docker pull nacos/nacos-server:v2.2.1
+1、docker pull nacos/nacos-server:v2.2.0
 2、docker run --name nacos -d -p 8848:8848 -p 9848:9848 -p 9849:9849 --privileged=true --restart=always -e MODE=standalone -e PREFER_HOST_MODE=hostname nacos/nacos-server:v2.2.0
 2021.0.4.0 对应 v2.0.4
 
