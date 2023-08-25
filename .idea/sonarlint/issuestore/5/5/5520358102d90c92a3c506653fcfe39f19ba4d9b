@@ -1,0 +1,11 @@
+
+k
+java:S2095,"PUse try-with-resources or close this "ThreadPoolExecutor" in a "finally" clause.(äöî×úÿÿÿÿ
+:
+java:S5164"$Call "remove()" on "threadLocalImp".(ÁëÿÄ
+\
+java:S4065"FReplace this anonymous class with a call to "ThreadLocal.withInitial".(ÁëÿÄ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(ð–Ú‹øÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(è˜ƒ‡
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(Ö’ô½ùÿÿÿÿ
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(­–ï³ùÿÿÿÿ

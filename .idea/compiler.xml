@@ -3,7 +3,39 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../dev/Repositorys/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
+        </processorPath>
+        <module name="spring-boot.spring-boot-rocketmq.test" />
+        <module name="spring-boot.spirng-boot-data-mongodb.main" />
+        <module name="spring-boot.spring-boot-common.test" />
+        <module name="spring-boot.spring-boot-security.test" />
+        <module name="spring-boot.spring-boot-web.main" />
+        <module name="spring-boot.spring-boot-security.main" />
+        <module name="spring-boot.spring-boot-test.main" />
+        <module name="spring-boot.spring-boot-common.main" />
+        <module name="spring-boot.spring-boot-mybatis-plus.main" />
+        <module name="spring-boot.spring-boot-aop.main" />
+        <module name="spring-boot.spring-boot-kafka.main" />
+        <module name="spring-boot.spring-boot-mybatis-tk.main" />
+        <module name="spring-boot.spring-boot-data-elasticsearch.test" />
+        <module name="spring-boot.spring-boot-data-redis.main" />
+        <module name="spring-boot.spring-boot-test.test" />
+        <module name="spring-boot.spring-boot-data-elasticsearch.main" />
+        <module name="spring-boot.spring-boot-log4j2.main" />
+        <module name="spring-boot.spring-boot-web.test" />
+        <module name="spring-boot.spring-boot-mybatis-tk.test" />
+        <module name="spring-boot.spring-boot-log4j2.test" />
+        <module name="spring-boot.spring-boot-rocketmq.main" />
+        <module name="spring-boot.spring-boot-kafka.test" />
+        <module name="spring-boot.spring-boot-aop.test" />
+        <module name="spring-boot.spring-boot-data-redis.test" />
+        <module name="spring-boot.spirng-boot-data-mongodb.test" />
+        <module name="spring-boot.spring-boot-mybatis-plus.test" />
+      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="20" />
   </component>
 </project>

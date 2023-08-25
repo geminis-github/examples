@@ -1,5 +1,8 @@
 package com.examples.java;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * 测试示例
  *
@@ -9,8 +12,10 @@ package com.examples.java;
  */
 public class Example {
 
-    public static void main(String[] args) {
+    private static final Logger log = LoggerFactory.getLogger(Example.class);
 
+    public static void main(String[] args) {
+        log.info("hello {}", "jack");
     }
 
 }

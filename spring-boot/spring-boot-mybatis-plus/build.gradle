@@ -1,0 +1,24 @@
+plugins {
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
+    id 'java'
+}
+
+group = 'com.examples'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // 引入common项目
+    implementation project(':spring-boot-common')
+    implementation 'mysql:mysql-connector-java:8.0.31'
+    implementation 'com.alibaba:druid-spring-boot-starter:1.2.15'
+    implementation 'com.baomidou:mybatis-plus-boot-starter:3.5.3'
+}
+
+test {
+    useJUnitPlatform()
+}

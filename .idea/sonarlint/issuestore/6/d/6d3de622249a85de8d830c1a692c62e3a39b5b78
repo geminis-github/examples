@@ -1,0 +1,31 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(å©´“
+h
+java:S2095B"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(ÀŞ›ºûÿÿÿÿ
+=
+java:S2189/""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+=
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+t
+java:S2142""^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ùùƒ¾
+t
+java:S21425"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(”àÍ·
+4
+java:S2119>"Save and re-use this "Random".(æèÈò
+Œ
+java:S1130A"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú7
+6
+java:S2438D""Argument 1" is a "Thread".(›»æ½ıÿÿÿÿ
+6
+java:S2438E""Argument 1" is a "Thread".(·¥‰Ñÿÿÿÿÿ
+6
+java:S2438G""Argument 1" is a "Thread".(åóıûÿÿÿÿ
+1
+java:S2438H""Argument 1" is a "Thread".(™ïğ¹
+1
+java:S2438I""Argument 1" is a "Thread".(úŠÁî
+>	java:S108K")Either remove or fill this block of code.(»‡í
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(ğª‡æ

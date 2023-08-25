@@ -1,0 +1,8 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆñ÷–şÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(„›Ë
+S	java:S106"9Replace this use of System.out or System.err by a logger.(«ƒª§úÿÿÿÿ
+Q
+java:S1128";Remove this unused import 'cn.hutool.core.clone.Cloneable'.(Õò©õ
+F
+java:S1128"+Remove this unused import 'java.io.Serial'.(Ö£€şÿÿÿÿ

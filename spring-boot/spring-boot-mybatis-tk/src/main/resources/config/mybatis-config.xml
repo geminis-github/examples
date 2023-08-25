@@ -5,7 +5,7 @@
     <!-- 全局参数 -->
     <settings>
         <!-- 打印查询语句 -->
-<!--        <setting name="logImpl" value="STDOUT_LOGGING" />-->
+        <setting name="logImpl" value="STDOUT_LOGGING" />
         <!-- 使用全局的映射器启用或者禁用缓存。 -->
         <setting name="cacheEnabled" value="true"/>
         <!-- 全局启用或禁用延时加载，当禁用时，所有关联对象都会即时加载。 -->

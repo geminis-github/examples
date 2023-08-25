@@ -1,7 +1,7 @@
 package com.examples.java.concurrent.util;
 
-import java.util.Random;
-import java.util.concurrent.*;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ExecutionException;
 
 /**
  * CountDownLatch使用示例

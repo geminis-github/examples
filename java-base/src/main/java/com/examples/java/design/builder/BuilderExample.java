@@ -13,6 +13,7 @@ public class BuilderExample {
         UserInfo target = UserInfo.builder()
                 .name("jack")
                 .build();
+        System.out.println(target);
     }
 
 }

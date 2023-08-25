@@ -1,7 +1,11 @@
 package com.examples.spring.boot.mybatis.tk.entity;
 
 import com.examples.spring.boot.mybatis.tk.common.BaseEntity;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Table;
 import java.math.BigDecimal;

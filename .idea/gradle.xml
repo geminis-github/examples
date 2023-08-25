@@ -49,7 +49,9 @@
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-data-redis" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-kafka" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-log4j2" />
+            <option value="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk" />
+            <option value="$PROJECT_DIR$/spring-boot/spring-boot-rocketmq" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-security" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-test" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-web" />

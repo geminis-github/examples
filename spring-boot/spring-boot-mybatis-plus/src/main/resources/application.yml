@@ -1,0 +1,8 @@
+# spring配置
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://geminis:3306/example?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource

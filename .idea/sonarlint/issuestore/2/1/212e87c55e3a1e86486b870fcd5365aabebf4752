@@ -1,0 +1,8 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(â¡’Îùÿÿÿÿ
+n
+java:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âù§šýÿÿÿÿ
+r
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(âù§šýÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(âù§šýÿÿÿÿ

@@ -1,0 +1,23 @@
+
+t
+java:S2142("^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(ΉΦ‹σ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(υξ‡βÿÿÿÿÿ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(ΎΏβÿόÿÿÿÿ
+t
+java:S2142>"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€
+Y
+java:S11555">Use isEmpty() to check whether the collection is empty or not.(§ΘΫόÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(ΏςΏ
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(¦»
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(©Ϋ‰ωÿÿÿÿ
+h
+java:S3776E"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ηµν‘
+t
+java:S2142M"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€
+t
+java:S2142X"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€
+t
+java:S2142d"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€
+t
+java:S2142o"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(δ Ή€

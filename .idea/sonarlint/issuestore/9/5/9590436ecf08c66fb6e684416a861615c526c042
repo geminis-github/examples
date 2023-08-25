@@ -1,0 +1,6 @@
+
+<
+java:S1905"&Remove this unnecessary cast to "int".(ØÎÀò
+N	java:S106"9Replace this use of System.out or System.err by a logger.(˜¾Ñû
+C	java:S108 ")Either remove or fill this block of code.(Ö×ùÓþÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(¶ÅèŠÿÿÿÿÿ

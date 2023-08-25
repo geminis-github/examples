@@ -1,6 +1,11 @@
 package com.examples.java.concurrent;
 
-import java.util.concurrent.*;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.RejectedExecutionHandler;
+import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -42,20 +47,21 @@ public class ThreadFactoryAndExecutorExample {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        // 核心线程数量
+        // 1、核心线程数量
         int corePoolSize = 2;
-        // 最大线程数量
+        // 2、最大线程数量
         int maximumPoolSize = 5;
-        // 存活时间
+        // 3、存活时间
         int keepAliveTime = 60;
-        // 存活时间单位
+        // 4、存活时间单位
         TimeUnit unit = TimeUnit.SECONDS;
-        // 阻塞队列
+        // 5、阻塞队列
         BlockingQueue<Runnable> workQueue = new ArrayBlockingQueue<>(3);
-        // 自定义的ThreadFactory
+        // 6、自定义的ThreadFactory
         ThreadFactory threadFactory = new SimpleThreadFactory();
-        // 自定义拒绝策略
+        // 7、自定义拒绝策略
         RejectedExecutionHandler handler = new SimpleRejectedExecutionHandler();
+        // 构建线程池
         ThreadPoolExecutor executor = new ThreadPoolExecutor(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue, threadFactory, handler);
         for (int i = 0; i < 15; i++) {
             executor.execute(() -> {

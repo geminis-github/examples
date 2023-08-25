@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-base.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-base.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spirng-boot-data-mongodb/spring-boot.spirng-boot-data-mongodb.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spirng-boot-data-mongodb/spring-boot.spirng-boot-data-mongodb.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spirng-boot-data-mongodb/spring-boot.spirng-boot-data-mongodb.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spirng-boot-data-mongodb/spring-boot.spirng-boot-data-mongodb.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-aop/spring-boot.spring-boot-aop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-aop/spring-boot.spring-boot-aop.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-data-elasticsearch/spring-boot.spring-boot-data-elasticsearch.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-data-elasticsearch/spring-boot.spring-boot-data-elasticsearch.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-data-elasticsearch/spring-boot.spring-boot-data-elasticsearch.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-data-elasticsearch/spring-boot.spring-boot-data-elasticsearch.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-data-redis/spring-boot.spring-boot-data-redis.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-data-redis/spring-boot.spring-boot-data-redis.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-data-redis/spring-boot.spring-boot-data-redis.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-data-redis/spring-boot.spring-boot-data-redis.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-kafka/spring-boot.spring-boot-kafka.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-kafka/spring-boot.spring-boot-kafka.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-log4j2/spring-boot.spring-boot-log4j2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-log4j2/spring-boot.spring-boot-log4j2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-common/spring-boot.spring-boot-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-common/spring-boot.spring-boot-common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-mybatis-tk/spring-boot.spring-boot-mybatis-tk.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-mybatis-tk/spring-boot.spring-boot-mybatis-tk.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-mybatis-tk/spring-boot.spring-boot-mybatis-tk.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-mybatis-tk/spring-boot.spring-boot-mybatis-tk.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-security/spring-boot.spring-boot-security.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-security/spring-boot.spring-boot-security.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-test/spring-boot.spring-boot-test.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-test/spring-boot.spring-boot-test.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-test/spring-boot.spring-boot-test.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-test/spring-boot.spring-boot-test.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-web/spring-boot.spring-boot-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-web/spring-boot.spring-boot-web.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-demo/spring.spring-demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-demo/spring.spring-demo.main.iml" />
     </modules>

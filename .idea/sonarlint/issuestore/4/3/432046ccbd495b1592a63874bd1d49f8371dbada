@@ -1,0 +1,12 @@
+
+c
+java:S2095%"HUse try-with-resources or close this "Connection" in a "finally" clause.(¹»­èúÿÿÿÿ
+j
+java:S2095*"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊŞûÿÿÿÿ
+Z
+java:S21479"DCombine this catch with the one at line 55, which has the same body.(É®£
+H
+java:S4925#"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+Q
+java:S6437%"6Revoke and change this password, as it is compromised.(¹»­èúÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(ë¾¨‘ûÿÿÿÿ

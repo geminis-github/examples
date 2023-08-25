@@ -1,7 +1,10 @@
 package com.examples.java.concurrent.util;
 
 import java.util.Random;
-import java.util.concurrent.*;
+import java.util.concurrent.CyclicBarrier;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 /**
  * CyclicBarrier使用示例（比CountDownLatch好的地方是可以重复使用）

@@ -1,0 +1,17 @@
+
+K
+java:S3740Â"/Provide the parametrized type for this generic.(¦İ§‰ûÿÿÿÿ
+n
+java:S1192Z"SDefine a constant instead of duplicating this literal "æ— å…ƒç´ å¯åˆ é™¤" 3 times.(£óÀ°ÿÿÿÿÿ
+v
+java:S1149¦"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(£óÀ°ÿÿÿÿÿ
+S	java:S106s"9Replace this use of System.out or System.err by a logger.(£óÀ°ÿÿÿÿÿ
+T	java:S106‚"9Replace this use of System.out or System.err by a logger.(£óÀ°ÿÿÿÿÿ
+T	java:S106Å"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+T	java:S106Ê"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+T	java:S106Ì"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+T	java:S106Í"9Replace this use of System.out or System.err by a logger.(¶ÇÎ©ÿÿÿÿÿ
+T	java:S106Î"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+T	java:S106Ï"9Replace this use of System.out or System.err by a logger.(º¶øúÿÿÿÿÿ
+T	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ

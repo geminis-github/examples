@@ -1,0 +1,11 @@
+
+n
+java:S2975<"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(ƒäğŞøÿÿÿÿ
+“
+java:S1130X"}Remove the declaration of thrown exception 'java.lang.CloneNotSupportedException', as it cannot be thrown from method's body.(ìÄ­¿
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(Ó¼ÿÿÿÿÿ
+S	java:S106b"9Replace this use of System.out or System.err by a logger.(Ò˜İŸşÿÿÿÿ
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(·ïî¡üÿÿÿÿ
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(õÔ©Ø
+N	java:S106f"9Replace this use of System.out or System.err by a logger.(´ç¤¯
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(¬Û¯§üÿÿÿÿ

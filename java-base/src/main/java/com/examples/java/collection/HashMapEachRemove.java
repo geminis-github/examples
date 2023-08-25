@@ -57,7 +57,7 @@ public class HashMapEachRemove {
     /**
      * 使用 Iterator 迭代器删除
      */
-    public void remove3() {
+    public void remove03() {
         Iterator<Map.Entry<String, String>> iterator = initMap.entrySet().iterator();
         while (iterator.hasNext()) {
             Map.Entry<String, String> entry = iterator.next();

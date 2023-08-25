@@ -1,0 +1,9 @@
+
+f
+java:S2095@"PUse try-with-resources or close this "ThreadPoolExecutor" in a "finally" clause.(ö÷¸È
+N	java:S106"9Replace this use of System.out or System.err by a logger.(’Ô„
+Œ
+java:S11301"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú7
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(›óš¼üÿÿÿÿ
+t
+java:S2142F"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€

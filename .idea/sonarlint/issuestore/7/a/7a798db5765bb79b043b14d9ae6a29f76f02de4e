@@ -1,0 +1,21 @@
+
+e
+java:S2095""OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(²ƒèû
+f
+java:S2095"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(çí“”
+V
+java:S1854#"@Remove this useless assignment to local variable "readerFriend".(¬¾ñ¡
+V
+java:S1854"ARemove this useless assignment to local variable "forNameFriend".(‚ ®
+\
+java:S1854"ARemove this useless assignment to local variable "reflectFriend".(éÜç¢ûÿÿÿÿ
+U
+java:S1854"?Remove this useless assignment to local variable "cloneFriend".(‡ÑÜü
+F
+java:S1481"0Remove this unused "cloneFriend" local variable.(‡ÑÜü
+M
+java:S1481"2Remove this unused "reflectFriend" local variable.(éÜç¢ûÿÿÿÿ
+G
+java:S1481"2Remove this unused "forNameFriend" local variable.(‚ ®
+G
+java:S1481#"1Remove this unused "readerFriend" local variable.(¬¾ñ¡

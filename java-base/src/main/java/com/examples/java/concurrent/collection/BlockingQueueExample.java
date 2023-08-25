@@ -1,8 +1,11 @@
 package com.examples.java.concurrent.collection;
 
 import java.util.Random;
-import java.util.concurrent.*;
-
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 阻塞容器模拟生产者消费者

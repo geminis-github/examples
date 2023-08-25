@@ -1,0 +1,15 @@
+
+t
+java:S1192"YDefine a constant instead of duplicating this literal "########################" 3 times.(ª³ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ª³ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(úÛæ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆä“·üÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(•ÄÕı
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ª³ùÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(úÛæ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ˆä“·üÿÿÿÿ
+N	java:S106("9Replace this use of System.out or System.err by a logger.(•ÄÕı
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(ª³ùÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(úÛæ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(ˆä“·üÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(•ÄÕı
