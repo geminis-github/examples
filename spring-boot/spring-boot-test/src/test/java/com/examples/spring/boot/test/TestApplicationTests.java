@@ -27,7 +27,7 @@ class TestApplicationTests {
         Machine spy = spy(machine);
         when(spy.getName()).thenReturn("Mark");
         System.out.println(spy.getName());
-        Assert.notNull(spy.getName(), "machine name can't be blank.");
+        Assert.notNull(spy.getName(), "The device name cannot be blank.");
     }
 
 }

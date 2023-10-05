@@ -16,7 +16,7 @@ public class Singleton01Hungry {
      */
     private Singleton01Hungry() {
         // 抛出异常防止通过反射创建实例
-        throw new RuntimeException("Instance creation is not allowed");
+        throw new RuntimeException("Instance creation is not allowed.");
     }
 
     /**

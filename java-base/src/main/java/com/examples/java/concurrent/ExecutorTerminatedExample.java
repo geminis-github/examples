@@ -29,12 +29,12 @@ public class ExecutorTerminatedExample {
         }
         // 使用isTerminated的前提是调用了shutdown方法，否则会导致死锁
         exec.shutdown();
-        // 循环判断线程池任务是否完成
+        // 第一种方式：循环判断线程池任务是否完成
 //        while (!exec.isTerminated()) {
 //            TimeUnit.SECONDS.sleep(1);
 //            System.out.println("检查是否执行完成。。。");
 //        }
-        // 等待100秒(结束条件: 执行完成,超时,抛出异常)
+        // 第二种方式：等待100秒(结束条件: 执行完成、超时、抛出异常)
         exec.awaitTermination(100, TimeUnit.SECONDS);
         System.out.println("任务执行完成，主线程结束");
     }

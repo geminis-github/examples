@@ -51,7 +51,9 @@ public class ExecutorServiceExample {
         for (int i = 0; i < size; i++) {
             exec.execute(searchTask);
         }
+        // 关闭线程池
         exec.shutdown();
+        // 每隔单位时间判断线程池是否处执行完成
         while (!exec.isTerminated()) {
             TimeUnit.SECONDS.sleep(1);
             System.out.println("...");

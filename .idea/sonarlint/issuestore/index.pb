@@ -41,9 +41,6 @@ ispring-boot/spring-boot-security/src/main/java/com/examples/spring/boot/securit
 espring-boot/spring-boot-security/src/main/java/com/examples/spring/boot/security/HelloController.java,c\9\c9ce2251abc2ce119babe76ca2dc0b1b10659075
 Ñ
 Tspring-boot/spring-boot-test/src/main/java/com/examples/spring/boot/test/Result.java,2\6\264c6bb066b22a1fbd476f2ba262eb5167b398a6
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 s
 Cspring-boot/spring-boot-security/src/main/resources/application.yml,8\4\841e38c56dc8a6911aa5eec7d016723a7e80f053
 å
@@ -80,8 +77,6 @@ Uspring-cloud/spring-cloud-nasoc-discovery-provider/src/main/resources/applicati
 Ñspring-cloud/spring-cloud-nasoc-discovery-consumer/src/main/java/com/examples/spring/cloud/nacos/discovery/consumer/EchoService.java,0\0\007ffd33028a03bf184c19a047efc2f0129e81fb
 Å
 Qjava-base/src/main/java/com/examples/java/clone/thirdparty/ThirdPartyExample.java,e\f\ef4477d37d131418a7c6d1bcce912c9db60cf829
-E
-doc/docker_install.md,6\3\630a818f108722dcbce63dc8733931acc1bb1245
 ∏
 áspring-cloud/spring-cloud-nasoc-discovery-consumer/src/main/java/com/examples/spring/cloud/nacos/discovery/consumer/TestController.java,4\2\42da144e81ccfe1cedf5f978188f2ead4ebfe271
 u
@@ -98,8 +93,6 @@ Fjava-base/src/main/java/com/examples/java/clone/thirdparty/WuKong.java,c\f\cfa
 Ospring/spring-demo/src/main/java/com/examples/spring/demo/config/AppConfig.java,a\6\a6be4712683e4b96be091b754542787f0035f20d
 Ç
 Rspring/spring-demo/src/main/java/com/examples/spring/demo/service/UserService.java,5\3\538e147b7736590e16d6c2cab73a0404f454cff5
-Ç
-Rspring/spring-demo/src/main/java/com/examples/spring/demo/service/RoleService.java,8\2\82185a5028392f9b524688983467cbba1c6794f1
 Ö
 Uspring-cloud/spring-cloud-nasoc-discovery-consumer/src/main/resources/application.yml,8\1\81fb7df8d2c7fc8e319395032edac3e5cd9ddfae
 l
@@ -200,8 +193,6 @@ X
 (spring-boot/spring-boot-aop/build.gradle,5\d\5d3837e51452da1e0ff8bec16282a58d4ebffdbe
 è
 _spring-boot/spring-boot-log4j2/src/main/java/com/examples/spring/boot/log4j2/LogController.java,9\d\9daaa088ce3496ceaefb4aa46615d98b541e334f
-_
-/spring-boot/spring-boot-data-redis/build.gradle,0\8\08aad0d366864ae6e38924229ca0f16967a613f0
 t
 Dspring-boot/spring-boot-log4j2/src/main/resources/log-template01.xml,0\9\090ac67e58399f2a8459f91e0533834b0f13ee07
 
@@ -258,8 +249,6 @@ cspring-boot/spring-boot-common/src/main/java/com/examples/spring/boot/common/ut
 -spring-boot/spring-boot-rocketmq/build.gradle,0\7\07ffede399d670cc0d5c24cda84fbb006741bba4
 [
 +spring-boot/spring-boot-log4j2/build.gradle,e\a\eaa9b5a3e77f8bd2172cef66703e51c506c052bf
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 I
 spring-cloud/build.gradle,3\8\38799f26b0f96fabb5888d67224f0b45f79ffab7
 o
@@ -336,8 +325,6 @@ w
 Gjava-base/src/main/java/com/examples/java/design/observer/Observer.java,6\9\69d48aac841924bc3482655818cc8cf6b312b786
 u
 Ejava-base/src/main/java/com/examples/java/design/adapter/Adaptee.java,1\7\17a2b490d7b85fb5dcf84b9a9374fc44ea7cb5e9
-â
-Yjava-base/src/main/java/com/examples/java/concurrent/collection/BlockingQueueExample.java,6\d\6d3de622249a85de8d830c1a692c62e3a39b5b78
 u
 Ejava-base/src/main/java/com/examples/java/design/adapter/Adapter.java,3\3\33de6ff1b7517329ebf26a7376da605d6e7f2376
 Å
@@ -398,3 +385,14 @@ Ljava-base/src/main/java/com/examples/java/concurrent/ThreadLocalExample.java,5
 Pjava-base/src/main/java/com/examples/java/clone/shallow/ShallowCloneExample.java,7\0\704b568de2363de27276da4c01609c7ea02c26df
 ~
 Njava-base/src/main/java/com/examples/java/collection/ListDuplicatedRemove.java,6\2\62278572748a8cdf86fcaad942091e9c77c5bcae
+â
+Yjava-base/src/main/java/com/examples/java/concurrent/collection/BlockingQueueExample.java,6\d\6d3de622249a85de8d830c1a692c62e3a39b5b78
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+_
+/spring-boot/spring-boot-data-redis/build.gradle,0\8\08aad0d366864ae6e38924229ca0f16967a613f0
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+E
+doc/docker_install.md,6\3\630a818f108722dcbce63dc8733931acc1bb1245

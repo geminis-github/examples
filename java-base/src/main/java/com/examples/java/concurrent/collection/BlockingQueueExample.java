@@ -47,7 +47,8 @@ public class BlockingQueueExample {
                 while (true) {
                     // 消费数据
                     String data = queue.take();
-                    TimeUnit.SECONDS.sleep(1); // 模拟延迟
+                    // 模拟延迟
+                    TimeUnit.SECONDS.sleep(1);
                     System.out.println(Thread.currentThread().getName() + ": 消费 " + data);
                 }
             } catch (InterruptedException e) {

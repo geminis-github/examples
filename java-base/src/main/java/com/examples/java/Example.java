@@ -14,9 +14,10 @@ public class Example {
 
     private static final Logger log = LoggerFactory.getLogger(Example.class);
 
-    public static void main(String[] args) {
-        log.info("hello {}", "jack");
+    public static void main(String[] args) throws Exception {
+        System.out.println("hello");
     }
+
 
 }
 

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-base.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-base.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spirng-boot-data-mongodb/spring-boot.spirng-boot-data-mongodb.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spirng-boot-data-mongodb/spring-boot.spirng-boot-data-mongodb.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spirng-boot-data-mongodb/spring-boot.spirng-boot-data-mongodb.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spirng-boot-data-mongodb/spring-boot.spirng-boot-data-mongodb.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-async/spring-boot.spring-boot-async.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-async/spring-boot.spring-boot-async.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-common/spring-boot.spring-boot-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-common/spring-boot.spring-boot-common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-mybatis-tk/spring-boot.spring-boot-mybatis-tk.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-mybatis-tk/spring-boot.spring-boot-mybatis-tk.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-mybatis-tk/spring-boot.spring-boot-mybatis-tk.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-mybatis-tk/spring-boot.spring-boot-mybatis-tk.test.iml" />

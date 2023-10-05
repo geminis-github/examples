@@ -44,11 +44,13 @@
             <option value="$PROJECT_DIR$/spring-boot" />
             <option value="$PROJECT_DIR$/spring-boot/spirng-boot-data-mongodb" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-aop" />
+            <option value="$PROJECT_DIR$/spring-boot/spring-boot-async" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-common" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-data-elasticsearch" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-data-redis" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-kafka" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-log4j2" />
+            <option value="$PROJECT_DIR$/spring-boot/spring-boot-mybatis" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk" />
             <option value="$PROJECT_DIR$/spring-boot/spring-boot-rocketmq" />

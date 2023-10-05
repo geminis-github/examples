@@ -1,5 +1,7 @@
 package com.examples.java.type;
 
+import java.util.HashMap;
+
 /**
  * String常量池测试以及intern方法演示使用
  *
@@ -9,6 +11,7 @@ package com.examples.java.type;
 public class StringIntern {
 
     public static void main(String[] args) {
+
 //        String s1 = new String("1");
 //        String s3 = s1.intern();
 //        String s2 = "1";

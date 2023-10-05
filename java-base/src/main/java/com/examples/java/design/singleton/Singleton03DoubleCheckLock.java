@@ -30,12 +30,14 @@ public class Singleton03DoubleCheckLock {
      * @return 实例
      */
     public static Singleton03DoubleCheckLock getInstance() {
-        // 第一重判断
+        // 第一重判断（增加效率：防止所有线程都是串行化的执行）
         if (INSTANCE == null) {
+            // 这一段有可能有很多个线程进入到这里去竞争锁
             // 加锁
             synchronized (Singleton03DoubleCheckLock.class) {
-                // 第二重判断（因为可能会有多个线程一起进入同步块外的if，如果在同步块内不进行二次检验的话就会生成多个实例了）
+                // 第二重判断（防止多次实例化：因为可能会有多个线程一起进入同步块外的if，如果在同步块内不进行二次检验的话就会生成多个实例了）
                 if (INSTANCE == null) {
+                    // 因为 new 对象这个操作不是一个原子操作，需要增加volatile解决可见性问题，可以防止避免拿到没完成初始化的对象，从而保证了线程安全
                     INSTANCE = new Singleton03DoubleCheckLock();
                 }
             }

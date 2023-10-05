@@ -3,7 +3,7 @@ package com.examples.java.concurrent;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 演示线程中断的使用
+ * 演示线程中断的使用，停止线程
  *
  * @author liangjinlong9527
  * @date 2022-11-13 12:57

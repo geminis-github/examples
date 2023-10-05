@@ -12,4 +12,6 @@ include 'spring-boot-security'
 include 'spring-boot-log4j2'
 include 'spring-boot-rocketmq'
 include 'spring-boot-mybatis-plus'
+include 'spring-boot-async'
+include 'spring-boot-mybatis'
 
