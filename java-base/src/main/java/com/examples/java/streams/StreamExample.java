@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 /**
  * Stream流使用示例
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-06-13 1:29
  */
 public class StreamExample {

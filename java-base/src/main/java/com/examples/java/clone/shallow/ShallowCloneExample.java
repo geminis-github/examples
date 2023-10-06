@@ -3,7 +3,7 @@ package com.examples.java.clone.shallow;
 /**
  * 浅克隆使用示例
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-20 22:51
  */
 public class ShallowCloneExample {

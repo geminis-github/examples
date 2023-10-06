@@ -12,7 +12,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 /**
  * 异步方法配置
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-08-25 21:24
  */
 @EnableAsync // 需要启用异步方法

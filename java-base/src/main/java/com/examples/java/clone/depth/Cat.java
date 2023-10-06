@@ -3,7 +3,7 @@ package com.examples.java.clone.depth;
 /**
  * 克隆组合对象-猫猫
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-20 22:03
  */
 public class Cat implements Cloneable{

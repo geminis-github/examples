@@ -4,7 +4,7 @@ package com.examples.java.design.adapter;
  * 适配器：(收养者)真正的适配器，链接usb,连接网线
  *
  * @see <a href="https://blog.csdn.net/IAMZTDSF/article/details/124387246">Java设计模式之适配器模式详解</a>
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-03-07 23:17
  */
 public class Adapter implements NetToUsb {

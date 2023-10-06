@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-common/spring-boot.spring-boot-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-common/spring-boot.spring-boot-common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-mybatis-tk/spring-boot.spring-boot-mybatis-tk.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-mybatis-tk/spring-boot.spring-boot-mybatis-tk.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-mybatis-tk/spring-boot.spring-boot-mybatis-tk.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-mybatis-tk/spring-boot.spring-boot-mybatis-tk.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-test/spring-boot.spring-boot-test.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-test/spring-boot.spring-boot-test.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-test/spring-boot.spring-boot-test.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-test/spring-boot.spring-boot-test.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-web/spring-boot.spring-boot-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-web/spring-boot.spring-boot-web.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-demo/spring.spring-demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-demo/spring.spring-demo.main.iml" />
     </modules>

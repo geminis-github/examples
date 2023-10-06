@@ -3,7 +3,7 @@ package com.examples.spring.boot.common.util;
 /**
  * 字符串工具类
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-06-02 11:04
  */
 public class BusinessUtil {

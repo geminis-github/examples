@@ -6,7 +6,7 @@ package com.examples.java.design.singleton;
  * 缺点：non
  * 说明：具体见枚举底层原理
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-11-13 12:57
  */
 public enum Singleton05Enum {

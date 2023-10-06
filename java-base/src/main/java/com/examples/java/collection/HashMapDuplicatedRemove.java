@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  * 怎么删除 HashMap 中的重复元素
  *
  * @see <a href="https://www.javastack.cn/remove-duplicated-elements-from-hashmap/">面试官：怎么删除 HashMap 中的重复元素？第 3 种实现思路，99% 的人不会！</a>
- * @author: liangjinlong9527
+ * @author: Thinking9527
  * @date: 2023-03-21 22:40
  */
 public class HashMapDuplicatedRemove {

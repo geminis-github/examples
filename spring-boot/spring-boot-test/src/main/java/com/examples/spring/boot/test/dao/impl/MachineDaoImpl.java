@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * machine-dao-impl
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-12-15 22:46
  */
 @Repository

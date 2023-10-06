@@ -3,7 +3,7 @@ package com.examples.java.redis;
 /**
  * 使用示例
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-08-27 7:44
  */
 public class Example {

@@ -9,7 +9,7 @@ import java.io.ObjectOutputStream;
  * 创建对象的六种方式
  *
  * <a href="javastack.cn/java-create-object-six-ways/">再见单身狗！Java 创建对象的 6 种方式，再也不用舔狗了。。</a>
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-04-11 23:22
  */
 public class CreateObjectWay {

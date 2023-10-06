@@ -9,7 +9,7 @@ import java.io.Serializable;
  * 示例朋友类，实现了反序列化接口和克隆接口
  *
  * @see CreateObjectWay
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-04-11 23:43
  */
 @Data

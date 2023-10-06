@@ -9,7 +9,7 @@ import java.io.Serial;
 /**
  * 使用第三方类库进行克隆对象
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-23 0:48
  */
 public class ThirdPartyExample {

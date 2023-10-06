@@ -3,7 +3,7 @@ package com.examples.java.clone.depth;
 /**
  * 深度克隆使用演示
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-20 22:16
  */
 public class DepthCloneExample {

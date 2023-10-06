@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * List去除重复元素
  *
  * @see <a href="https://mp.weixin.qq.com/s/4wIb-DDxu51iYEpswfZTTA">面试官：怎么去除 List 中的重复元素？我一行代码搞定，赶紧拿去用！</a>
- * @author: liangjinlong9527
+ * @author: Thinking9527
  * @date: 2023-03-21 22:12
  */
 public class ListDuplicatedRemove {

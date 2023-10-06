@@ -12,7 +12,7 @@ import java.io.Serializable;
  * PS：序列化的方式克隆对象，相对比较比较消耗性能
  *
  * @see <a href="https://blog.csdn.net/qq_22343483/article/details/99961610">使用序列化与反序列化方式克隆对象</a>
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-22 22:32
  */
 public class SerializationCloneExample {

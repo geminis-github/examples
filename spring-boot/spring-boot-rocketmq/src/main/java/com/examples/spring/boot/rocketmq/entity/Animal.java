@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * 动物消息实体类
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-21 21:17
  */
 @Data

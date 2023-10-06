@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * CyclicBarrier使用示例（比CountDownLatch好的地方是可以重复使用）
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-11-13 12:57
  */
 public class CyclicBarrierExample {

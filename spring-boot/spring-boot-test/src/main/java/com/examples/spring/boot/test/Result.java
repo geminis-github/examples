@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * 控制器实体类返回封装
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-12-15 22:55
  */
 @Data

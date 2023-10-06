@@ -9,7 +9,7 @@ import java.util.concurrent.CompletableFuture;
 /**
  * 异步方法服务
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-08-25 21:19
  */
 @Service

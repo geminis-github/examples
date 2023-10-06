@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @see <a href="https://github.com/abel533/Mapper">github仓库</a>
  * @see <a href="https://mybatis.io/">tk mapper 官网</a>
  * @see <a href="">配置文档</a>
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-12-13 15:53
  */
 @SpringBootApplication

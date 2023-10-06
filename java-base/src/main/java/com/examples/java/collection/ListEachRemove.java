@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * 遍历删除List元素
  *
  * @see <a href="https://mp.weixin.qq.com/s/9EyfmuWrGZ7WzfQOE6WYJQ">遍历删除List元素</a>
- * @author: liangjinlong9527
+ * @author: Thinking9527
  * @date: 2023-03-21 00:32
  */
 public class ListEachRemove {

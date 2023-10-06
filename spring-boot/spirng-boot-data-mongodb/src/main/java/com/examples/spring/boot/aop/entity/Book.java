@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.MongoId;
 /**
  * 书
  *
- * @author: liangjinlong9527
+ * @author: Thinking9527
  * @date: 2023-04-01 23:29
  */
 @Data

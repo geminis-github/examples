@@ -5,7 +5,7 @@ import com.examples.java.design.factory.Phone;
 /**
  * 3、静态工厂方法
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-11-13 12:57
  */
 public class StaticFactoryExample {

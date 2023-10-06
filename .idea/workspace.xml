@@ -9,21 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="保存sql，归类版本">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/log/java-base.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ExecutorServiceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ExecutorServiceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ExecutorTerminatedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ExecutorTerminatedExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ThreadInterruptExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ThreadInterruptExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/collection/BlockingQueueExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/collection/BlockingQueueExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton01Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton01Hungry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton03DoubleCheckLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton03DoubleCheckLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/type/StringIntern.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/type/StringIntern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/resources/sample.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-test/src/test/java/com/examples/spring/boot/test/TestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-test/src/test/java/com/examples/spring/boot/test/TestApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,14 +174,14 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/ideaProjects/examples&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/cyProjects/CNES/cnes&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/Projects/ideaProjects/examples/spring-boot/spring-boot-async/src/main/java/com/examples/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15625&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
@@ -242,7 +229,7 @@
       <recent name="com.examples.java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Example">
+  <component name="RunManager" selected="Spring Boot.WebApplication">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.examples.java.Example" />
       <module name="java-base.main" />
@@ -306,7 +293,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SpringApplicationTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringApplicationTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring.spring-demo.test" />
       <extension name="coverage">
         <pattern>
@@ -316,7 +303,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.examples.spring.demo" />
       <option name="MAIN_CLASS_NAME" value="com.examples.spring.demo.SpringApplicationTest" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -346,6 +333,14 @@
     <configuration name="AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot.spring-boot-aop.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.aop.AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsyncApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-async.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.async.AsyncApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -474,7 +469,8 @@
       <item itemvalue="Application.MustDeadLock" />
       <item itemvalue="Application.HashMapNotSafe" />
       <item itemvalue="Gradle.TestApplicationTests.spyTest" />
-      <item itemvalue="JUnit.SpringApplicationTest.test02" />
+      <item itemvalue="JUnit.SpringApplicationTest.test01" />
+      <item itemvalue="Spring Boot.AsyncApplication" />
       <item itemvalue="Spring Boot.MongodbApplication (1)" />
       <item itemvalue="Spring Boot.MyBatisPlusApplication (1)" />
       <item itemvalue="Spring Boot.AopApplication (1)" />
@@ -498,11 +494,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringApplicationTest.test01" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Gradle.TestApplicationTests.spyTest" />
         <item itemvalue="Application.MustDeadLock" />
         <item itemvalue="Application.HashMapNotSafe" />
-        <item itemvalue="JUnit.SpringApplicationTest.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -807,6 +803,15 @@
       <workItem from="1695650937118" duration="380000" />
       <workItem from="1695651848243" duration="432000" />
       <workItem from="1695687457312" duration="920000" />
+      <workItem from="1696495116369" duration="2222000" />
+      <workItem from="1696497821574" duration="564000" />
+      <workItem from="1696498394617" duration="22000" />
+      <workItem from="1696550357398" duration="2152000" />
+      <workItem from="1696553530050" duration="733000" />
+      <workItem from="1696554300841" duration="153000" />
+      <workItem from="1696554462890" duration="204000" />
+      <workItem from="1696554742184" duration="5528000" />
+      <workItem from="1696572341388" duration="4490000" />
     </task>
     <task id="LOCAL-00001" summary="规范化项目提交文件">
       <created>1668312742196</created>
@@ -1005,11 +1010,6 @@
           <url>file://$PROJECT_DIR$/spring-boot/spring-boot-async/src/main/java/com/examples/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../dev/Java/jdk-20.0.1/lib/src.zip!/java.base/java/util/HashMap.java</url>
-          <line>632</line>
-          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

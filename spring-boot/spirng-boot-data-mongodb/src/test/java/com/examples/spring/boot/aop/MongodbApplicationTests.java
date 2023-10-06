@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 /**
  * mongodb测试用例
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-04-01 22:48
  */
 @Slf4j

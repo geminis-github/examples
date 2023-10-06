@@ -6,7 +6,7 @@ package com.examples.java.design.singleton;
  * 缺点：1、无法延迟加载，不需要的时候也可能会被创建出来，浪费资源（立刻的创建对象，单例的过程可能会比较慢）
  * 说明：以空间换时间，故不存在线程安全问题。
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-11-13 12:57
  */
 public class Singleton01Hungry {

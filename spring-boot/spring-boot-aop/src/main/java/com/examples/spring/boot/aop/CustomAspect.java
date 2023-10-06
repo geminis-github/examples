@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * 切点类
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-11-13 12:57
  */
 @Aspect

@@ -8,7 +8,7 @@ import lombok.ToString;
 /**
  * 部门信息
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-06-13 1:34
  */
 @Data

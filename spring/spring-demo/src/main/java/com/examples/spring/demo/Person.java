@@ -1,7 +1,7 @@
 package com.examples.spring.demo;
 
 /**
- * @author: liangjinlong9527
+ * @author: Thinking9527
  * @date: 2023-04-05 23:48
  */
 public class Person {

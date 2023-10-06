@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
  * HashMap遍历删除（根据value删除）
  *
  * @see <a href="https://mp.weixin.qq.com/s/zzW7C2kNvJS8RS9KfIi4sw">面试官：怎么删除 HashMap 中的元素？我一行代码搞定，赶紧拿去用！</a>
- * @author: liangjinlong9527
+ * @author: Thinking9527
  * @date: 2023-03-21 22:47
  */
 public class HashMapEachRemove {

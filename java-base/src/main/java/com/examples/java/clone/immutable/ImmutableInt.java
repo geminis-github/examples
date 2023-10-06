@@ -5,7 +5,7 @@ package com.examples.java.clone.immutable;
  * 缺点：会频繁触发GC
  * 优点：线程安全
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-23 0:11
  */
 public class ImmutableInt {

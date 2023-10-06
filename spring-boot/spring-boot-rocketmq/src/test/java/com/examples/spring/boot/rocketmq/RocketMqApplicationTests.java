@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 /**
  * RocketMQ-测试用例
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-21 21:13
  */
 @Slf4j

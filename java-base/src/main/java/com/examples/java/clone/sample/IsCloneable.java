@@ -8,7 +8,7 @@ package com.examples.java.clone.sample;
  * 3、在clone方法中调用super.clone()方法
  * 4、clone方法中捕获异常
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-22 22:21
  */
 public class IsCloneable implements Cloneable {

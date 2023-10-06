@@ -11,7 +11,7 @@ import java.util.Date;
 /**
  * 原型设计模式（说直白点就是将一个对象作为原型，对其进行复制、克隆产生一个和源对象类似的新对象），实现序列化和克隆接口
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-11-13 12:57
  */
 public class Message implements Cloneable, Serializable {

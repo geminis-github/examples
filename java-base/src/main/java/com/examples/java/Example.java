@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
  * 测试示例
  *
  * 编码设置：-Dfile.encoding=UTF-8
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-11-13 12:11
  */
 public class Example {

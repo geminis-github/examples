@@ -6,7 +6,7 @@ package com.examples.java.design.singleton;
  * 缺点：1、线程不安全，需要在获取实例的方法上增加synchronized关键字来保证同步（效率会降低）
  * 说明：以时间换空间，在多线程环境下存在风险。
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-11-13 12:57
  */
 public class Singleton02Lazy {

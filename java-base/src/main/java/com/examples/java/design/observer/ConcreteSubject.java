@@ -3,7 +3,7 @@ package com.examples.java.design.observer;
 /**
  * 目标对象（具体被观察者角色）
  *
- * @author: liangjinlong9527
+ * @author: Thinking9527
  * @date: 2023-04-01 00:36
  */
 public class ConcreteSubject implements Subject<Observer> {

@@ -3,7 +3,7 @@ package com.examples.java.clone.immutable;
 /**
  * 可不可变类使用示例
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-23 0:25
  */
 public class ImmutableIntExample {

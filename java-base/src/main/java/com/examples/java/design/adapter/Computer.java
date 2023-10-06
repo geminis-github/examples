@@ -3,7 +3,7 @@ package com.examples.java.design.adapter;
 /**
  * 客户端：想上网，插不上网线
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-03-08 23:17
  */
 public class Computer {

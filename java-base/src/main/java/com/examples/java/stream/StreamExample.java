@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 /**
  * java8 Stream流的使用示例
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-04-12 22:48
  */
 public class StreamExample {

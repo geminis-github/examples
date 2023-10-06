@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 /**
  * 测试HashMap不是线程安全的
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-09-03 13:49
  */
 public class HashMapNotSafe {

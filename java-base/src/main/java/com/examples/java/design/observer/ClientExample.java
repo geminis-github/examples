@@ -4,7 +4,7 @@ package com.examples.java.design.observer;
  * 观察者模式
  *
  * @see <a href="https://blog.csdn.net/qq_38526573/article/details/87483479">Java观察者模式(Observer)</a>
- * @author: liangjinlong9527
+ * @author: Thinking9527
  * @date: 2023-04-01 00:38
  */
 public class ClientExample {

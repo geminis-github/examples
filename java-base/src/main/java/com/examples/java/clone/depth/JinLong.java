@@ -3,7 +3,7 @@ package com.examples.java.clone.depth;
 /**
  * 金龙-有猫有狗
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-20 22:12
  */
 public class JinLong implements Cloneable {

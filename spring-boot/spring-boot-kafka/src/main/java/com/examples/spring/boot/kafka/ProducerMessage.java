@@ -13,7 +13,7 @@ import java.util.concurrent.ExecutionException;
 /**
  * kafka消息生产者
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-11-13 12:57
  */
 @Slf4j

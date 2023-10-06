@@ -3,7 +3,7 @@ package com.examples.java.concurrent;
 /**
  * 必然会发生死锁的情况
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-09-16 3:40
  */
 public class MustDeadLock implements Runnable {

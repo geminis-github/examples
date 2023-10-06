@@ -3,7 +3,7 @@ package com.examples.java.structure;
 /**
  * 单项链表-数据结构
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-11-13 12:57
  */
 public class SingleLinkedList<E> {

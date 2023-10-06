@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * spring-boot-log4j2使用示例
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-04-01 23:06
  */
 @SpringBootApplication

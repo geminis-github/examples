@@ -4,7 +4,7 @@ package com.examples.java.clone.immutable;
  * 用于修改不可变类的伴生类（这里是ImmutableInt），就比如String（不可变）和StringBuilder（可变）的关系一样
  * 如果有很多的修改工作，可以切换使用可变类进行操作，完成之后切换回不可变类
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-23 0:29
  */
 public class MutableInt {

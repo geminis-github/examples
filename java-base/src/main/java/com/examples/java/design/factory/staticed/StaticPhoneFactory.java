@@ -7,7 +7,7 @@ import com.examples.java.design.factory.XiaomiPhone;
 /**
  * 静态工厂
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-11-13 12:57
  */
 public class StaticPhoneFactory {

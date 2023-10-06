@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 手写 RedisLRU 算法
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-08-27 7:35
  */
 public class LRUCache<K, V> extends LinkedHashMap<K, V> {

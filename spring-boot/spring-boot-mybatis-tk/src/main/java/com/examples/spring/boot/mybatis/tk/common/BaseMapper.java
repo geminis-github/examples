@@ -8,7 +8,7 @@ import tk.mybatis.mapper.common.MySqlMapper;
 /**
  * 基础Mapper
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-12-21 19:28
  */
 public interface BaseMapper<T extends BaseEntity> extends Mapper<T> {

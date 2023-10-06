@@ -3,7 +3,7 @@ package com.examples.java.design.builder;
 /**
  * 用户信息类
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-03-07 23:17
  */
 public class UserInfo {

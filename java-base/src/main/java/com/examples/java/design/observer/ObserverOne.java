@@ -3,7 +3,7 @@ package com.examples.java.design.observer;
 /**
  * 具体观察者角色
  *
- * @author: liangjinlong9527
+ * @author: Thinking9527
  * @date: 2023-04-01 00:37
  */
 public class ObserverOne implements Observer {

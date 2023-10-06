@@ -16,7 +16,7 @@ import java.sql.SQLException;
  * 5、处理执行结果
  * 6、释放资源
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2022-11-13 12:57
  */
 public class JdbcUtils {

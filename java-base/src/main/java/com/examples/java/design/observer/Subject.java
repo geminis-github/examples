@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 被观察者
  *
- * @author: liangjinlong9527
+ * @author: Thinking9527
  * @date: 2023-04-01 00:32
  */
 public interface Subject<T> {

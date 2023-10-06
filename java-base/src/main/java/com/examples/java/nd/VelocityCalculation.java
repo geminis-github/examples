@@ -3,7 +3,7 @@ package com.examples.java.nd;
 /**
  * 速度计算
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-22 17:41
  */
 public class VelocityCalculation {

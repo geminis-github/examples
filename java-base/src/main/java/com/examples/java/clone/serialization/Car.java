@@ -11,7 +11,7 @@ import java.io.Serializable;
 /**
  * 汽车类
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-22 22:29
  */
 @Data

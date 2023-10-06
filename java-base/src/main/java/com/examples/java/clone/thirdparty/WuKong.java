@@ -11,7 +11,7 @@ import java.io.Serializable;
 /**
  * 悟空-需要被克隆的对象
  *
- * @author liangjinlong9527
+ * @author Thinking9527
  * @date 2023-05-23 0:49
  */
 @Data
