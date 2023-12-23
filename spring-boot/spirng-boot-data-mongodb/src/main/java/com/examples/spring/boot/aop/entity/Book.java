@@ -1,6 +1,7 @@
 package com.examples.spring.boot.aop.entity;
 
 import lombok.Data;
+import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.core.mapping.MongoId;
 
 /**
@@ -13,7 +14,7 @@ import org.springframework.data.mongodb.core.mapping.MongoId;
 public class Book {
 
     @MongoId
-    private Long id;
+    private ObjectId id;
 
     private String name;
 
@@ -21,11 +22,4 @@ public class Book {
 
     private String description;
 
-    public Book() {
-
-    }
-
-    public Book(Long id) {
-        this.id = id;
-    }
 }

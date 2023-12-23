@@ -1,6 +1,7 @@
 package com.examples.spring.boot.web;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,13 +15,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/test")
 @RequiredArgsConstructor // 使用次注解可以替代@Autowried
+@Slf4j
 public class TestController {
-
-    private final TestService testService;
 
     @GetMapping("/info")
     public String info() {
-        return "ok " + testService.hello();
+        log.info("info ...");
+        return "ok123";
     }
 
 }

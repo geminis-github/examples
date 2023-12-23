@@ -1,7 +1,8 @@
 package com.examples.java;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 测试示例
@@ -12,12 +13,27 @@ import org.slf4j.LoggerFactory;
  */
 public class Example {
 
-    private static final Logger log = LoggerFactory.getLogger(Example.class);
-
-    public static void main(String[] args) throws Exception {
-        System.out.println("hello");
+    public static void main(String[] args) {
+        File file = new File("E:\\BaiduNetdiskDownload");
+        List<File> fileList = new ArrayList<>();
+        listAllFiles(file, fileList);
+        for (File item : fileList) {
+            item.renameTo(new File(item.getAbsolutePath().replace("【itjc8.com】", "")));
+        }
     }
 
+    public static void listAllFiles(File folder, List<File> fileList) {
+        File[] fileArray = folder.listFiles();
+        if (fileArray != null) {
+            for (File file : fileArray) {
+                if (file.isDirectory()) {
+                    listAllFiles(file, fileList);
+                } else {
+                    fileList.add(file);
+                }
+            }
+        }
+    }
 
 }
 

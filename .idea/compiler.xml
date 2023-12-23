@@ -2,11 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
+      <profile default="true" name="Default" enabled="true">
+        <sourceOutputDir name="generated2" />
+        <sourceTestOutputDir name="generated_tests2" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../dev/Repositorys/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.28/a2ff5da8bcd8b1b26f36b806ced63213362c6dcc/lombok-1.18.28.jar" />
+        </processorPath>
+      </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../dev/Repositorys/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.28/a2ff5da8bcd8b1b26f36b806ced63213362c6dcc/lombok-1.18.28.jar" />
+          <entry name="$PROJECT_DIR$/../../../dev/Repositorys/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
         </processorPath>
         <module name="spring-boot.spring-boot-rocketmq.test" />
         <module name="spring-boot.spirng-boot-data-mongodb.main" />
@@ -40,6 +46,6 @@
         <module name="spring-boot.spring-boot-mybatis-plus.test" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="20" />
+    <bytecodeTargetLevel target="21" />
   </component>
 </project>

@@ -2,11 +2,6 @@ drop table if exists test_user;
 create table test_user
 (
     id               bigint comment 'ID',
-    created_by       bigint comment '创建人ID',
-    updated_by       bigint comment '更新人ID',
-    create_time      datetime default CURRENT_TIMESTAMP comment '创建时间',
-    update_time      datetime default CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP comment '更新时间',
-    deleted          tinyint comment '是否删除：0=否，1=是',
 
     user_type        int comment '用户类型',
     sn               varchar(255) comment 'SN序号',
@@ -24,6 +19,12 @@ create table test_user
     working_location varchar(1024) comment '工作地',
     salary           decimal(8, 2) comment '工资',
     occupation       varchar(1024) comment '职业',
+
+    created_by       bigint comment '创建人ID',
+    updated_by       bigint comment '更新人ID',
+    create_time      datetime default CURRENT_TIMESTAMP comment '创建时间',
+    update_time      datetime default CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP comment '更新时间',
+    deleted          tinyint comment '是否删除：0=否，1=是',
 
     primary key (id)
 ) engine = InnoDB,

@@ -1,8 +1,10 @@
 package com.examples.java.stream;
 
-import java.util.ArrayList;
+import cn.hutool.core.io.file.FileReader;
+import com.alibaba.fastjson2.JSONArray;
+
 import java.util.List;
-import java.util.stream.Stream;
+import java.util.stream.Collectors;
 
 /**
  * java8 Stream流的使用示例
@@ -12,11 +14,17 @@ import java.util.stream.Stream;
  */
 public class StreamExample {
 
-    public static final List<String> list = List.of("one", "two", "three", "jack", "json", "mark", "mock", "bite", "boos", "china", "chinese", "check", "very good", "hello world", "geminis", "title");
+    private static final List<StreamUser> list;
+
+    static {
+        FileReader reader = new FileReader("D:\\dev\\data\\user_data.json");
+        String data = reader.readString();
+        list = JSONArray.parseArray(data, StreamUser.class);
+    }
 
     public static void main(String[] args) {
-        Stream<String> listStream = list.stream();
-
+        // 求各个用户类型的平均工资
+        Object result = list.stream().map(StreamUser::getRealName).limit(100).collect(Collectors.joining(","));
     }
 
 }

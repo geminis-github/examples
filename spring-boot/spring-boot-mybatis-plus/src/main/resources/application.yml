@@ -6,3 +6,6 @@ spring:
     url: jdbc:mysql://geminis:3306/example?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
