@@ -32,7 +32,7 @@ public class InsertUserListTests {
     void insertUserData() throws InterruptedException {
         long beginTime = System.currentTimeMillis();
         List<Thread> list = new ArrayList<>();
-        for (int i = 0; i < 25; i++) {
+        for (int i = 0; i < 20; i++) {
             list.add(new Thread(new CreateTask(i)));
         }
         for (Thread thread : list) {
@@ -54,7 +54,7 @@ public class InsertUserListTests {
         }
         @Override
         public void run() {
-            int step = 4000;
+            int step = 500;
             int start = step * (num + 1);
             for (int i = (start - step); i < start; i++) {
                 User user = buildUser(i);

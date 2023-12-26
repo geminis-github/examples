@@ -22,7 +22,7 @@ public class GenerateSqls {
      * 用户类型
      */
     public static int userType() {
-        return dom.nextInt(100) + 1;
+        return dom.nextInt(10) + 1;
     }
 
     /**

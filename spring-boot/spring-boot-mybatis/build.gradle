@@ -15,6 +15,10 @@ dependencies {
 
 }
 
+// 禁用 bootJar 和 jar 任务（否则会需要有一个Main方法才行）
+bootJar { enabled = false }
+jar { enabled = false }
+
 test {
     useJUnitPlatform()
 }

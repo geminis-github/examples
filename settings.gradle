@@ -1,1 +1,5 @@
 rootProject.name = 'examples'
+include 'app'
+include 'app:generating-code'
+findProject(':app:generating-code')?.name = 'generating-code'
+
