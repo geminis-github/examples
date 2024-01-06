@@ -1,0 +1,21 @@
+package ${packagePath}.domain;
+
+import ${packagePath}.entity.${ClassName}DO;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
+
+/**
+ * ${functionName}
+ *
+ * @author ${author}
+ * @date ${datetime}
+ */
+@Data
+@ToString
+@EqualsAndHashCode(callSuper = false)
+public class ${ClassName} extends ${ClassName}DO {
+
+    private static final long serialVersionUID = 1L;
+
+}

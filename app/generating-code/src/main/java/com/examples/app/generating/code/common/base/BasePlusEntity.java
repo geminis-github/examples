@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
 @Data
 @ToString
 @EqualsAndHashCode(callSuper = false)
-public abstract class BaseEntity implements Serializable {
+public abstract class BasePlusEntity implements Serializable {
 
     @Serial
     private static final long serialVersionUID = 1L;

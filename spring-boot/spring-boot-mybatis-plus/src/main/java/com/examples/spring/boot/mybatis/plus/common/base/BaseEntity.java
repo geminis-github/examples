@@ -41,9 +41,4 @@ public class BaseEntity {
      */
     private LocalDateTime updateTime;
 
-    /**
-     * 删除标志
-     */
-    private Boolean deleted;
-
 }

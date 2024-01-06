@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * spring-boot-plus 使用示例
+ * spring-boot-plus 使用示例，注意使用了MyBatisPlusJoin，并且配置了自定义的SqlSession，需要加上配置：sessionFactory.setGlobalConfig(new GlobalConfig().setSqlInjector(new MPJSqlInjector()));
  *
  * @see <a href="https://blog.csdn.net/renpeng301/article/details/124665330">Spring Boot 3.x- MybatisPlus集成</a>
  * @author Thinking9527

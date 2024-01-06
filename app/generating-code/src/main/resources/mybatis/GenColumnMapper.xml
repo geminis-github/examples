@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.examples.app.generating.code.mapper.GenColumnMapper">
+
+    <select id="selectMySqlColumnListByTableName" parameterType="String" resultType="GenColumnDO">
+        SELECT COLUMN_NAME,
+               COLUMN_COMMENT,
+               COLUMN_TYPE,
+               DATA_TYPE,
+               CASE
+                   WHEN IS_NULLABLE = 'NO' THEN 1
+                   ELSE 0
+                   END          AS required,
+               CASE
+                   WHEN COLUMN_KEY = 'PRI' THEN 1
+                   ELSE 0
+                   END          AS pk,
+               CASE
+                   WHEN EXTRA LIKE '%auto_increment%' THEN 1
+                   ELSE 0
+                   END          AS increment,
+               ORDINAL_POSITION AS sort
+        FROM information_schema.COLUMNS
+        WHERE TABLE_SCHEMA = #{databaseName} AND TABLE_NAME = #{tableName}
+    </select>
+
+    <select id="selectOracleColumnListByTableName" parameterType="String" resultType="GenColumnDO">
+        select lower(temp.column_name) as column_name,
+               (case when (temp.nullable = 'N'  and  temp.constraint_type != 'P') then '1' else null end) as required,
+               (case when temp.constraint_type = 'P' then '1' else '0' end) as pk,
+               temp.column_id as sort,
+               temp.comments as column_comment,
+               <!-- (case when temp.constraint_type = 'P' then '1' else '0' end) as is_increment, -->
+               lower(temp.data_type) as column_type,
+               lower(temp.data_type) as data_type
+        from (
+                 select col.column_id, col.column_name,col.nullable, col.data_type, colc.comments, uc.constraint_type
+                      , row_number() over (partition by col.column_name order by uc.constraint_type desc) as row_flg
+                 from user_tab_columns col
+                          left join user_col_comments colc on colc.table_name = col.table_name and colc.column_name = col.column_name
+                          left join user_cons_columns ucc on ucc.table_name = col.table_name and ucc.column_name = col.column_name
+                          left join user_constraints uc on uc.constraint_name = ucc.constraint_name
+                 where col.table_name = upper(#{tableName})
+             ) temp
+        WHERE temp.row_flg = 1
+        ORDER BY temp.column_id
+    </select>
+
+</mapper>

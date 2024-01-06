@@ -1,0 +1,86 @@
+package ${packagePath}.service.impl;
+
+import ${packagePath}.entity.${ClassName}DO;
+import ${packagePath}.domain.${ClassName};
+import ${packagePath}.mapper.${ClassName}Mapper;
+import ${packagePath}.service.${ClassName}Service;
+import ${table.baseServiceImplPath};
+import org.springframework.stereotype.Service;
+import java.util.List;
+
+/**
+ * ${functionName}-ServiceImpl
+ * 
+ * @author ${author}
+ * @date ${datetime}
+ */
+@Service
+public class ${ClassName}ServiceImpl extends ${table.baseServiceImplName}<${ClassName}Mapper, ${ClassName}DO> implements ${ClassName}Service {
+
+    /**
+     * 查询${functionName}
+     *
+     * @param ${pkColumn.javaField} ${functionName}主键
+     * @return ${functionName}
+     */
+    @Override
+    public ${ClassName} get${ClassName}By${pkColumn.capJavaField}(${pkColumn.javaType} ${pkColumn.javaField}) {
+        return baseMapper.select${ClassName}By${pkColumn.capJavaField}(${pkColumn.javaField});
+    }
+
+    /**
+     * 查询${functionName}列表
+     *
+     * @param ${className} ${functionName}
+     * @return ${functionName}集合
+     */
+    @Override
+    public List<${ClassName}> get${ClassName}List(${ClassName} ${className}) {
+        return baseMapper.select${ClassName}List(${className});
+    }
+
+    /**
+     * 新增${functionName}
+     *
+     * @param ${className} ${functionName}
+     * @return 结果
+     */
+    @Override
+    public boolean save${ClassName}(${ClassName} ${className}) {
+        return baseMapper.insert${ClassName}(${className}) != 0;
+    }
+
+    /**
+     * 修改${functionName}
+     *
+     * @param ${className} ${functionName}
+     * @return 结果
+     */
+    @Override
+    public boolean update${ClassName}(${ClassName} ${className}) {
+        return baseMapper.update${ClassName}(${className}) != 0;
+    }
+
+    /**
+     * 删除${functionName}
+     *
+     * @param ${pkColumn.javaField} ${functionName}主键
+     * @return 结果
+     */
+    @Override
+    public boolean remove${ClassName}By${pkColumn.capJavaField}(${pkColumn.javaType} ${pkColumn.javaField}) {
+        return baseMapper.delete${ClassName}By${pkColumn.capJavaField}(${pkColumn.javaField}) != 0;
+    }
+
+    /**
+     * 批量删除${functionName}
+     *
+     * @param ${pkColumn.javaField}s 需要删除的数据主键集合
+     * @return 结果
+     */
+    @Override
+    public boolean remove${ClassName}By${pkColumn.capJavaField}s(${pkColumn.javaType}[] ${pkColumn.javaField}s) {
+        return baseMapper.delete${ClassName}By${pkColumn.capJavaField}s(${pkColumn.javaField}s) != 0;
+    }
+
+}

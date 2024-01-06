@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2023-12-23 21:34
  */
 @SpringBootApplication
+@org.mybatis.spring.annotation.MapperScan(basePackages = "com.examples.app.generating.code.mapper")
 public class GeneratingCodeApplication {
 
     public static void main(String[] args) {

@@ -20,6 +20,9 @@ dependencies {
     implementation 'cn.hutool:hutool-all:5.8.23'
     implementation 'com.alibaba.fastjson2:fastjson2:2.0.43'
 
+    // MyBatisPlusJoin
+    implementation 'com.github.yulichang:mybatis-plus-join-boot-starter:1.4.8.1'
+
     // spring boot 3.2 解决冲突
     implementation ('com.baomidou:mybatis-plus-boot-starter:3.5.4.1') {
         exclude group: 'org.mybatis', module: 'mybatis-spring'

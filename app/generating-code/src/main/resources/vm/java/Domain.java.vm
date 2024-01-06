@@ -1,0 +1,34 @@
+package ${packagePath}.entity;
+
+#foreach ($import in $importList)
+import ${import};
+#end
+import com.baomidou.mybatisplus.annotation.TableName;
+import ${table.baseEntityPath};
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
+
+/**
+ * ${functionName}-Domain
+ *
+ * @author ${author}
+ * @date ${datetime}
+ */
+@TableName("$table.tableName")
+@Data
+@ToString
+@EqualsAndHashCode(callSuper = false)
+public class ${ClassName}DO extends ${table.baseEntityName} {
+
+    private static final long serialVersionUID = 1L;
+
+#foreach ($column in $columns)
+    #if(!$column.superColumn && $column.javaField)
+    @ApiModelProperty("$column.columnComment")
+    private $column.javaType $column.javaField;
+
+    #end
+#end
+}

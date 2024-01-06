@@ -1,0 +1,64 @@
+package ${packagePath}.mapper;
+
+import ${packagePath}.entity.${ClassName}DO;
+import ${packagePath}.domain.${ClassName};
+import ${table.baseMapperPath};
+import java.util.List;
+
+/**
+ * ${functionName}-Mapper
+ * 
+ * @author ${author}
+ * @date ${datetime}
+ */
+public interface ${ClassName}Mapper extends ${table.baseMapperName}<${ClassName}DO> {
+
+    /**
+     * 查询${functionName}
+     *
+     * @param ${pkColumn.javaField} ${functionName}主键
+     * @return ${functionName}
+     */
+    ${ClassName} select${ClassName}By${pkColumn.capJavaField}(${pkColumn.javaType} ${pkColumn.javaField});
+
+    /**
+     * 查询${functionName}列表
+     *
+     * @param ${className} ${functionName}
+     * @return ${functionName}集合
+     */
+    List<${ClassName}> select${ClassName}List(${ClassName} ${className});
+
+    /**
+     * 新增${functionName}
+     *
+     * @param ${className} ${functionName}
+     * @return 结果
+     */
+    int insert${ClassName}(${ClassName} ${className});
+
+    /**
+     * 修改${functionName}
+     *
+     * @param ${className} ${functionName}
+     * @return 结果
+     */
+    int update${ClassName}(${ClassName} ${className});
+
+    /**
+     * 删除${functionName}
+     *
+     * @param ${pkColumn.javaField} ${functionName}主键
+     * @return 结果
+     */
+    int delete${ClassName}By${pkColumn.capJavaField}(${pkColumn.javaType} ${pkColumn.javaField});
+
+    /**
+     * 批量删除${functionName}
+     *
+     * @param ${pkColumn.javaField}s 需要删除的数据主键集合
+     * @return 结果
+     */
+    int delete${ClassName}By${pkColumn.capJavaField}s(${pkColumn.javaType}[] ${pkColumn.javaField}s);
+
+}

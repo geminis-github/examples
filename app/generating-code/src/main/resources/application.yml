@@ -1,2 +1,70 @@
 server:
   port: 50055
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: com.examples.app.generating.code.entity
+mybatis:
+  # 搜索指定包别名
+  typeAliasesPackage: com.examples.app.generating.code.domain
+  # 配置mapper的扫描，找到所有的mapper.xml映射文件
+  mapperLocations: classpath*:mybatis/*Mapper.xml
+  # 加载全局的配置文件
+  configLocation: classpath:config/mybatis-config.xml
+# 数据源配置
+spring:
+  datasource:
+    druid:
+      # 主库数据源
+      master:
+        url: jdbc:mysql://geminis:3306/example?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
+        username: root
+        password: root
+      # 从库数据源
+      slave:
+        url: jdbc:oracle:thin:@10.100.2.220:1521/ORCL
+        username: CNES_TEST
+        password: Ewpt2023
+      # 初始连接数
+      initialSize: 5
+      # 最小连接池数量
+      minIdle: 10
+      # 最大连接池数量
+      maxActive: 40
+      # 配置获取连接等待超时的时间
+      maxWait: 60000
+      # 配置连接超时时间
+      connectTimeout: 30000
+      # 配置网络超时时间
+      socketTimeout: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      timeBetweenEvictionRunsMillis: 60000
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      minEvictableIdleTimeMillis: 300000
+      # 配置一个连接在池中最大生存的时间，单位是毫秒
+      maxEvictableIdleTimeMillis: 900000
+      # 配置检测连接是否有效
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      webStatFilter:
+        enabled: true
+      statViewServlet:
+        enabled: true
+        # 设置白名单，不填则允许所有访问
+        allow:
+        url-pattern: /druid/*
+        # 控制台管理用户名和密码
+        login-username: cnes
+        login-password: 123456
+      filter:
+        stat:
+          enabled: true
+          # 慢SQL记录
+          log-slow-sql: false
+          slow-sql-millis: 1000
+          merge-sql: false
+        wall:
+          config:
+            multi-statement-allow: true
