@@ -15,7 +15,7 @@ public class Result <T> {
     private String msg;
     private T obj;
 
-    public static <T> Result success(T obj) {
+    public static <T> Result<T> success(T obj) {
         Result<T> result = new Result<>();
         result.setCode(200);
         result.setMsg("success");

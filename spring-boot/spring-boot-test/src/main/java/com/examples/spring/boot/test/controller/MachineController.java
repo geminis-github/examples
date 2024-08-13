@@ -30,12 +30,12 @@ public class MachineController {
     }
 
     @GetMapping(value = "/findOne")
-    public Result<List<Machine>> findOne() {
+    public Result<Machine> findOne() {
         return Result.success(machineService.findOne());
     }
 
     @GetMapping(value = "/deleteById/{id}")
-    public Result<List<Machine>> deleteById(@PathVariable Long id) {
+    public Result<Integer> deleteById(@PathVariable Long id) {
         return Result.success(machineService.deleteById(id));
     }
 

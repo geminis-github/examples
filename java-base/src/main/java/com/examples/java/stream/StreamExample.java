@@ -4,7 +4,6 @@ import cn.hutool.core.io.file.FileReader;
 import com.alibaba.fastjson2.JSONArray;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * java8 Stream流的使用示例
@@ -23,8 +22,7 @@ public class StreamExample {
     }
 
     public static void main(String[] args) {
-        // 求各个用户类型的平均工资
-        Object result = list.stream().map(StreamUser::getRealName).limit(100).collect(Collectors.joining(","));
+
     }
 
 }

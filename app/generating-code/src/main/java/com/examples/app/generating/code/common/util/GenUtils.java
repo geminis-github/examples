@@ -39,7 +39,7 @@ public class GenUtils {
         // 业务名称，默认使用表名称
         table.setBusinessName(table.getTableName());
         // 功能名称，默认使用表注释名称
-        table.setFunctionName(table.getTableComment().replace("表", ""));
+        table.setFunctionName(table.getTableComment() == null ? "" : table.getTableComment().replace("表", ""));
         // 功能作者，代码注释的作者
         table.setFunctionAuthor(config.getAuthor());
         // 数据库主机

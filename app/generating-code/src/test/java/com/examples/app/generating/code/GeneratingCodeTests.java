@@ -35,7 +35,7 @@ import static org.apache.commons.lang3.StringUtils.isNotBlank;
 @SpringBootTest(classes = GeneratingCodeApplication.class)
 public class GeneratingCodeTests {
 
-    private static final List<String> tableNames = List.of("spot_check_template", "spot_check_template_item");
+    private static final List<String> tableNames = List.of("DISPLAY_SCOPE_GROUP");
     @Autowired private GenTableService genTableService;
     @Autowired private GenColumnService genColumnService;
 
@@ -65,7 +65,7 @@ public class GeneratingCodeTests {
             VelocityInitializer.initVelocity();
             VelocityContext context = VelocityUtils.prepareContext(rawGenTable);
             List<String> templates = VelocityUtils.getTemplateList();
-            String projectPath = "D:/cyProjects/CNES/cnes/src/main/java";
+            String projectPath = "D:\\TestGenerate"; // todo change here
             String packagePath = genTable.getPackageName().replaceAll("\\.", "/") + "/";
             String modulePath = genTable.getModuleName().replaceAll("\\.", "/");
             String baseStr = projectPath + "/" + packagePath + modulePath;

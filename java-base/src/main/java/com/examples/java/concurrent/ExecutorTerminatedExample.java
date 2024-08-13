@@ -20,23 +20,32 @@ public class ExecutorTerminatedExample {
             final int num = i;
             exec.execute(() -> {
                 try {
-                    TimeUnit.SECONDS.sleep(new Random().nextInt(10));
-                    System.out.println("线程 " + num + " 完成任务");
+                    TimeUnit.SECONDS.sleep(new Random().nextInt(20));
+                    System.out.println("thread " + num + " done.");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             });
         }
-        // 使用isTerminated的前提是调用了shutdown方法，否则会导致死锁
+        // 使用isTerminated的前提是调用了shutdown方法，否则会导致死锁（关闭线程不在接受新任务）
         exec.shutdown();
         // 第一种方式：循环判断线程池任务是否完成
 //        while (!exec.isTerminated()) {
 //            TimeUnit.SECONDS.sleep(1);
 //            System.out.println("检查是否执行完成。。。");
 //        }
-        // 第二种方式：等待100秒(结束条件: 执行完成、超时、抛出异常)
-        exec.awaitTermination(100, TimeUnit.SECONDS);
-        System.out.println("任务执行完成，主线程结束");
+        // 第二种方式：等待X秒(结束条件: 执行完成、超时、抛出异常)
+        try {
+            if (!exec.awaitTermination(10, TimeUnit.SECONDS)) { // 等待X秒，直到所有任务完成
+                System.out.println("1、线程池未在规定时间内完成所有任务，强制关闭");
+                exec.shutdownNow(); // 超时后强制关闭线程池
+            } else {
+                System.out.println("2、线程池内所有任务已完成");
+            }
+        } catch (InterruptedException e) {
+            System.out.println("3、等待线程池关闭时被中断");
+            exec.shutdownNow();
+        }
     }
 
 }

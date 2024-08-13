@@ -8,47 +8,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="保存sql，归类版本">
+    <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="保存文件">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/09449223-1b0b-4bcc-b1a3-ab226ea1c8eb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/09449223-1b0b-4bcc-b1a3-ab226ea1c8eb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/generating-code/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/generating-code/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/generating-code/src/main/java/com/examples/app/generating/code/common/util/GenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/generating-code/src/main/java/com/examples/app/generating/code/common/util/GenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/generating-code/src/main/java/com/examples/app/generating/code/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/generating-code/src/main/java/com/examples/app/generating/code/config/DruidConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/generating-code/src/main/java/com/examples/app/generating/code/config/GenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/generating-code/src/main/java/com/examples/app/generating/code/config/GenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/generating-code/src/main/java/com/examples/app/generating/code/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/generating-code/src/main/java/com/examples/app/generating/code/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/generating-code/src/main/java/com/examples/app/generating/code/service/impl/GenTableServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/generating-code/src/main/java/com/examples/app/generating/code/service/impl/GenTableServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/generating-code/src/main/resources/mybatis/GenColumnMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/generating-code/src/main/resources/mybatis/GenColumnMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/generating-code/src/main/resources/mybatis/GenTableMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/generating-code/src/main/resources/mybatis/GenTableMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/generating-code/src/main/resources/vm/java/Entity.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/app/generating-code/src/main/resources/vm/java/Entity.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/generating-code/src/test/java/com/examples/app/generating/code/GeneratingCodeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/generating-code/src/test/java/com/examples/app/generating/code/GeneratingCodeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-base/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/log/java-base.log" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/log/java-base.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ExecutorTerminatedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/concurrent/ExecutorTerminatedExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton02Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/singleton/Singleton02Lazy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/stream/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/stream/StreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/streams/StreamExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spirng-boot-data-mongodb/src/main/java/com/examples/spring/boot/aop/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spirng-boot-data-mongodb/src/main/java/com/examples/spring/boot/aop/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spirng-boot-data-mongodb/src/test/java/com/examples/spring/boot/aop/MongodbApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spirng-boot-data-mongodb/src/test/java/com/examples/spring/boot/aop/MongodbApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-data-elasticsearch/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-data-elasticsearch/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-kafka/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/examples/spring/boot/mybatis/plus/MyBatisPlusApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/examples/spring/boot/mybatis/plus/MyBatisPlusApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/examples/spring/boot/mybatis/plus/MyBatisPlusApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/test/java/com/examples/spring/boot/mybatis/plus/MyBatisPlusApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk/src/main/resources/sql/test_user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk/src/main/resources/sql/test_user.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk/src/test/java/com/examples/spring/boot/mybatis/tk/MyBatisTkApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk/src/test/java/com/examples/spring/boot/mybatis/tk/MyBatisTkApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk/src/test/java/com/examples/spring/boot/mybatis/tk/test/CreateIDCardNo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk/src/test/java/com/examples/spring/boot/mybatis/tk/test/GenerateSqls.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk/src/test/java/com/examples/spring/boot/mybatis/tk/test/IdWorker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk/src/test/java/com/examples/spring/boot/mybatis/tk/test/RandomName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-test/src/main/java/com/examples/spring/boot/test/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-test/src/main/java/com/examples/spring/boot/test/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-test/src/main/java/com/examples/spring/boot/test/controller/MachineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-test/src/main/java/com/examples/spring/boot/test/controller/MachineController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-test/src/test/java/com/examples/spring/boot/test/TestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-test/src/test/java/com/examples/spring/boot/test/TestApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/build/classes/java/main/com/examples/spring/boot/web/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/build/classes/java/main/com/examples/spring/boot/web/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/build/classes/java/main/com/examples/spring/boot/web/WebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/build/classes/java/main/com/examples/spring/boot/web/WebApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/src/main/java/com/examples/spring/boot/web/TestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/consumer/EchoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/consumer/EchoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/consumer/EchoServiceFallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/consumer/EchoServiceFallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/consumer/FeignConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/consumer/FeignConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/consumer/NacosDiscoveryConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/consumer/NacosDiscoveryConsumerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/consumer/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/consumer/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build/resources/main/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-consumer/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/provider/EchoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/provider/EchoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/provider/NacosDiscoveryProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/build/classes/java/main/com/examples/spring/cloud/nacos/discovery/provider/NacosDiscoveryProviderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/build/resources/main/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud/spring-cloud-nasoc-discovery-provider/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/build/classes/java/main/com/examples/spring/boot/web/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-web/build/classes/java/main/com/examples/spring/boot/web/WebApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring/spring-demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-demo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-demo/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-demo/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring-demo/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring-demo/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +73,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/app">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/java-base">
@@ -147,25 +160,15 @@
         <task path="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app/generating-code">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-cloud" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-cloud" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring-cloud" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -178,7 +181,9 @@
         <option value="Kotlin Class" />
         <option value="Kotlin Script" />
         <option value="Kotlin File" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -192,14 +197,12 @@
     &quot;assignee&quot;: &quot;geminis-github&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="62d07317-c649-4f7d-8cd9-5b952261f7ec" />
-        <option name="url" value="https://github.com/geminis-github/examples.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/geminis-github/examples.git&quot;,
+    &quot;accountId&quot;: &quot;62d07317-c649-4f7d-8cd9-5b952261f7ec&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../dev/Java/jdk-20.0.1/lib/src.zip!/java.xml/com/sun/org/apache/xerces/internal/impl/XMLEntityScanner.java" root0="SKIP_INSPECTION" />
   </component>
@@ -239,54 +242,105 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build spring-boot.executor": "Run",
-    "Gradle.java-base [:Example.main()].executor": "Run",
-    "Gradle.java-base [:StreamExample.main()].executor": "Debug",
-    "Gradle.spring-cloud [clean].executor": "Run",
-    "Notification.DoNotAsk-null": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.MongodbApplication (1).executor": "JRebel Debug",
-    "Spring Boot.MyBatisTkApplication.executor": "JRebel Debug",
-    "Spring Boot.WebApplication.executor": "Debug",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "20",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/dev/Gradle/gradle-8.5",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Projects/ideaProjects/examples/spring-boot/spring-boot-async/src/main/java/com/examples/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15625",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent",
-    "spring.configuration.checksum": "5ea88ff523de4830dc3c9be7eff7d3a9",
-    "vue.rearranger.settings.migration": "true",
-    "zielu.gittoolbox.prj.config.selected.tab.id": "zielu.gittoolbox.config.prj.diagnostic"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build app.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build examples.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build spring-boot.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GeneratingCodeTests.generatorCode (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GeneratingCodeTests.generatorCode.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.getTableList.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.importColumnByTableNames.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.importColumnList.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.importTableByNames.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.importTableList (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.importTableList.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GeneratingCodeTests.list.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.listTables (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.listTables.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.queryTableList (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.queryTableList.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.test01 (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.test01.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.test02.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.test03.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GeneratingCodeTests.updateColumnInfo.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.GeneratingCodeTests.updateTableInfo.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.InsertUserListTests.insertUserData.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MyBatisPlusApplicationTests.test01.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.MyBatisPlusApplicationTests.test02.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.MyBatisTkApplicationTests.test01.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.RedisApplicationTests.contextLoads.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.app [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app:generating-code [:app:generating-code:VelocityUtils.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.app:generating-code [:generating-code:GeminiUtils.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app:generating-code [:generating-code:GenUtils.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app:generating-code [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.app:generating-code [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.examples [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.examples [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-base [:Example.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-base [:ExecutorTerminatedExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-base [:HttpURLConnectionExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-base [:StreamExample.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.java-base [:com.examples.java.Example.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.java-base [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.spring [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.spring-boot [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.spring-boot [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.spring-boot:spring-boot-mybatis-plus [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.spring-cloud [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.下载源代码.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GeneratingCodeTests.generatorCode.executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DoNotAsk-null&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.GeneratingCodeApplication (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.GeneratingCodeApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.MongodbApplication (1).executor&quot;: &quot;JRebel Debug&quot;,
+    &quot;Spring Boot.MyBatisTkApplication.executor&quot;: &quot;JRebel Debug&quot;,
+    &quot;Spring Boot.TestApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.WebApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;data.sources.detected.do.not.suggest.again&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/ideaProjects/treasure-chest&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Projects/ideaProjects/examples/app/generating-code/src/main/java/com/examples/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15625&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5ea88ff523de4830dc3c9be7eff7d3a9&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;zielu.gittoolbox.prj.config.selected.tab.id&quot;: &quot;zielu.gittoolbox.config.prj.diagnostic&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "MySQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
@@ -300,22 +354,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\ideaProjects\examples\spring-boot\spring-boot-mybatis-tk\src\main\resources\sql" />
-      <recent name="D:\Projects\ideaProjects\examples\spring-boot\spring-boot-mybatis-plus\src\main\resources" />
-      <recent name="D:\Projects\ideaProjects\examples\spring-boot\spring-boot-async\src\main\resources" />
-      <recent name="D:\Projects\ideaProjects\examples\java-base\src\main\java\com\examples\java" />
-      <recent name="D:\Projects\ideaProjects\examples\java-base\src\main\resources" />
+      <recent name="D:\Projects\ideaProjects\examples\app\generating-code\src\main\resources\vm\xml" />
+      <recent name="D:\Projects\ideaProjects\examples\app\generating-code\src\main\resources\vm\java" />
+      <recent name="D:\Projects\ideaProjects\examples\app\generating-code\src\main\java\com\examples\app\generating\code\common\datasource" />
+      <recent name="D:\Projects\ideaProjects\examples\app\generating-code\src\main\resources" />
+      <recent name="D:\Projects\ideaProjects\examples\app\generating-code\src\main\resources\mybatis" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\ideaProjects\examples\doc" />
       <recent name="D:\Projects\ideaProjects\examples\spring-boot\spring-boot-web\src\main\docker" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.examples.java.stream" />
-      <recent name="com.examples.spring.boot.mybatis.plus.mapper" />
-      <recent name="com.examples.spring.boot.mybatis.plus.entity" />
-      <recent name="com.examples.spring.boot.mybatis.plus.common" />
-      <recent name="com.examples.spring.boot.mybatis.plus" />
+      <recent name="com.examples.app.generating.code.common.util" />
+      <recent name="com.examples.app.generating.code.config" />
+      <recent name="com.examples.app.generating.code.common" />
+      <recent name="com.examples.app.generating.code.entity" />
+      <recent name="com.examples.app.generating.code.domain" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -326,131 +380,62 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.spring-boot [clean]">
-    <configuration name="examples [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+  <component name="RunManager" selected="Application.Example">
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.examples.java.Example" />
+      <module name="java-base.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.examples.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="java-base [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/java-base" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration name="GeneratingCodeApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="app.generating-code.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.app.generating.code.GeneratingCodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="spring [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration name="GeneratingCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="examples.app.generating-code.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.app.generating.code.GeneratingCodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="spring-boot [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="spring-cloud [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-cloud" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-test.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.test.TestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.examples.spring.boot.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.spring-boot [clean]" />
-        <item itemvalue="Gradle.examples [clean]" />
-        <item itemvalue="Gradle.java-base [clean]" />
-        <item itemvalue="Gradle.spring [clean]" />
-        <item itemvalue="Gradle.spring-cloud [clean]" />
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Spring Boot.TestApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
       </set>
     </attachedChunks>
   </component>
@@ -837,7 +822,76 @@
       <workItem from="1702475994171" duration="2562000" />
       <workItem from="1703063666473" duration="2693000" />
       <workItem from="1703335214316" duration="691000" />
-      <workItem from="1703336045492" duration="1016000" />
+      <workItem from="1703336045492" duration="9329000" />
+      <workItem from="1703440543074" duration="177000" />
+      <workItem from="1703482882980" duration="507000" />
+      <workItem from="1703494211014" duration="10278000" />
+      <workItem from="1703572826107" duration="11040000" />
+      <workItem from="1703638585819" duration="45010000" />
+      <workItem from="1704181825245" duration="5602000" />
+      <workItem from="1704348819061" duration="4125000" />
+      <workItem from="1704360335885" duration="6032000" />
+      <workItem from="1704414627898" duration="2340000" />
+      <workItem from="1704417458038" duration="69000" />
+      <workItem from="1704417980261" duration="5526000" />
+      <workItem from="1704423569900" duration="19000" />
+      <workItem from="1704424249916" duration="223000" />
+      <workItem from="1704425340634" duration="10196000" />
+      <workItem from="1704442724820" duration="937000" />
+      <workItem from="1704445212349" duration="122000" />
+      <workItem from="1704501254970" duration="13343000" />
+      <workItem from="1704520357012" duration="4668000" />
+      <workItem from="1705030615749" duration="1000" />
+      <workItem from="1710394454685" duration="257000" />
+      <workItem from="1712566031503" duration="2401000" />
+      <workItem from="1713324042622" duration="775000" />
+      <workItem from="1713325270299" duration="5456000" />
+      <workItem from="1713341053435" duration="1808000" />
+      <workItem from="1713887719298" duration="22554000" />
+      <workItem from="1714032647371" duration="32000" />
+      <workItem from="1714090279826" duration="738000" />
+      <workItem from="1714201847811" duration="5664000" />
+      <workItem from="1715760192809" duration="40000" />
+      <workItem from="1718085004718" duration="2000" />
+      <workItem from="1719458817233" duration="300000" />
+      <workItem from="1719459281108" duration="2843000" />
+      <workItem from="1719468805339" duration="690000" />
+      <workItem from="1720093807569" duration="86000" />
+      <workItem from="1720098997060" duration="2307000" />
+      <workItem from="1720136815222" duration="8290000" />
+      <workItem from="1720149549631" duration="551000" />
+      <workItem from="1720151063136" duration="21000" />
+      <workItem from="1720231148423" duration="9430000" />
+      <workItem from="1720271417251" duration="198000" />
+      <workItem from="1720271661635" duration="19000" />
+      <workItem from="1720329855183" duration="1109000" />
+      <workItem from="1720397271528" duration="189000" />
+      <workItem from="1720708421279" duration="225000" />
+      <workItem from="1720745811751" duration="8000" />
+      <workItem from="1720756383838" duration="646000" />
+      <workItem from="1720767788644" duration="231000" />
+      <workItem from="1720768760858" duration="4296000" />
+      <workItem from="1720832988678" duration="19000" />
+      <workItem from="1720835706581" duration="652000" />
+      <workItem from="1720975791158" duration="21000" />
+      <workItem from="1721003301639" duration="10000" />
+      <workItem from="1721097134386" duration="1247000" />
+      <workItem from="1721181162995" duration="14000" />
+      <workItem from="1721186777911" duration="2621000" />
+      <workItem from="1721360665113" duration="1905000" />
+      <workItem from="1721440507717" duration="5000" />
+      <workItem from="1721446433921" duration="207000" />
+      <workItem from="1721819327498" duration="3356000" />
+      <workItem from="1721874118576" duration="180000" />
+      <workItem from="1721876089320" duration="13000" />
+      <workItem from="1721877996528" duration="1324000" />
+      <workItem from="1722439632017" duration="4000" />
+      <workItem from="1723388141945" duration="139000" />
+      <workItem from="1723388776552" duration="25000" />
+      <workItem from="1723390035470" duration="627000" />
+      <workItem from="1723390813684" duration="3015000" />
+      <workItem from="1723393895700" duration="222000" />
+      <workItem from="1723557250282" duration="345000" />
     </task>
     <task id="LOCAL-00001" summary="规范化项目提交文件">
       <created>1668312742196</created>
@@ -930,7 +984,23 @@
       <option name="project" value="LOCAL" />
       <updated>1669730834291</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="保存文件">
+      <option name="closed" value="true" />
+      <created>1703558544500</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703558544501</updated>
+    </task>
+    <task id="LOCAL-00015" summary="保存文件">
+      <option name="closed" value="true" />
+      <created>1704525012003</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704525012003</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -959,7 +1029,7 @@
         <option value="Default.Author" />
         <option value="Default.Date" />
         <option value="Default.Subject" />
-        <option value="Space.CommitStatus" />
+        <option value="GitHub.CommitStatus" />
       </list>
     </option>
   </component>
@@ -994,63 +1064,11 @@
     <MESSAGE value="回滚spring版本" />
     <MESSAGE value="去除多余注释" />
     <MESSAGE value="保存sql，归类版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="保存sql，归类版本" />
+    <MESSAGE value="提交报错" />
+    <MESSAGE value="保存文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="保存文件" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-boot/spring-boot-log4j2/src/main/java/com/examples/Main.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java-base/src/main/java/com/examples/java/clone/shallow/JinLong.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java-base/src/main/java/com/examples/java/clone/shallow/JinLong.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-boot/spring-boot-data-redis/src/test/java/com/examples/spring/boot/data/redis/RedisApplicationTests.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../dev/Repositorys/.gradle/caches/modules-2/files-2.1/org.apache.rocketmq/rocketmq-spring-boot/2.2.3/25e740c98a2e9aa9a5a08ba84bd2ead219834adf/rocketmq-spring-boot-2.2.3-sources.jar!/org/apache/rocketmq/spring/autoconfigure/RocketMQAutoConfiguration.java</url>
-          <line>129</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-boot/spring-boot-mybatis-plus/src/main/java/com/examples/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-boot/spring-boot-async/src/main/java/com/examples/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring/spring-demo/src/test/java/com/examples/spring/demo/SpringApplicationTest.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java-base/src/main/java/com/examples/java/stream/StreamExample.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-boot/spirng-boot-data-mongodb/src/test/java/com/examples/spring/boot/aop/MongodbApplicationTests.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="GradleRunConfiguration">
         <watch expression="druidDataSource" />

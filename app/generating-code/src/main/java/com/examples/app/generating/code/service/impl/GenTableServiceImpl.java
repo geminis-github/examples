@@ -110,7 +110,7 @@ public class GenTableServiceImpl extends BasePlusServiceImpl<GenTableMapper, Gen
         }
         List<GenTableDO> tableList = list
                 .stream()
-                .filter(el -> tableNames.stream().anyMatch(tableName -> el.getTableName().equals(tableName)))
+                .filter(el -> tableNames.stream().anyMatch(tableName -> el.getTableName().equalsIgnoreCase(tableName)))
                 .toList();
         if (tableList.isEmpty()) {
             tableList = baseMapper.selectList(Wrappers.lambdaQuery(GenTableDO.class).in(GenTableDO::getTableName, tableNames));
@@ -159,6 +159,7 @@ public class GenTableServiceImpl extends BasePlusServiceImpl<GenTableMapper, Gen
                 )
                 .stream()
                 .map(GenTableDO::getTableName)
+                .map(String::toLowerCase)
                 .toList();
         List<GenTableDO> tableList = new ArrayList<>();
         // 判断数据库类型
@@ -172,9 +173,9 @@ public class GenTableServiceImpl extends BasePlusServiceImpl<GenTableMapper, Gen
         }
         // 查询并且过滤非必要的表
         return tableList.stream()
-                .filter(el -> FILTER_TABLE_PREFIXES.stream().noneMatch(prefix -> el.getTableName().startsWith(prefix)))
-                .filter(el -> !SPECIFIC_TABLE_NAMES.contains(el.getTableName()))
-                .filter(el -> !existsTableNameList.contains(el.getTableName()))
+                .filter(el -> FILTER_TABLE_PREFIXES.stream().noneMatch(prefix -> el.getTableName().toLowerCase().startsWith(prefix)))
+                .filter(el -> !SPECIFIC_TABLE_NAMES.contains(el.getTableName().toLowerCase()))
+                .filter(el -> !existsTableNameList.contains(el.getTableName().toLowerCase()))
                 .toList();
     }
 

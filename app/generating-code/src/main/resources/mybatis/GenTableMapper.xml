@@ -18,9 +18,9 @@
             uo.created AS tableCreateTime,
             uo.last_ddl_time AS tableUpdateTime
         FROM
-            user_tables dt,
-            user_tab_comments dtc,
-            user_objects uo
+            all_tables dt,
+            all_tab_comments dtc,
+            all_objects uo
         WHERE
             dt.table_name = dtc.table_name
           AND dt.table_name = uo.object_name

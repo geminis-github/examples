@@ -22,7 +22,7 @@ public class Singleton02Lazy {
     /**
      * 声明静态实例对象，延迟进行实例化
      */
-    private static Singleton02Lazy INSTANCE;
+    private volatile static Singleton02Lazy INSTANCE;
 
     /**
      * 通过公有的静态方法获取实例，增加同步关键字

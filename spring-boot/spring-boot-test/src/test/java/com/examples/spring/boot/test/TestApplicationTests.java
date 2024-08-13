@@ -3,7 +3,6 @@ package com.examples.spring.boot.test;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @Slf4j
@@ -25,6 +24,7 @@ class TestApplicationTests {
 //        when(spy.getName()).thenReturn("Mark");
 //        System.out.println(spy.getName());
 //        Assert.notNull(spy.getName(), "The device name cannot be blank.");
+
     }
 
 }

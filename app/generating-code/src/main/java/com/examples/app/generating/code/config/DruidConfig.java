@@ -6,6 +6,7 @@ import com.examples.app.generating.code.common.datasource.DynamicDataSource;
 import com.examples.app.generating.code.common.entity.DruidProperties;
 import com.examples.app.generating.code.common.enums.DataSourceType;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,7 +25,9 @@ import java.util.Map;
 @Configuration
 @Slf4j
 public class DruidConfig {
+
     @Bean
+    @Qualifier("masterDataSource")
     @ConfigurationProperties("spring.datasource.druid.master")
     public DataSource masterDataSource(DruidProperties druidProperties) {
         DruidDataSource dataSource = DruidDataSourceBuilder.create().build();
@@ -32,6 +35,7 @@ public class DruidConfig {
     }
 
     @Bean
+    @Qualifier("slaveDataSource")
     @ConfigurationProperties("spring.datasource.druid.slave")
     public DataSource slaveDataSource(DruidProperties druidProperties) {
         DruidDataSource dataSource = DruidDataSourceBuilder.create().build();
@@ -39,8 +43,10 @@ public class DruidConfig {
     }
 
     @Bean(name = "dynamicDataSource")
+    @Qualifier("dataSource")
     @Primary
-    public DynamicDataSource dataSource(DataSource masterDataSource, DataSource slaveDataSource) {
+    public DynamicDataSource dataSource(@Qualifier("masterDataSource") DataSource masterDataSource,
+                                        @Qualifier("slaveDataSource") DataSource slaveDataSource) {
         Map<Object, Object> targetDataSources = new HashMap<>();
         targetDataSources.put(DataSourceType.MASTER.name(), masterDataSource);
         targetDataSources.put(DataSourceType.SLAVE.name(), slaveDataSource);

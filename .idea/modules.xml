@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-base.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-base.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/generating-code/examples.app.generating-code.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/generating-code/examples.app.generating-code.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/generating-code/examples.app.generating-code.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/generating-code/examples.app.generating-code.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spirng-boot-data-mongodb/spring-boot.spirng-boot-data-mongodb.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spirng-boot-data-mongodb/spring-boot.spirng-boot-data-mongodb.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spirng-boot-data-mongodb/spring-boot.spirng-boot-data-mongodb.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spirng-boot-data-mongodb/spring-boot.spirng-boot-data-mongodb.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot-aop/spring-boot.spring-boot-aop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot-aop/spring-boot.spring-boot-aop.main.iml" />

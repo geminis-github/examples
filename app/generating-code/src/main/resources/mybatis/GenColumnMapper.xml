@@ -36,10 +36,10 @@
         from (
                  select col.column_id, col.column_name,col.nullable, col.data_type, colc.comments, uc.constraint_type
                       , row_number() over (partition by col.column_name order by uc.constraint_type desc) as row_flg
-                 from user_tab_columns col
-                          left join user_col_comments colc on colc.table_name = col.table_name and colc.column_name = col.column_name
-                          left join user_cons_columns ucc on ucc.table_name = col.table_name and ucc.column_name = col.column_name
-                          left join user_constraints uc on uc.constraint_name = ucc.constraint_name
+                 from all_tab_columns col
+                          left join all_col_comments colc on colc.table_name = col.table_name and colc.column_name = col.column_name
+                          left join all_cons_columns ucc on ucc.table_name = col.table_name and ucc.column_name = col.column_name
+                          left join all_constraints uc on uc.constraint_name = ucc.constraint_name
                  where col.table_name = upper(#{tableName})
              ) temp
         WHERE temp.row_flg = 1
