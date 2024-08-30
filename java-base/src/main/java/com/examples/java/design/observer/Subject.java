@@ -21,7 +21,7 @@ public interface Subject<T> {
      *
      * @param obs 订阅者
      */
-    public void registerObserver(T obs);
+    void registerObserver(T obs);
 
 
     /**
@@ -29,12 +29,12 @@ public interface Subject<T> {
      *
      * @param obs 订阅者
      */
-    public void removeObserver(T obs);
+    void removeObserver(T obs);
 
     /**
      * 通知所有的观察者更新状态
      */
-    public void notifyAllObservers();
+    void notifyAllObservers();
 
 
 }
