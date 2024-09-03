@@ -8,12 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="保存文件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/observer/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/prototype/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/design/prototype/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/stream/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/stream/StreamExample.java" afterDir="false" />
-    </list>
+    <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,8 +131,8 @@
         <option value="Kotlin Script" />
         <option value="Kotlin File" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -154,7 +149,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/geminis-github/examples.git&quot;,
-    &quot;accountId&quot;: &quot;62d07317-c649-4f7d-8cd9-5b952261f7ec&quot;
+    &quot;accountId&quot;: &quot;cf40cff8-7b28-4ecb-8dc2-e4015e9a27c6&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -271,7 +266,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/ideaProjects/treasure-chest&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/ideaProjects/examples/doc&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -309,11 +304,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\ideaProjects\examples\doc" />
       <recent name="D:\Projects\ideaProjects\examples\app\generating-code\src\main\resources\vm\xml" />
       <recent name="D:\Projects\ideaProjects\examples\app\generating-code\src\main\resources\vm\java" />
       <recent name="D:\Projects\ideaProjects\examples\app\generating-code\src\main\java\com\examples\app\generating\code\common\datasource" />
       <recent name="D:\Projects\ideaProjects\examples\app\generating-code\src\main\resources" />
-      <recent name="D:\Projects\ideaProjects\examples\app\generating-code\src\main\resources\mybatis" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\ideaProjects\examples\doc" />
@@ -403,8 +398,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
       </set>
     </attachedChunks>
   </component>
@@ -864,6 +859,11 @@
       <workItem from="1723559192409" duration="268000" />
       <workItem from="1723643222015" duration="716000" />
       <workItem from="1723644815670" duration="166000" />
+      <workItem from="1725025803053" duration="113000" />
+      <workItem from="1725031635236" duration="122000" />
+      <workItem from="1725031852129" duration="109000" />
+      <workItem from="1725202604088" duration="410000" />
+      <workItem from="1725280361919" duration="2795000" />
     </task>
     <task id="LOCAL-00001" summary="规范化项目提交文件">
       <created>1668312742196</created>
@@ -972,7 +972,31 @@
       <option name="project" value="LOCAL" />
       <updated>1704525012003</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="保存脚本">
+      <option name="closed" value="true" />
+      <created>1725025853609</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725025853609</updated>
+    </task>
+    <task id="LOCAL-00017" summary="保存书籍脚本">
+      <option name="closed" value="true" />
+      <created>1725280562452</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1725280562452</updated>
+    </task>
+    <task id="LOCAL-00018" summary="保存书籍脚本">
+      <option name="closed" value="true" />
+      <created>1725282328215</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1725282328215</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1038,7 +1062,9 @@
     <MESSAGE value="保存sql，归类版本" />
     <MESSAGE value="提交报错" />
     <MESSAGE value="保存文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="保存文件" />
+    <MESSAGE value="保存脚本" />
+    <MESSAGE value="保存书籍脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="保存书籍脚本" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
