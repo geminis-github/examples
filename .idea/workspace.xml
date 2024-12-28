@@ -8,7 +8,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="" />
+    <list default="true" id="57d8cdb6-5e77-4e65-a8f9-04f055af8e5d" name="Changes" comment="单词本">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gradle/8.5/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gradle/8.5/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gradle/8.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/8.5/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/8.5/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/8.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/examples/java/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/8.5/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/8.5/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/8.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk/src/main/java/com/examples/spring/boot/mybatis/tk/common/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/spring-boot-mybatis-tk/src/main/java/com/examples/spring/boot/mybatis/tk/common/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/8.5/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/8.5/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/8.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.gradle/8.5/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.gradle/8.5/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.gradle/8.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/spring/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,8 +233,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\dev\Repositorys\.m2" />
-        <option name="userSettingsFile" value="D:\dev\Maven\apache-maven-4.0.0-alpha-5\conf\settings.xml" />
+        <option name="localRepository" value="D:\Development\Repositorys\.m2" />
+        <option name="userSettingsFile" value="D:\Development\Mavens\apache-maven-3.9.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -195,103 +253,105 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.Build app.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build examples.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build spring-boot.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.GeneratingCodeTests.generatorCode (1).executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.GeneratingCodeTests.generatorCode.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.getTableList.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.importColumnByTableNames.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.importColumnList.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.importTableByNames.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.importTableList (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.importTableList.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.GeneratingCodeTests.list.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.listTables (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.listTables.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.queryTableList (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.queryTableList.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.test01 (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.test01.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.test02.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.test03.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.GeneratingCodeTests.updateColumnInfo.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.GeneratingCodeTests.updateTableInfo.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.InsertUserListTests.insertUserData.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MyBatisPlusApplicationTests.test01.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.MyBatisPlusApplicationTests.test02.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.MyBatisTkApplicationTests.test01.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.RedisApplicationTests.contextLoads.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.app [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app:generating-code [:app:generating-code:VelocityUtils.main()].executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.app:generating-code [:generating-code:GeminiUtils.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app:generating-code [:generating-code:GenUtils.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app:generating-code [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app:generating-code [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.examples [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.examples [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.java-base [:Example.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.java-base [:ExecutorTerminatedExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.java-base [:HttpURLConnectionExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.java-base [:StreamExample.main()].executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.java-base [:com.examples.java.Example.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.java-base [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.spring [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.spring-boot [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.spring-boot [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.spring-boot:spring-boot-mybatis-plus [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.spring-cloud [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.下载源代码.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GeneratingCodeTests.generatorCode.executor&quot;: &quot;Run&quot;,
-    &quot;Notification.DoNotAsk-null&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.GeneratingCodeApplication (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.GeneratingCodeApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.MongodbApplication (1).executor&quot;: &quot;JRebel Debug&quot;,
-    &quot;Spring Boot.MyBatisTkApplication.executor&quot;: &quot;JRebel Debug&quot;,
-    &quot;Spring Boot.TestApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.WebApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;data.sources.detected.do.not.suggest.again&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/ideaProjects/examples/doc&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Projects/ideaProjects/examples/app/generating-code/src/main/java/com/examples/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15625&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;5ea88ff523de4830dc3c9be7eff7d3a9&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;zielu.gittoolbox.prj.config.selected.tab.id&quot;: &quot;zielu.gittoolbox.config.prj.diagnostic&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.Example.executor": "Run",
+    "Application.StreamExample.executor": "Debug",
+    "Gradle.Build app.executor": "Run",
+    "Gradle.Build examples.executor": "Run",
+    "Gradle.Build spring-boot.executor": "Run",
+    "Gradle.GeneratingCodeTests.generatorCode (1).executor": "Run",
+    "Gradle.GeneratingCodeTests.generatorCode.executor": "Debug",
+    "Gradle.GeneratingCodeTests.getTableList.executor": "Debug",
+    "Gradle.GeneratingCodeTests.importColumnByTableNames.executor": "Debug",
+    "Gradle.GeneratingCodeTests.importColumnList.executor": "Debug",
+    "Gradle.GeneratingCodeTests.importTableByNames.executor": "Debug",
+    "Gradle.GeneratingCodeTests.importTableList (1).executor": "Debug",
+    "Gradle.GeneratingCodeTests.importTableList.executor": "Run",
+    "Gradle.GeneratingCodeTests.list.executor": "Debug",
+    "Gradle.GeneratingCodeTests.listTables (1).executor": "Debug",
+    "Gradle.GeneratingCodeTests.listTables.executor": "Debug",
+    "Gradle.GeneratingCodeTests.queryTableList (1).executor": "Debug",
+    "Gradle.GeneratingCodeTests.queryTableList.executor": "Debug",
+    "Gradle.GeneratingCodeTests.test01 (1).executor": "Debug",
+    "Gradle.GeneratingCodeTests.test01.executor": "Debug",
+    "Gradle.GeneratingCodeTests.test02.executor": "Debug",
+    "Gradle.GeneratingCodeTests.test03.executor": "Run",
+    "Gradle.GeneratingCodeTests.updateColumnInfo.executor": "Debug",
+    "Gradle.GeneratingCodeTests.updateTableInfo.executor": "Debug",
+    "Gradle.InsertUserListTests.insertUserData.executor": "Run",
+    "Gradle.MyBatisPlusApplicationTests.test01.executor": "Debug",
+    "Gradle.MyBatisPlusApplicationTests.test02.executor": "Debug",
+    "Gradle.MyBatisTkApplicationTests.test01.executor": "Debug",
+    "Gradle.RedisApplicationTests.contextLoads.executor": "Debug",
+    "Gradle.app [build].executor": "Run",
+    "Gradle.app [clean].executor": "Run",
+    "Gradle.app:generating-code [:app:generating-code:VelocityUtils.main()].executor": "Debug",
+    "Gradle.app:generating-code [:generating-code:GeminiUtils.main()].executor": "Run",
+    "Gradle.app:generating-code [:generating-code:GenUtils.main()].executor": "Run",
+    "Gradle.app:generating-code [build].executor": "Run",
+    "Gradle.app:generating-code [clean].executor": "Run",
+    "Gradle.examples [build].executor": "Run",
+    "Gradle.examples [clean].executor": "Run",
+    "Gradle.java-base [:Example.main()].executor": "Run",
+    "Gradle.java-base [:ExecutorTerminatedExample.main()].executor": "Run",
+    "Gradle.java-base [:HttpURLConnectionExample.main()].executor": "Run",
+    "Gradle.java-base [:StreamExample.main()].executor": "Debug",
+    "Gradle.java-base [:com.examples.java.Example.main()].executor": "Run",
+    "Gradle.java-base [clean].executor": "Run",
+    "Gradle.spring [clean].executor": "Run",
+    "Gradle.spring-boot [build].executor": "Run",
+    "Gradle.spring-boot [clean].executor": "Run",
+    "Gradle.spring-boot:spring-boot-mybatis-plus [build].executor": "Run",
+    "Gradle.spring-cloud [clean].executor": "Run",
+    "Gradle.下载源代码.executor": "Run",
+    "JUnit.GeneratingCodeTests.generatorCode.executor": "Run",
+    "Notification.DoNotAsk-null": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.GeneratingCodeApplication (1).executor": "Debug",
+    "Spring Boot.GeneratingCodeApplication.executor": "Debug",
+    "Spring Boot.MongodbApplication (1).executor": "JRebel Debug",
+    "Spring Boot.MyBatisTkApplication.executor": "JRebel Debug",
+    "Spring Boot.TestApplication.executor": "Debug",
+    "Spring Boot.WebApplication.executor": "Debug",
+    "WebServerToolWindowFactoryState": "false",
+    "data.sources.detected.do.not.suggest.again": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Development/Gradles/gradle-8.12",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Projects/ideaProjects/examples/app/generating-code/src/main/java/com/examples/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15625",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "spring.configuration.checksum": "5ea88ff523de4830dc3c9be7eff7d3a9",
+    "vue.rearranger.settings.migration": "true",
+    "zielu.gittoolbox.prj.config.selected.tab.id": "zielu.gittoolbox.config.prj.diagnostic"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
-      &quot;MySQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
@@ -331,7 +391,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamExample">
+  <component name="RunManager" selected="Application.Example">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.examples.java.Example" />
       <module name="java-base.main" />
@@ -358,6 +418,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-aop.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.aop.AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsyncApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-async.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.async.AsyncApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-data-elasticsearch.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.data.elasticsearch.ElasticSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GeneratingCodeApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="app.generating-code.main" />
@@ -370,6 +454,86 @@
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="examples.app.generating-code.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.app.generating.code.GeneratingCodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-kafka.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.kafka.KafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Log4j2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-log4j2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.log4j2.Log4j2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongodbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spirng-boot-data-mongodb.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.aop.MongodbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-mybatis-plus.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.mybatis.plus.MyBatisPlusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-mybatis-tk.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.mybatis.tk.MyBatisTkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosDiscoveryConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-cloud.spring-cloud-nasoc-discovery-consumer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.cloud.nacos.discovery.consumer.NacosDiscoveryConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosDiscoveryProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-cloud.spring-cloud-nasoc-discovery-provider.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.cloud.nacos.discovery.provider.NacosDiscoveryProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-data-redis.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.data.redis.RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RocketMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-rocketmq.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.rocketmq.RocketMqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-security.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.security.SecurityApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -388,10 +552,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-boot.spring-boot-web.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.examples.spring.boot.web.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.Example" />
+        <item itemvalue="Application.StreamExample" />
         <item itemvalue="Spring Boot.TestApplication" />
       </list>
     </recent_temporary>
@@ -399,8 +571,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
       </set>
     </attachedChunks>
   </component>
@@ -865,6 +1037,13 @@
       <workItem from="1725031852129" duration="109000" />
       <workItem from="1725202604088" duration="410000" />
       <workItem from="1725280361919" duration="2795000" />
+      <workItem from="1725362263714" duration="61000" />
+      <workItem from="1725461682506" duration="640000" />
+      <workItem from="1725639155236" duration="18000" />
+      <workItem from="1735370358455" duration="471000" />
+      <workItem from="1735370885915" duration="140000" />
+      <workItem from="1735371110909" duration="17000" />
+      <workItem from="1735371198378" duration="1221000" />
     </task>
     <task id="LOCAL-00001" summary="规范化项目提交文件">
       <created>1668312742196</created>
@@ -1005,7 +1184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725360933564</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="单词本">
+      <option name="closed" value="true" />
+      <created>1725362305630</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1725362305630</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1073,7 +1260,8 @@
     <MESSAGE value="保存文件" />
     <MESSAGE value="保存脚本" />
     <MESSAGE value="保存书籍脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="保存书籍脚本" />
+    <MESSAGE value="单词本" />
+    <option name="LAST_COMMIT_MESSAGE" value="单词本" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

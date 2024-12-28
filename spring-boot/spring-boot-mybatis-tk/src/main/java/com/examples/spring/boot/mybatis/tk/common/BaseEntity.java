@@ -2,7 +2,6 @@ package com.examples.spring.boot.mybatis.tk.common;
 
 import lombok.Data;
 
-import javax.persistence.Id;
 import java.time.LocalDateTime;
 
 /**
@@ -17,7 +16,6 @@ public class BaseEntity {
     /**
      * 主键ID
      */
-    @Id
     private Long id;
 
     /**
